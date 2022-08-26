@@ -5,6 +5,7 @@ from botocore.exceptions import ClientError
 from typing import Optional, Dict, List
 from parse import get_S3_policy_document
 from parse import get_trust_policy_document
+from parse import get_ssh_key_content
 
 # environment variables
 account_id = '649363699007'
@@ -94,17 +95,64 @@ def attach_policies_to_iam_role(policies: Dict[str, List[str]], role_name: str) 
          role.attach_policy(PolicyArn=policy_arn)
    
 # 4. Set up an SFTP server 
-def create_or_get_sftp_server():
-   """Create an SFTP server on Transfer Family.
+def create_or_get_sftp_server(protocol: str, provider: str, endpoint: str, domain: str, host_key: bool) -> dict:
+   """Create a service-managed SFTP server with Transfer 
+   Family. The server is hosted publicly with S3 as the 
+   storage domain. SSH host keys will be needed for migrating
+   local user to the SFTP server.
    """
-   pass
+   transfer = boto3.client('transfer')
+
+   try:
+      server_lists = transfer.list_servers()
+      # Check if there is any server already created
+      if len(server_lists['Servers']) >= 1:
+         return {'ServerId': server_lists['Servers'][0]['ServerId']}
+
+      ssh_private_key_content = get_ssh_key_content(type='private')
+      
+      server = transfer.create_server(
+         Protocols=[protocol],
+         IdentityProviderType=provider,
+         EndpointType=endpoint,
+         Domain=domain,
+         # submit the ssh private key content for user authentication
+         HostKey=ssh_private_key_content
+      )
+
+      return server
+   except ClientError as error:
+      logging.error(error)
 
 # 5. Set up an SFTP user 
-def create__or_get_sftp_user():
-   """Create an SFTP user for the server.
+def create_or_get_sftp_user(username: str, role_name: str, server_id: str, home_directory: str, ssh_public_key: bool) -> dict:
+   """Create a user for the SFTP server endowed with the Transfer 
+   Family role. The user will land on the S3 bucket home directory. SSH public key is needed to authenticate with the server. 
    """
-   pass
+   transfer = boto3.client('transfer')
+   try:
+      # Retrieve relevant configuration parameters 
+      # Set up a user for the server
+      user = transfer.create_user(
+         UserName=username,
+         ServerId=server_id,
+         Role=f'arn:aws:iam::{account_id}:role/{role_name}',
+         HomeDirectory='/' + home_directory,
+         SshPublicKeyBody=get_ssh_key_content(type='public')
+      )
 
+      return user
+   except ClientError as error:
+      user_error = error.response['Error']
+      logging.error(user_error['Message'])
+      # ResourceExistsException
+      users = transfer.list_users(ServerId=server_id)
+      # a list of dictionary about server users
+      for user in users['Users']:
+         if user['UserName'] == username:
+            user['ServerId'] = users['ServerId']
+            return user
+   
 # 6. Set up a Redshift cluster
 def create_or_get_redshift_cluster():
    """Create a Redshift cluster on Postgres.

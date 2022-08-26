@@ -1,6 +1,7 @@
 import os 
 import json
 
+from typing import Union
 
 # Intermediary step to parse json document
 def get_S3_policy_document(bucket_name: str) -> str:
@@ -31,3 +32,30 @@ def get_trust_policy_document(account_id: str, region: str, service: str) -> str
    policy_document = service.join(policy.split('service'))
 
    return policy_document
+
+# Intermediary step to parse key content
+def get_ssh_key_content(type: str) -> str:
+   # Keep track of the project directory
+   project_dir = os.getcwd()
+   assert 'ssh' in os.listdir()
+   # Make sure in the ssh/ directory
+   os.chdir('./ssh')
+   # Must already have ssh key pairs generated
+   assert os.listdir() != []
+
+   ssh_key_pairs = list(filter(lambda file: '.sh' not in file, os.listdir()))
+
+   # Request ssh public key
+   if type == 'public':
+      ssh_key = list(filter(lambda file: '.pub' in file, ssh_key_pairs))[0]
+   else: # Request ssh private key
+      ssh_key = list(filter(lambda file: '.pub' not in file, ssh_key_pairs))[0]
+
+   # Convert ssh key into string format
+   with open(ssh_key) as file:
+      ssh_key_content = ''.join(file.readlines())
+
+   # return to project directory
+   os.chdir(project_dir)
+
+   return ssh_key_content

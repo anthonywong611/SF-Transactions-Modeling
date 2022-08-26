@@ -8,6 +8,8 @@ Challenge:
 
 Thought Organization:
 - Only need a Transfer Family role attached with a access policy that allows it to call S3 on the user's behalf
+- Server host key doesn't actually change after being updated with ssh private key
+- Transfer Family role name has to be at least 20 characters long
 
 ETL Steps:
 - For each column and their corresponding code column:
@@ -38,7 +40,7 @@ Boto3 Step:
       2.2.2 - Establish a trust relationship between AWS and Transfer Family
       2.2.1 - Attach managed policies for Transfer Family to work with S3 
 3. Set up an SFTP server with Transfer Family
-   3.1 - Create (if not exists) a CloudWatch role
+   3.1 - Store data in S3 as domain
    3.2 - Submit the SSH private key content
 4. Create a user to attach to the server
    4.1 - Attach the Transfer Family role to the user

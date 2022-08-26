@@ -9,7 +9,7 @@ from infrastructures import attach_policies_to_iam_role
 class TestIAMRole(unittest.TestCase):
 
    client = boto3.client('iam')
-   role_name = 'S3TransferRole'
+   role_name = 'S3TransferFamilyRole'
    policy_name = 'S3TrustPolicy'
    bucket_name = 'test-sftp-1290'
    
