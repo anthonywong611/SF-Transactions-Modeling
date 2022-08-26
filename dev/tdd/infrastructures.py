@@ -1,12 +1,12 @@
 import boto3
 import logging
-import json
-import os
 
 from botocore.exceptions import ClientError
-from boto3 import s3
-from typing import Union, Optional, Dict, List
+from typing import Optional, Dict, List
+from parse import get_S3_policy_document
+from parse import get_trust_policy_document
 
+# environment variables
 account_id = '649363699007'
 region = 'ca-central-1'
 
@@ -33,18 +33,6 @@ def create_or_get_s3_bucket(name: str, region: str) -> Optional[bool]:
       print(s3_error['Message'])
    return True
 
-# Intermediary step to parse json document
-def get_S3_policy_document(bucket_name: str) -> str:
-   # Make sure in the project root directory
-   assert 'S3_policy.json' in os.listdir()
-   # deserialize into dictionary for Python to work with
-   # serialize again for string update
-   with open('S3_policy.json') as file:
-      policy = json.dumps(json.load(file))
-
-   # update 'bucket_name' placeholder with the S3 bucket name
-   return bucket_name.join(policy.split('bucket_name'))
-
 # 2. set up the S3 policy
 def create_or_get_iam_policy(policy_name: str, bucket_name: str) -> dict:
    """Create an IAM policy that defines the actions a service may
@@ -67,23 +55,7 @@ def create_or_get_iam_policy(policy_name: str, bucket_name: str) -> dict:
          if policy['PolicyName'] == policy_name:
             return {'Policy': policy}
 
-# Intermediary step to parse json document
-def get_trust_policy_document(account_id: str, region: str, service: str) -> str:
-   # Make sure in the project root directory
-   assert 'trust_policy.json' in os.listdir()
-   # deserialize into dictionary for Python to work with
-   # serialize again for string update
-   with open('trust_policy.json') as file:
-      policy = json.dumps(json.load(file))
-   
-   # update placeholders with actual configuration
-   policy = account_id.join(policy.split('account_id'))
-   policy = region.join(policy.split('region'))
-   policy_document = service.join(policy.split('service'))
-
-   return policy_document
-
-# 3. Set up an IAM role
+# 3.1. Set up an IAM role
 def create_or_get_iam_role(role_name: str, trust_entity: str = 'transfer') -> dict:
    """Create an IAM role for Transfer Family. Establish a trust 
    relationship between Transfer Family and AWS. 
@@ -107,7 +79,7 @@ def create_or_get_iam_role(role_name: str, trust_entity: str = 'transfer') -> di
       # EntityAlreadyExists exception
       return iam.get_role(RoleName=role_name)
 
-# Intermediary step to attach policies to IAM role
+# 3.2. Attach policies to IAM role
 def attach_policies_to_iam_role(policies: Dict[str, List[str]], role_name: str) -> None:
    """Attach managed policies to the IAM role.
    """
