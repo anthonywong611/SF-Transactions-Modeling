@@ -1,4 +1,8 @@
 env/
 data/
 ssh/
+dev/tdd/__pycache__
+dev/tdd/.pytest_cache
+./pytest_cache
+
 
