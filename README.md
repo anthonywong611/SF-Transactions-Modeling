@@ -8,17 +8,13 @@ Challenge:
 
 Thought Organization:
 - Only need a Transfer Family role attached with a access policy that allows it to call S3 on the user's behalf
-- Server host key doesn't actually change after being updated with ssh private key
-- Transfer Family role name has to be at least 20 characters long
+- Server host key doesn't actually show changes after being updated with ssh private key (keep in mind!)
 
 ETL Steps:
-- For each column and their corresponding code column:
-   - handle null values
-   - check many-to-one relationship
-   - transform the code column if necessary
-- Load the transformed data into database
-   - create star schema
-   - load into data warehouse
+1 For each column and their corresponding code column:
+   1.1 handle null values
+   1.2 check many-to-one relationship
+   1.3 transform the code column if necessary
 
 -------------------------------------------------------------------------------
 
@@ -46,4 +42,13 @@ Boto3 Step:
    4.1 - Attach the Transfer Family role to the user
    4.2 - Submit the SSH public key content
 5. Set up a Redshift cluster
-
+   5.1 - Attach the Redshift role to the cluster
+      5.1.1 - Policy for working with S3 bucket 
+      5.1.2 - Redshift full access
+   
+Cloud Steps:
+1. Set up star schema in the Redshift DW
+2. Copy the transformed data from S3 into Redshift 
+3. Create report 
+   3.1 - Aggregation result
+   3.2 - Dashboard for features

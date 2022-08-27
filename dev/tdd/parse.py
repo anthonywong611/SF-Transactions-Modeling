@@ -1,35 +1,54 @@
 import os 
 import json
 
-from typing import Union
 
 # Intermediary step to parse json document
-def get_S3_policy_document(bucket_name: str) -> str:
-   # Make sure in the project root directory
-   assert 'S3_policy.json' in os.listdir()
+def get_S3_policy_document(bucket_name: str, service: str) -> str:
+   """Service is either 'transfer' or 'redshift'
+   """
+   project_dir = os.getcwd()
+   assert 'policy' in os.listdir()
+   # Make sure in the policy directory
+   os.chdir('./policy')
    # deserialize into dictionary for Python to work with
    # serialize again for string update
-   with open('S3_policy.json') as file:
-      policy = json.dumps(json.load(file))
-
+   if service == 'transfer':
+      assert 'transfer_S3_policy.json' in os.listdir()
+      with open('transfer_S3_policy.json') as file:
+         policy = json.dumps(json.load(file))
+   else:
+      assert 'redshift_S3_policy.json' in os.listdir()
+      with open('redshift_S3_policy.json') as file:
+         policy = json.dumps(json.load(file))
+   
    # update 'bucket_name' placeholder with the S3 bucket name
    policy_document = bucket_name.join(policy.split('bucket_name'))
    
+   # Make sure go back to project directory
+   os.chdir(project_dir)
+
    return policy_document
 
 # Intermediary step to parse json document
-def get_trust_policy_document(account_id: str, region: str, service: str) -> str:
-   # Make sure in the project root directory
-   assert 'trust_policy.json' in os.listdir()
+def get_trust_policy_document(account_id: str, region: str) -> str:
+   """Service can be any AWS service
+   """
+   project_dir = os.getcwd()
+   assert 'policy' in os.listdir()
+   # Make sure in the policy directory
+   os.chdir('./policy')
+   assert 'transfer_trust_policy.json' in os.listdir()
    # deserialize into dictionary for Python to work with
    # serialize again for string update
-   with open('trust_policy.json') as file:
+   with open('transfer_trust_policy.json') as file:
       policy = json.dumps(json.load(file))
    
    # update placeholders with actual configuration
    policy = account_id.join(policy.split('account_id'))
-   policy = region.join(policy.split('region'))
-   policy_document = service.join(policy.split('service'))
+   policy_document = region.join(policy.split('region'))
+
+   # Make sure go back to project directory
+   os.chdir(project_dir)
 
    return policy_document
 

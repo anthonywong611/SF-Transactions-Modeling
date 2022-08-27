@@ -4,7 +4,7 @@
       {
          "Effect": "Allow",
          "Principal": {
-            "Service": "service.amazonaws.com"
+            "Service": "transfer.amazonaws.com"
          },
          "Action": "sts:AssumeRole",
          "Condition": {
@@ -12,7 +12,7 @@
                "aws:SourceAccount": "account_id"
             },
             "ArnLike": {
-               "aws:SourceArn": "arn:aws:service:region:account_id:user/*"
+               "aws:SourceArn": "arn:aws:transfer:region:account_id:user/*"
             }
          }
       }

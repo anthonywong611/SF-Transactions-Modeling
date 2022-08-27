@@ -1,5 +1,6 @@
 import boto3
 import logging
+import json
 
 from botocore.exceptions import ClientError
 from typing import Optional, Dict, List
@@ -34,14 +35,14 @@ def create_or_get_s3_bucket(name: str, region: str) -> Optional[bool]:
       print(s3_error['Message'])
    return True
 
-# 2. set up the S3 policy
-def create_or_get_iam_policy(policy_name: str, bucket_name: str) -> dict:
+# 2. Set up the S3 policy for a service
+def create_or_get_s3_policy(policy_name: str, bucket_name: str, service: str) -> dict:
    """Create an IAM policy that defines the actions a service may
    apply onto the target S3 bucket.
    """
    iam = boto3.client('iam')
    try:
-      s3_policy_document = get_S3_policy_document(bucket_name)
+      s3_policy_document = get_S3_policy_document(bucket_name, service=service)
       s3_policy = iam.create_policy(
          PolicyName=policy_name, 
          PolicyDocument=s3_policy_document
@@ -56,17 +57,17 @@ def create_or_get_iam_policy(policy_name: str, bucket_name: str) -> dict:
          if policy['PolicyName'] == policy_name:
             return {'Policy': policy}
 
-# 3.1. Set up an IAM role
-def create_or_get_iam_role(role_name: str, trust_entity: str = 'transfer') -> dict:
+# 3.1. Set up an IAM role for Transfer Family
+def create_or_get_transfer_family_role(role_name: str) -> dict:
    """Create an IAM role for Transfer Family. Establish a trust 
-   relationship between Transfer Family and AWS. 
+   relationship between Transfer Family and AWS for it to behave on 
+   user's behalf. 
    """
    iam = boto3.client('iam')
    try:
       trust_policy_document = get_trust_policy_document(
          account_id=account_id,
-         region=region,
-         service=trust_entity
+         region=region
       )
       role = iam.create_role(
          RoleName=role_name,
@@ -140,7 +141,6 @@ def create_or_get_sftp_user(username: str, role_name: str, server_id: str, home_
          HomeDirectory='/' + home_directory,
          SshPublicKeyBody=get_ssh_key_content(type='public')
       )
-
       return user
    except ClientError as error:
       user_error = error.response['Error']
@@ -153,8 +153,77 @@ def create_or_get_sftp_user(username: str, role_name: str, server_id: str, home_
             user['ServerId'] = users['ServerId']
             return user
    
-# 6. Set up a Redshift cluster
-def create_or_get_redshift_cluster():
-   """Create a Redshift cluster on Postgres.
+# 6.1. Set up an IAM role for Redshift
+def create_or_get_redshift_role(role_name: str, s3_policy_name: str, s3_bucket: str) -> dict:
+   """Create an IAM role for Redshift. The role is granted full access to Redshift including console and editor. A policy defining the actions allowed on the S3 bucket is attached.
    """
-   pass
+   iam = boto3.client('iam')
+
+   try:
+      iam.create_role(
+         RoleName=role_name,
+         AssumeRolePolicyDocument=json.dumps(
+            {
+               "Version": "2012-10-17",
+               "Statement": [
+                  {
+                     "Effect": "Allow",
+                     "Principal": {
+                        "Service": [
+                           "redshift.amazonaws.com"
+                        ]
+                     },
+                     "Action": "sts:AssumeRole"
+                  }
+               ]
+            }
+         )
+      )
+
+      create_or_get_s3_policy(
+         policy_name=s3_policy_name, 
+         bucket_name=s3_bucket, 
+         service='redshift'
+      )
+
+      # attach the policies to the role
+      attach_policies_to_iam_role(
+         role_name=role_name,
+         policies={
+            'customer': [s3_policy_name],
+            'aws': ['AmazonRedshiftAllCommandsFullAccess']
+         }
+      )
+   except ClientError as error:
+      # EntityAlreadyExists
+      logging.error(error)
+
+   return iam.get_role(RoleName=role_name)
+   
+# 6.2. Set up a Redshift cluster
+def create_or_get_redshift_cluster(cluster_name: str, db_name: str, db_username: str, db_password: str, role_name: str) -> dict:
+   """Create a Redshift cluster on Postgres. Redshift role is already created and ready to be attached.
+   """
+   redshift = boto3.client('redshift')
+
+   try:
+      redshift_role = boto3.resource('iam').Role(role_name)
+
+      cluster = redshift.create_cluster(
+         ClusterIdentifier=cluster_name,
+         DBName=db_name, 
+         MasterUsername=db_username,
+         MasterUserPassword=db_password,
+         ClusterType='single-node',
+         NodeType='dc2.large',
+         IamRoles=[redshift_role.arn],
+         DefaultIamRoleArn=redshift_role.arn
+      )
+      return cluster['Cluster']
+   except ClientError as error:
+      # ClusterAlreadyExists
+      logging.error(error)
+      cluster = redshift.describe_clusters(ClusterIdentifier=cluster_name)
+      return cluster['Clusters'][0]
+
+   
