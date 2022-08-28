@@ -1,4 +1,3 @@
-import boto3
 import unittest
 
 from infrastructures import create_or_get_redshift_cluster

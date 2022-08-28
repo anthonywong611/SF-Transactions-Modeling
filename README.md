@@ -6,6 +6,9 @@ Challenge:
 - Sent an email to ask the dataset owner, but still get no reply yet.
 - Decided that it should be a many-to-one relationship.
 
+Caught-Off-Guard:
+- Python requires server hostname to connect. Need to set up DNS name with Route53
+
 Thought Organization:
 - Only need a Transfer Family role attached with a access policy that allows it to call S3 on the user's behalf
 - Server host key doesn't actually show changes after being updated with ssh private key (keep in mind!)
@@ -19,7 +22,7 @@ ETL Steps:
 -------------------------------------------------------------------------------
 
 Local Step:
-1. Gnerate a SSH key pair (public & private)
+1. Generate a SSH key pair (public & private)
 2. Scrape the data from official website
 3. Configure AWS account on CLI
    3.1 - Store access key on local ./aws folder
@@ -31,7 +34,7 @@ Boto3 Step:
 1. Set up an S3 bucket 
 2. Create IAM role
    2.1 - Create an IAM policy for services to call S3 on user's behalf
-      2.1 - Specify the target S3 bucket in the policy
+      2.1.1 - Specify the target S3 bucket in the policy
    2.2 - Create a Transfer Family role and attach the policy to it
       2.2.2 - Establish a trust relationship between AWS and Transfer Family
       2.2.1 - Attach managed policies for Transfer Family to work with S3 
@@ -52,3 +55,22 @@ Cloud Steps:
 3. Create report 
    3.1 - Aggregation result
    3.2 - Dashboard for features
+
+--------------------------------------------
+
+Production:
+1. Infrastructure (Boto3)
+   1.1 - Environment variables
+      1.1.1 - AWS account ID
+      1.1.2 - Region Name
+      1.1.3 - S3 Bucket Name
+      1.1.4 - Transfer Family Role Name
+      1.1.5 - Transfer Family S3 Policy Name
+      1.1.6 - Transfer Family AWS Permission Policies
+      1.1.7 - SFTP Server Username
+      1.1.8 - Redshift Role Name
+      1.1.9 - Redshift S3 Policy Name
+      1.1.10 - Redshift Cluster Name
+      1.1.11 - Redshift Database Name
+      1.1.12 - Redshift Database Username
+      1.1.13 - Redshift Database Password

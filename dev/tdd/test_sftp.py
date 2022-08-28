@@ -1,5 +1,4 @@
 import unittest
-import boto3
 
 from infrastructures import create_or_get_sftp_server, create_or_get_sftp_user
 
@@ -13,8 +12,7 @@ class TestTransferFamily(unittest.TestCase):
          protocol='SFTP',
          provider='SERVICE_MANAGED',
          endpoint='PUBLIC',
-         domain='S3',
-         host_key=True
+         domain='S3'
       )
 
       self.assertIsInstance(sftp_server, dict)
@@ -31,8 +29,7 @@ class TestTransferFamily(unittest.TestCase):
          username=username,
          role_name=role_name,
          server_id=server_id,
-         home_directory=bucket_name,
-         ssh_public_key=True
+         home_directory=bucket_name
       )
 
       self.assertIsInstance(sftp_user, dict)
