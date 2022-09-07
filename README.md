@@ -74,3 +74,8 @@ Production:
       1.1.11 - Redshift Database Name
       1.1.12 - Redshift Database Username
       1.1.13 - Redshift Database Password
+2. Glue 
+   2.1 - Create a database
+   2.2 - Create dimension tables
+   2.3 - Create fact table
+   2.4 - Create job 
