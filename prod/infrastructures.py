@@ -18,7 +18,6 @@ bucket_name = 'sf-transactions-12345'
 transfer_role = 'S3TransferFamilyRole'
 transfer_s3_policy = 'TransferFamilyListGetDeletePutS3Bucket-' + bucket_name
 transfer_aws_permissions = ['IAMFullAccess', 'AmazonS3FullAccess', 'AWSTransferConsoleFullAccess']
-sftp_server_hostname = ''
 sftp_server_username = 'anthony'
 # Redshift
 redshift_role = 'S3RedshiftRole'
@@ -164,7 +163,7 @@ def create_or_get_sftp_user(username: str, role_name: str, server_id: str, home_
          if user['UserName'] == username:
             user['ServerId'] = users['ServerId']
             return user
-   
+
 def create_or_get_redshift_role(role_name: str, s3_policy_name: str, s3_bucket: str) -> dict:
    """Create an IAM role for Redshift. The role is granted full access to Redshift including console and editor. A policy defining the actions allowed on the S3 bucket is attached.
    """

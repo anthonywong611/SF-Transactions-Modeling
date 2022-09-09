@@ -79,6 +79,17 @@ Production:
    2.3 - Define fact table
       2.3.1 - copy fact data from S3 over to Redshift
 
+-----------------------------------------------------------
+
+Clean Up:
+1. Delete Redshift Cluster
+2. Delete Security Group
+3. Delete the Redshift Role
+4. Delete the SFTP Server
+5. Delete the Transfer Family Role
+6. Delete the S3 Policy for Transfer Family
+7. Empty and Delete the S3 bucket
+
 -----------------------------------------------
 Room for Improvement:
 1. Set up Glue catalog to store tables metadata
