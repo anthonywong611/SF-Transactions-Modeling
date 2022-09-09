@@ -6,9 +6,6 @@ Challenge:
 - Sent an email to ask the dataset owner, but still get no reply yet.
 - Decided that it should be a many-to-one relationship.
 
-Caught-Off-Guard:
-- Python requires server hostname to connect. Need to set up DNS name with Route53
-
 Thought Organization:
 - Only need a Transfer Family role attached with a access policy that allows it to call S3 on the user's behalf
 - Server host key doesn't actually show changes after being updated with ssh private key (keep in mind!)
@@ -48,6 +45,7 @@ Boto3 Step:
    5.1 - Attach the Redshift role to the cluster
       5.1.1 - Policy for working with S3 bucket 
       5.1.2 - Redshift full access
+   5.2 - Create a security group that routes inbound traffic to port 5439
    
 Cloud Steps:
 1. Set up star schema in the Redshift DW
@@ -74,8 +72,16 @@ Production:
       1.1.11 - Redshift Database Name
       1.1.12 - Redshift Database Username
       1.1.13 - Redshift Database Password
-2. Glue 
-   2.1 - Create a database
-   2.2 - Create dimension tables
-   2.3 - Create fact table
-   2.4 - Create job 
+2. Initial Load (boto3)
+   2.1 - Create a report schema in Redshift database
+   2.2 - Define dimensional tables
+      2.2.1 - copy dimensional data from S3 over to Redshift
+   2.3 - Define fact table
+      2.3.1 - copy fact data from S3 over to Redshift
+
+-----------------------------------------------
+Room for Improvement:
+1. Set up Glue catalog to store tables metadata
+   1.1 - For incremental loading
+   1.2 - For sharing data with other users
+2. Set up an identity provider like Otka for better management
