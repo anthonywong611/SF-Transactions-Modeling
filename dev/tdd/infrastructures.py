@@ -1,3 +1,4 @@
+from aifc import Error
 import boto3
 import logging
 import json
@@ -200,8 +201,46 @@ def create_or_get_redshift_role(role_name: str, s3_policy_name: str, s3_bucket: 
       logging.error(error)
 
    return iam.get_role(RoleName=role_name)
-   
-# 4.2. Set up a Redshift cluster
+
+# 4.2. Set up a Security Group for Routing Traffic to Redshift
+def create_or_get_security_group(group_name: str) -> dict:
+   """Create a security group that routes inbound traffic
+   to the port 5439.
+   """   
+   ec2 = boto3.client('ec2')
+   try:
+      security_group = ec2.create_security_group(
+         GroupName=group_name,
+         Description='Route all inbound traffic on TCP port 5439'
+      )
+
+      # Wait for the security group to become available
+      ec2.get_waiter('security_group_exists').wait(GroupNames=[group_name])
+
+      # Add inbound rule that route traffic to TCP on port 5439
+      ec2.authorize_security_group_ingress(
+         GroupId=security_group['GroupId'],
+         IpPermissions=[
+            {
+               'FromPort': 5439,
+               'IpProtocol': 'tcp',
+               'IpRanges': [
+                  {
+                     'CidrIp': '0.0.0.0/0'
+                  }
+               ],
+               'ToPort': 5439
+            }
+         ]
+      )
+   except ClientError as error:
+      # InvalidGroup.Duplicate error
+      logging.error(error)
+      
+   groups = ec2.describe_security_groups(GroupNames=[group_name])
+   return groups['SecurityGroups'][0]
+
+# 4.3. Set up a Redshift cluster
 def create_or_get_redshift_cluster(cluster_name: str, db_name: str, db_username: str, db_password: str, role_name: str) -> dict:
    """Create a Redshift cluster on Postgres. Redshift role is already created and ready to be attached.
    """

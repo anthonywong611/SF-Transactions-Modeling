@@ -88,3 +88,4 @@ class TestRedshiftRole(unittest.TestCase):
       self.assertEqual(role['Role']['RoleName'], self.role_name)
       self.assertEqual(response['Role']['RoleName'], self.role_name)
       self.assertEqual(response['Role']['RoleName'], role['Role']['RoleName'])
+

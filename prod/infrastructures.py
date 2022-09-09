@@ -20,6 +20,7 @@ transfer_s3_policy = 'TransferFamilyListGetDeletePutS3Bucket-' + bucket_name
 transfer_aws_permissions = ['IAMFullAccess', 'AmazonS3FullAccess', 'AWSTransferConsoleFullAccess']
 sftp_server_username = 'anthony'
 # Redshift
+security_group_name = 'RedshiftConnector'
 redshift_role = 'S3RedshiftRole'
 redshift_s3_policy = 'RedshiftListGetCreateDeletePutAbortS3Bucket-' + bucket_name
 redshift_cluster = 'transactions-dw'
@@ -164,6 +165,41 @@ def create_or_get_sftp_user(username: str, role_name: str, server_id: str, home_
             user['ServerId'] = users['ServerId']
             return user
 
+def create_or_get_security_group(group_name: str) -> dict:
+   """Create a security group that routes inbound traffic
+   to the port 5439.
+   """   
+   ec2 = boto3.client('ec2')
+   try:
+      security_group = ec2.create_security_group(
+         GroupName=group_name,
+         Description='Route all inbound traffic on TCP port 5439'
+      )
+      # Wait for the security group to become available
+      ec2.get_waiter('security_group_exists').wait(GroupNames=[group_name])
+      # Add inbound rule that route traffic to TCP on port 5439
+      ec2.authorize_security_group_ingress(
+         GroupId=security_group['GroupId'],
+         IpPermissions=[
+            {
+               'FromPort': 5439,
+               'IpProtocol': 'tcp',
+               'IpRanges': [
+                  {
+                     'CidrIp': '0.0.0.0/0'
+                  }
+               ],
+               'ToPort': 5439
+            }
+         ]
+      )
+   except ClientError as error:
+      # InvalidGroup.Duplicate error
+      logging.error(error)
+      
+   groups = ec2.describe_security_groups(GroupNames=[group_name])
+   return groups['SecurityGroups'][0]
+
 def create_or_get_redshift_role(role_name: str, s3_policy_name: str, s3_bucket: str) -> dict:
    """Create an IAM role for Redshift. The role is granted full access to Redshift including console and editor. A policy defining the actions allowed on the S3 bucket is attached.
    """
@@ -215,11 +251,10 @@ def create_or_get_redshift_role(role_name: str, s3_policy_name: str, s3_bucket: 
 
    return iam.get_role(RoleName=role_name)
    
-def create_or_get_redshift_cluster(cluster_name: str, db_name: str, db_username: str, db_password: str, role_name: str) -> dict:
+def create_or_get_redshift_cluster(cluster_name: str, db_name: str, db_username: str, db_password: str, security_group: dict, role_name: str) -> dict:
    """Create a Redshift cluster on Postgres. Redshift role is already created and ready to be attached.
    """
    redshift = boto3.client('redshift')
-
    try:
       redshift_role = boto3.resource('iam').Role(role_name)
 
@@ -230,6 +265,7 @@ def create_or_get_redshift_cluster(cluster_name: str, db_name: str, db_username:
          MasterUserPassword=db_password,
          ClusterType='single-node',
          NodeType='dc2.large',
+         VpcSecurityGroupIds=[security_group['GroupId']],
          IamRoles=[redshift_role.arn],
          DefaultIamRoleArn=redshift_role.arn
       )
@@ -250,25 +286,50 @@ def main() -> None:
    # Wait for S3 bucket to become available
    boto3.client('s3').get_waiter('bucket_exists').wait(Bucket=bucket_name)
    # 2.2 Set up the S3 policy for Transfer Family to call the S3 bucket on user's behalf
-   s3_policy = create_or_get_s3_policy(policy_name=transfer_s3_policy, bucket_name=bucket_name, service='transfer')
+   s3_policy = create_or_get_s3_policy(
+      policy_name=transfer_s3_policy, 
+      bucket_name=bucket_name, 
+      service='transfer'
+   )
    # Wait for policy to become available
    boto3.client('iam').get_waiter('policy_exists').wait(PolicyArn=s3_policy['Policy']['Arn'])
    # Wait for Transfer Family role to become available
    boto3.client('iam').get_waiter('role_exists').wait(RoleName=transfer_role)
    # 2.3 Attach managed policies to the Transfer Family role 
    transfer_permissions = {'aws': transfer_aws_permissions, 'customer': [transfer_s3_policy]}
-   attach_policies_to_iam_role(policies=transfer_permissions, role_name=transfer_role)
+   attach_policies_to_iam_role(
+      policies=transfer_permissions, 
+      role_name=transfer_role
+   )
    # 3. Set up an SFTP server with Transfer Family
    sftp_server = create_or_get_sftp_server()
    # Wait for the server to become available online
    boto3.client('transfer').get_waiter('server_online').wait(ServerId=sftp_server['ServerId'])
    # 4. Create a user to attach to the server
-   create_or_get_sftp_user(username=sftp_server_username, role_name=transfer_role, server_id=sftp_server['ServerId'], home_directory=bucket_name)
-   # 5.1 Set up an IAM role for Redshift
-   create_or_get_redshift_role(role_name=redshift_role, s3_policy_name=redshift_s3_policy, s3_bucket=bucket_name)
+   create_or_get_sftp_user(
+      username=sftp_server_username, 
+      role_name=transfer_role, 
+      server_id=sftp_server['ServerId'], 
+      home_directory=bucket_name
+   )
+   # 5.1 Set up a security group to route traffic to Redshift
+   traffic_group = create_or_get_security_group(group_name=security_group_name)
+   # 5.2 Set up an IAM role for Redshift
+   create_or_get_redshift_role(
+      role_name=redshift_role, 
+      s3_policy_name=redshift_s3_policy, 
+      s3_bucket=bucket_name
+   )
    # No need to Wait for the Redshift role to become available since that is accounted for during role creation
-   # 5.2 Create a Redshift cluster with the Redshift role attached
-   create_or_get_redshift_cluster(cluster_name=redshift_cluster, db_name=redshift_db_name, db_username=redshift_db_username, db_password=redshift_db_password, role_name=redshift_role)
+   # 5.3 Create a Redshift cluster with the Redshift role attached
+   create_or_get_redshift_cluster(
+      cluster_name=redshift_cluster, 
+      db_name=redshift_db_name, 
+      db_username=redshift_db_username, 
+      db_password=redshift_db_password, 
+      security_group=traffic_group, 
+      role_name=redshift_role
+   )
    # Wait for the cluster to become available
    boto3.client('redshift').get_waiter('cluster_available').wait(ClusterIdentifier=redshift_cluster)
 
