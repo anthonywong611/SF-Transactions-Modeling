@@ -1,4 +1,3 @@
-from xxlimited import Str
 import boto3
 import logging
 import json
@@ -115,7 +114,6 @@ def create_or_get_sftp_server() -> dict:
    local user to the SFTP server.
    """
    transfer = boto3.client('transfer')
-
    try:
       server_lists = transfer.list_servers()
       # Check if there is any server already created
@@ -204,7 +202,6 @@ def create_or_get_redshift_role(role_name: str, s3_policy_name: str, s3_bucket: 
    """Create an IAM role for Redshift. The role is granted full access to Redshift including console and editor. A policy defining the actions allowed on the S3 bucket is attached.
    """
    iam = boto3.client('iam')
-
    try:
       iam.create_role(
          RoleName=role_name,

@@ -1,5 +1,4 @@
 import unittest
-import boto3
 
 from clean_up import delete_redshift_cluster
 
@@ -12,6 +11,8 @@ class TestInfrastructuresDeletion(unittest.TestCase):
 
       response = delete_redshift_cluster(name=redshift_cluster)
 
+   def test_Security_Group_Deletion(self):
 
+      pass
       
 

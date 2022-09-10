@@ -1,7 +1,6 @@
 import os 
 import json
 
-
 # Intermediary step to parse json document
 def get_S3_policy_document(bucket_name: str, service: str) -> str:
    """Service is either 'transfer' or 'redshift'
