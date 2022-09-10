@@ -3,29 +3,37 @@ import logging
 import json
 
 from botocore.exceptions import ClientError
+from configparser import ConfigParser
 from typing import Optional, Dict, List
 from parse_policy import *
 
 
+config = ConfigParser()
+config.read_file(open('params.cfg'))
+
 # -----------Envrionment Variables----------- #
 # Account Info
-account_id = '649363699007'
-region = 'ca-central-1'
+account_id = config['Account Info']['account_id']
+region = config['Account Info']['account_id']
 # S3
-bucket_name = 'sf-transactions-12345'
+bucket_name = config['S3']['bucket_name']
 # Transfer Family
-transfer_role = 'S3TransferFamilyRole'
-transfer_s3_policy = 'TransferFamilyListGetDeletePutS3Bucket-' + bucket_name
-transfer_aws_permissions = ['IAMFullAccess', 'AmazonS3FullAccess', 'AWSTransferConsoleFullAccess']
-sftp_server_username = 'anthony'
+transfer_role = config['Transfer Family']['transfer_role']
+transfer_s3_policy = config['Transfer Family']['transfer_s3_policy_prefix'] + bucket_name
+transfer_aws_permissions = [
+   config['Transfer Family']['aws_permission_1'], 
+   config['Transfer Family']['aws_permission_2'], 
+   config['Transfer Family']['aws_permission_3']
+]
+sftp_server_username = config['Transfer Family']['transfer_role']
 # Redshift
-security_group_name = 'RedshiftConnector'
-redshift_role = 'S3RedshiftRole'
-redshift_s3_policy = 'RedshiftListGetCreateDeletePutAbortS3Bucket-' + bucket_name
-redshift_cluster = 'transactions-dw'
-redshift_db_name = 'san_francisco'
-redshift_db_username = 'anthony'
-redshift_db_password = 'Huangjianen611?'
+security_group_name = config['Redshift']['security_group_name']
+redshift_role = config['Redshift']['redshift_role']
+redshift_s3_policy = config['Redshift']['redshift_s3_policy_prefix'] + bucket_name
+redshift_cluster = config['Redshift']['redshift_cluster']
+redshift_db_name = config['Redshift']['redshift_db_name']
+redshift_db_username = config['Redshift']['redshift_db_username']
+redshift_db_password = config['Redshift']['redshift_db_password']
 # ------------------------------------------- #
 
 def create_or_get_s3_bucket(name: str, region: str) -> Optional[bool]:

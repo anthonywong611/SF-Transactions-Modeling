@@ -1,4 +1,6 @@
 import boto3
+
+from configparser import ConfigParser
 from sqlalchemy import create_engine, text
 from sqlalchemy.engine import Engine, url
 from sqlalchemy import Table, Column, ForeignKey
@@ -7,15 +9,22 @@ from sqlalchemy.schema import MetaData
 from sqlalchemy.exc import ProgrammingError
 
 
-account_id = '649363699007'
-region = 'ca-central-1'
-bucket_name = 'sf-transactions-12345'
-redshift_role = 'S3RedshiftRole'
-redshift_cluster = 'transactions-dw'
-db_name = 'san_francisco'
-db_username = 'anthony'
-db_password = 'Huangjianen611?'
+config = ConfigParser()
+config.read_file(open('params.cfg'))
 
+# -----------Envrionment Variables----------- #
+# Account Info
+account_id = config['Account Info']['account_id']
+region = config['Account Info']['account_id']
+# S3
+bucket_name = config['S3']['bucket_name']
+# Redshift
+redshift_role = config['Redshift']['redshift_role']
+redshift_cluster = config['Redshift']['redshift_cluster']
+db_name = config['Redshift']['redshift_db_name']
+db_username = config['Redshift']['redshift_db_username']
+db_password = config['Redshift']['redshift_db_password']
+# ------------------------------------------- #
 
 def redshift_connection(cluster: str, db_name: str, username: str, password: str, port: int = 5439) -> Engine:
    """Establish a SQL client connection to the Redshift cluster.

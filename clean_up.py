@@ -1,12 +1,22 @@
 import boto3
+
+from configparser import ConfigParser
 from botocore.exceptions import ClientError
 
 
-bucket_name = 'sf-transactions-12345'
-redshift_cluster = 'transactions-dw'
-security_group_name = 'RedshiftConnector'
-redshift_role = 'S3RedshiftRole'
-transfer_role = 'S3TransferFamilyRole'
+config = ConfigParser()
+config.read_file(open('params.cfg'))
+
+# -----------Envrionment Variables----------- #
+# S3
+bucket_name = config['S3']['bucket_name']
+# Transfer Family
+transfer_role = config['Transfer Family']['transfer_role']
+# Redshift
+redshift_cluster = config['Redshift']['redshift_cluster']
+security_group_name = config['Redshift']['security_group_name']
+redshift_role = config['Redshift']['redshift_role']
+# ------------------------------------------- #
 
 def delete_redshift_cluster(name: str) -> None:
    """Delte the Redshift cluster.

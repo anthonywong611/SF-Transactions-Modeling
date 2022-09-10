@@ -23,7 +23,8 @@ Local Step:
 2. Scrape the data from official website
 3. Configure AWS account on CLI
    3.1 - Store access key on local ./aws folder
-4. Transfer the file to S3 through SFTP (after Boto3 step 4 is completed)
+4. Fill in the config file
+5. Transfer the file to S3 through SFTP (after Boto3 step 4 is completed)
    - SFTP server's endpoint
    - SSH private key
 
