@@ -1,6 +1,15 @@
-# San_Francisco_Financial_Modeling
+# Project Description
 
+
+# Architecture
+![architecture](image/architecture.png)
+
+# Dimensional Model (ERD)
 ![ERD](image/erd.PNG)
+
+# Dashboard Results
+
+# Run the Project
 
 <!---
 Challenge: 
