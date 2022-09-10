@@ -15,7 +15,7 @@ config.read_file(open('params.cfg'))
 # -----------Envrionment Variables----------- #
 # Account Info
 account_id = config['Account Info']['account_id']
-region = config['Account Info']['account_id']
+region = config['Account Info']['region']
 # S3
 bucket_name = config['S3']['bucket_name']
 # Redshift

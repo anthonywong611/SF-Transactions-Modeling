@@ -14,7 +14,7 @@ config.read_file(open('params.cfg'))
 # -----------Envrionment Variables----------- #
 # Account Info
 account_id = config['Account Info']['account_id']
-region = config['Account Info']['account_id']
+region = config['Account Info']['region']
 # S3
 bucket_name = config['S3']['bucket_name']
 # Transfer Family
@@ -25,7 +25,7 @@ transfer_aws_permissions = [
    config['Transfer Family']['aws_permission_2'], 
    config['Transfer Family']['aws_permission_3']
 ]
-sftp_server_username = config['Transfer Family']['transfer_role']
+sftp_server_username = config['Transfer Family']['sftp_server_username']
 # Redshift
 security_group_name = config['Redshift']['security_group_name']
 redshift_role = config['Redshift']['redshift_role']
