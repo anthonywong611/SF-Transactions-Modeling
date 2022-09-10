@@ -1,5 +1,6 @@
 # San_Francisco_Financial_Modeling
 
+<!---
 Challenge: 
 - Not sure about the relationship between a column and its corresponding code column. 
 - Doubted that it should be a one-to-one relationship but there are columns that clearly have multiple codes identified with it. 
@@ -97,3 +98,5 @@ Room for Improvement:
    1.1 - For incremental loading
    1.2 - For sharing data with other users
 2. Set up an identity provider like Otka for better management
+
+--->
