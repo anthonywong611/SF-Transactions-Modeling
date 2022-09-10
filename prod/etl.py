@@ -1,3 +1,4 @@
+import boto3
 from sqlalchemy import create_engine, text
 from sqlalchemy.engine import Engine, url
 from sqlalchemy import Table, Column, ForeignKey
@@ -14,12 +15,16 @@ redshift_cluster = 'transactions-dw'
 db_name = 'san_francisco'
 db_username = 'anthony'
 db_password = 'Huangjianen611?'
-host = f'{redshift_cluster}.c2eeppdorvki.{region}.redshift.amazonaws.com'
 
 
-def redshift_connection(host: str, db_name: str, username: str, password: str, port: int = 5439) -> Engine:
+def redshift_connection(cluster: str, db_name: str, username: str, password: str, port: int = 5439) -> Engine:
+   """Establish a SQL client connection to the Redshift cluster.
    """
-   """
+   # Get the host endpoint
+   redshift = boto3.client('redshift')
+   clusters_info = redshift.describe_clusters(ClusterIdentifier=cluster)
+   host = clusters_info['Clusters'][0]['Endpoint']['Address']
+   # Build the connection URL
    connection_url = url.URL.create(
       drivername='redshift+redshift_connector', 
       host=host, 
@@ -138,7 +143,7 @@ def main() -> None:
    
    # 0. Create a connection instance
    engine = redshift_connection(
-      host=host, db_name=db_name, 
+      cluster=redshift_cluster, db_name=db_name, 
       username=db_username, password=db_password
    )
 
@@ -167,7 +172,6 @@ def main() -> None:
    load_table(name='transaction', schema=schema, engine=engine)
 
    engine.dispose()
-
 
 if __name__ == '__main__':
    main()

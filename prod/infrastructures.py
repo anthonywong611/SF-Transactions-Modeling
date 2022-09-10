@@ -254,7 +254,6 @@ def create_or_get_redshift_cluster(cluster_name: str, db_name: str, db_username:
    redshift = boto3.client('redshift')
    try:
       redshift_role = boto3.resource('iam').Role(role_name)
-
       cluster = redshift.create_cluster(
          ClusterIdentifier=cluster_name,
          DBName=db_name, 
@@ -329,7 +328,8 @@ def main() -> None:
    )
    # Wait for the cluster to become available
    boto3.client('redshift').get_waiter('cluster_available').wait(ClusterIdentifier=redshift_cluster)
-
+   # Print the SFTP server Endpoint
+   print(f'SFTP Server Endpoint: {sftp_server["ServerId"]}.server.transfer.{region}.amazonaws.com')
 
 if __name__ == '__main__':
    main()
