@@ -1,6 +1,6 @@
 # San_Francisco_Financial_Modeling
 
-![ERD](image/erd.png)
+![ERD](image/erd.PNG)
 
 <!---
 Challenge: 
