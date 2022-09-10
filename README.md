@@ -1,5 +1,7 @@
 # San_Francisco_Financial_Modeling
 
+![ERD](image/ERD.png)
+
 <!---
 Challenge: 
 - Not sure about the relationship between a column and its corresponding code column. 
