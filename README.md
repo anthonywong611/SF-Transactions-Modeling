@@ -24,6 +24,8 @@ The San Francisco Controller's Office maintains a database of spending and reven
 
 # How to Run the Project
 
+> Make sure your local server is SFTP-enabled
+
 **1. Preliminary Setup**
 ```bash
 pip3 install -r requirements.txt
@@ -66,9 +68,14 @@ put data/*.csv
 python3 load_tables.py
 ```
 
-**7. Query Dimensional Model in Redshift**
-- Go to the Redshift Query Editor V2 
+**7. Query Dimensional Model in Redshift Query Editor V2**
 
+![redshift query editor](image/redshift_query.PNG)
+
+**8. Tear Down AWS Infrastructures**
+```bash
+python3 clean_up.py
+```
 
 <!---
 Challenge: 
