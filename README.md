@@ -24,6 +24,14 @@ The San Francisco Controller's Office maintains a database of spending and reven
 
 # How to Run the Project
 
+**1. Preliminary Setup**
+```bash
+pip3 install -r requirements.txt
+```
+- Follow the [boto3 configuration link](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/quickstart.html#configuration) if boto3 isn't already set up
+- Complete the [params.cfg](params.cfg) file where a 'TODO: Replace the value below' indicates
+
+
 <!---
 Challenge: 
 - Not sure about the relationship between a column and its corresponding code column. 
