@@ -6,12 +6,23 @@ The San Francisco Controller's Office maintains a database of spending and reven
 - **Transfer Family**: Assumes role on the client's behalf as a SSH user to transfer data to a remote AWS server through the SSH File Transfer Protocol (SFTP). SFTP enables secured data transfer from local SFTP-enabled server to the AWS environment over the internet. A pair of SSH keys (public & private) will be required to support user authentication with the SFTP server.
 - **S3**: The SFTP server establishes a relationship with the S3 bucket which serves as its persistent file storage system so that data transfered through SFTP will be stored directly S3. All CSV data will be transfered and stored in S3.
 - **Redshift**: The Redshift cluster assumes role on the client's behalf to pull data from S3 and load it into the data warehouse reporting area. To enable working with Redshift remotely, a VPC security group is attached to the cluster to route all incoming traffic to port 5439, which is the default port on which Redsfhit database is exposed. 
-- **S3 Policies**: Defined the set of actions (e.g GET, DELETE, PUT, etc) allowed to be performed on the S3 bucket by Transfer Family and Redshift, respectively. Transfer Family has permissions to put transfered objects into the bucket, whereas Redshift has permissions to fetch and copy data from the bucket over to the cluster.
+- **S3 Policies**: Defined the set of actions (e.g GET, DELETE, PUT, etc) allowed to be performed on the S3 bucket by Transfer Family and Redshift assuming roles on the client's behalf, respectively. Transfer Family has permissions to put transfered objects into the bucket, whereas Redshift has permissions to fetch and copy data from the bucket over to the cluster.
 
 # Dimensional Model (ERD)
 ![ERD](image/erd.PNG)
+### Dimension Table
+- **Program**: A program identifies the service under which a transaction is recorded. Each program belongs to a department under an organization group.
+- **Type**: Specify the detail of resources involved in a transaction. Sub-object indicates the most granular level of detail, and falls under object and character in that order.
+- **Fund**: An activity receives governmental funding under a particular category based on its characteristics. Fund category is the lowest level under the hierarchy, falling under fund and fund type in that order.
+- **Finance**: Indicates whether a transaction is a spending or a revenue.
+### Fact Table
+- **Transaction**: The amount of dollars processed in a transaction within an accounting period that begins on July 1 and ends on June 30 the following year.
 
 # Dashboard Results
+
+![percentage](image/Transaction_Percentage_by_Organization_Group.png)
+![profit](image/Net_Profit_by_Organization_Group.png)
+![top fund](image/Top_Fund_Type_by_Max_Spending.png)
 
 # Run the Project
 
