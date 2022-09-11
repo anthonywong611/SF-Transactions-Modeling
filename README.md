@@ -3,6 +3,10 @@ The San Francisco Controller's Office maintains a database of spending and reven
 
 # Architecture
 ![architecture](image/architecture.png)
+- **Transfer Family**: Assumes role on the client's behalf as a SSH user to transfer data to a remote AWS server through the SSH File Transfer Protocol (SFTP). SFTP enables secured data transfer from local SFTP-enabled server to the AWS environment over the internet. A pair of SSH keys (public & private) will be required to support user authentication with the SFTP server.
+- **S3**: The SFTP server establishes a relationship with the S3 bucket which serves as its persistent file storage system so that data transfered through SFTP will be stored directly S3. All CSV data will be transfered and stored in S3.
+- **Redshift**: The Redshift cluster assumes role on the client's behalf to pull data from S3 and load it into the data warehouse reporting area. To enable working with Redshift remotely, a VPC security group is attached to the cluster to route all incoming traffic to port 5439, which is the default port on which Redsfhit database is exposed. 
+- **S3 Policies**: Defined the set of actions (e.g GET, DELETE, PUT, etc) allowed to be performed on the S3 bucket by Transfer Family and Redshift, respectively. Transfer Family has permissions to put transfered objects into the bucket, whereas Redshift has permissions to fetch and copy data from the bucket over to the cluster.
 
 # Dimensional Model (ERD)
 ![ERD](image/erd.PNG)
