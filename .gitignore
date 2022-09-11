@@ -3,7 +3,7 @@ data/
 ssh/
 dev/tdd/__pycache__
 dev/tdd/.pytest_cache
-./pytest_cache
-./__pycache__
+.pytest_cache
+__pycache__
 prod/__pycache__
 
