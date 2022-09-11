@@ -51,7 +51,7 @@ python3 infrastructures.py   # Make sure in the project root directory
 sftp -i ssh/<key_name> <sftp_server_username>@<sftp_server_endpoint>
 ```
 - Enter *'yes'* if prompted for connection, you shall be directed to the SFTP terminal
-![sftp](image/sftp.PNG)
+
 
 <!---
 Challenge: 
