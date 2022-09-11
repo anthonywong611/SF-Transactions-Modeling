@@ -1,5 +1,5 @@
 # Project Description
-
+The San Francisco Controller's Office maintains a database of spending and revenue data sourced from it's citywide financial system. Transactions data is scraped from the DataSF official website and conformed into a dimensional model in a data warehouse. The purpose of this data engineering is to help support dashboarding and ad-hoc query from business users.
 
 # Architecture
 ![architecture](image/architecture.png)
