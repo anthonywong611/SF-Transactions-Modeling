@@ -18,13 +18,11 @@ The San Francisco Controller's Office maintains a database of spending and reven
 ### Fact Table
 - **Transaction**: The amount of dollars processed in a transaction within an accounting period that begins on July 1 and ends on June 30 the following year.
 
-# Dashboard Results
+# Sample Dashboard
 
-![percentage](image/Transaction_Percentage_by_Organization_Group.png)
-![profit](image/Net_Profit_by_Organization_Group.png)
-![top fund](image/Top_Fund_Type_by_Max_Spending.png)
+![dashboard](image/dashboard.PNG)
 
-# Run the Project
+# How to Run the Project
 
 <!---
 Challenge: 
