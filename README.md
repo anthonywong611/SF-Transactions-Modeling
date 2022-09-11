@@ -56,8 +56,19 @@ sftp -i ssh/<key_name> <sftp_server_username>@<sftp_server_endpoint>
 
 **5. Transfer Local Datasets to S3 Buckets over SFTP**
 ```bash
-put data/.csv
+put data/*.csv
 ```
+- Data should already reside in the S3 bucket 
+![files](image/files.PNG)
+
+**6. Load the Datasets into the Redshift Data Warehouse**
+```bash
+python3 load_tables.py
+```
+
+**7. Query Dimensional Model in Redshift**
+- Go to the Redshift Query Editor V2 
+- Login with 
 
 <!---
 Challenge: 
