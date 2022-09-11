@@ -28,8 +28,29 @@ The San Francisco Controller's Office maintains a database of spending and reven
 ```bash
 pip3 install -r requirements.txt
 ```
+- Make sure AWS account has full access to work with *S3*, *Transfer Famiy*, *Redshift*, and *IAM*
 - Follow the [boto3 configuration link](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/quickstart.html#configuration) if boto3 isn't already set up
 - Complete the [params.cfg](params.cfg) file where a 'TODO: Replace the value below' indicates
+
+**2. Generate an SSH Key Pair**
+- Create a folder called *ssh* in the project root directory
+- Generate an RSA 4096-bit key pair in the ssh directory
+```bash
+ssh-keygen -t rsa -b 4096 -N "" -m PEM -f <key_name>  # TODO: Replace <key_name> with a key name of your choice
+```
+
+**3. Build AWS Infrastructures**
+```bash
+python3 infrastructures.py   # Make sure in the project root directory
+```
+- After all AWS resources have been provisioned, the SFTP server endpoint will show up on the terminal 
+
+**4. Connect to the Transfer Family SFTP Server**
+- Refer to the *sftp_server_username* in [params.cfg](params.cfg)
+```bash
+sftp -i ssh/<key_name> <sftp_server_username>@<sftp_server_endpoint>
+```
+- Enter *'yes'* if prompted for connection, you shall be directed to the SFTP terminal
 
 
 <!---
