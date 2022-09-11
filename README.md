@@ -50,17 +50,16 @@ python3 infrastructures.py   # Make sure in the project root directory
 ```bash
 sftp -i ssh/<key_name> <sftp_server_username>@<sftp_server_endpoint>
 ```
-- Enter *'yes'* if prompted for connection, you shall be directed to the SFTP terminal
-
-![sftp](image/sftp.PNG)
+- **Enter *'yes'* if prompted for connection, you shall be directed to the SFTP terminal**
 
 **5. Transfer Local Datasets to S3 Buckets over SFTP**
 ```bash
 put data/*.csv
 ```
-- Data should already reside in the S3 bucket 
 
 ![files](image/files.PNG)
+
+- Disconnect from the SFTP server, or open a new terminal
 
 **6. Load the Datasets into the Redshift Data Warehouse**
 ```bash
@@ -69,7 +68,7 @@ python3 load_tables.py
 
 **7. Query Dimensional Model in Redshift**
 - Go to the Redshift Query Editor V2 
-- Login with 
+
 
 <!---
 Challenge: 
