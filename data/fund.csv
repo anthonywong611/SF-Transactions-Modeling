@@ -1,0 +1,838 @@
+fund_id,fund_category,fund_category_code,fund,fund_code,fund_type,fund_type_code
+1,Unspecified,0.0,SFIA-Debt Service Fund,ENT_FUND~SFIA_DEBT_SRVC,Enterprise Funds,ENT_FUND
+2,Unspecified,0.0,CP City Fac Impvt-Unallocated,CPTL_PRJ~15760,Capital Projects Funds,CPTL_PRJ
+3,Unspecified,0.0,SR Arts Comm-Art Enrichment,SP_REV~11780,Special Revenue Funds,SP_REV
+4,Unspecified,0.0,CPXCF 1500 Mission St. COP/CP,CPTL_PRJ~15775,Capital Projects Funds,CPTL_PRJ
+5,Operating,1.0,DSGOB TSR FOR LHH GOB,DEBT_SRVC~17640,Debt Service Funds,DEBT_SRVC
+6,Grants,4.0,Laguna Honda Operating Fund,5LAAA,Laguna Honda Hospital Funds,5L
+7,Unspecified,0.0,OCII CPF DEPOSITS,PVT_PURPS_TRST~30130,Private Purpose Trust Fund,PVT_PURPS_TRST
+8,Continuing Projects,3.0,Wastewater Operating Fund,5CAAA,PUC Wastewater Funds,5C
+9,Unspecified,0.0,CWP-Operating Grants Fund,ENT_FUND~CWP_OP_GRNTS,Enterprise Funds,ENT_FUND
+10,Operating,1.0,LHH Debt Service Fund,ENT_FUND~LHH_DEBT_SRVC,Enterprise Funds,ENT_FUND
+11,Continuing Projects,3.0,Street Improvement Fund,3CSIF,Capital Projects Funds,3C
+12,Grants,4.0,"Public Works, Transp. & Commerce Fund",2SPWF,Special Revenue Funds,2S
+13,Continuing Projects - Authority Control,3.0,SR OCOH Nov18 PropCHomelessSvc,SP_REV~10582,Special Revenue Funds,SP_REV
+14,Grants,4.0,Public Library Improvement Fund,3CPLI,Capital Projects Funds,3C
+15,Continuing Projects - Authority Control,3.0,Children's Fund,SP_REV~CHLD,Special Revenue Funds,SP_REV
+16,Annual Projects,2.0,Golf Fund,2SGOL,Special Revenue Funds,2S
+17,Unspecified,0.0,DSCOP REFUNDING S2010A,DEBT_SRVC~17460,Debt Service Funds,DEBT_SRVC
+18,Unspecified,0.0,OCII CPF 2003B BONDS TAX EXPT,PVT_PURPS_TRST~29980,Private Purpose Trust Fund,PVT_PURPS_TRST
+19,Unspecified,0.0,SR Information Publication,SP_REV~12590,Special Revenue Funds,SP_REV
+20,Unspecified,0.0,OCII CFD 8,AGNCY_FUNDS~29600,Agency Funds,AGNCY_FUNDS
+21,Operating,1.0,DSGOB GENERAL OBLIGATION BOND,DEBT_SRVC~17620,Debt Service Funds,DEBT_SRVC
+22,Operating,1.0,Cleanpowersf Operating Fund,5QAAA,Clp-Clean Powersf Funds,5Q
+23,Continuing Projects,3.0,Parking Operating Fund,8AAAA,Treasure Island Development Authority,8A
+24,Unspecified,0.0,Pub Admin-Pub Guard-Rep Payee,AGNCY_FUNDS~28410,Agency Funds,AGNCY_FUNDS
+25,Operating,1.0,OCII DSF 2017C MB,PVT_PURPS_TRST~29905,Private Purpose Trust Fund,PVT_PURPS_TRST
+26,Operating,1.0,Environmental Protection Program Fund,2SENV,Special Revenue Funds,2S
+27,Unspecified,0.0,SR Culture & Rec Grants; A Fed,SP_REV~11820,Special Revenue Funds,SP_REV
+28,Operating,1.0,Hetch Hetchy Debt Service Fund,5TDSF,PUC Hetch Hetchy Funds,5T
+29,Unspecified,0.0,USD25 - Capital Facilities,INVEST_TRST_FUND~30720,Investment Trust Fund,INVEST_TRST_FUND
+30,Unspecified,0.0,SR 30 Van Ness Building,SP_REV~14340,Special Revenue Funds,SP_REV
+31,Operating,1.0,Redevelopment Obligation Fund,7SROF,Successor Agency-Former SF Redev Agency,7S
+32,Unspecified,0.0,CP R&P Capital Impvt-Una,CPTL_PRJ~16960,Capital Projects Funds,CPTL_PRJ
+33,Continuing Projects - Authority Control,3.0,SR Facade Improvement Loan,SP_REV~10830,Special Revenue Funds,SP_REV
+34,Annual Projects,2.0,Airport Operating Fund,5AAAA,SF International Airport Funds,5A
+35,Unspecified,0.0,USD21-90391_2006SchoolBond-06B,INVEST_TRST_FUND~30870,Investment Trust Fund,INVEST_TRST_FUND
+36,Operating,1.0,OCII DSF 2009A Bonds Taxable,PVT_PURPS_TRST~29750,Private Purpose Trust Fund,PVT_PURPS_TRST
+37,Continuing Projects - Authority Control,3.0,SR Housing Trust Fund,SP_REV~10795,Special Revenue Funds,SP_REV
+38,Grants,4.0,Wastewater Trust & Agency Fund,5CTAF,PUC Wastewater Funds,5C
+39,Operating,1.0,Muni Inactive Fund,5MZZZ,MTA Municipal Railway Funds,5M
+40,Continuing Projects,3.0,Port South Beach Harbor Fund,5PSBH,Port Of San Francisco Funds,5P
+41,Continuing Projects,3.0,Children and Families Fund,2SCFC,Special Revenue Funds,2S
+42,Operating,1.0,Parking Operating Fund,8TAAA,SF Transportation Authority Funds,8T
+43,Operating,1.0,OCII DSF 2016D MBS Expt Bonds,PVT_PURPS_TRST~30250,Private Purpose Trust Fund,PVT_PURPS_TRST
+44,Continuing Projects - Authority Control,3.0,SR Services to Outside Agncy,SP_REV~13970,Special Revenue Funds,SP_REV
+45,Unspecified,0.0,CleanPowerSF Trust Agency Fund,ENT_FUND~CLN_PWR_TRST_AGNCY,Enterprise Funds,ENT_FUND
+46,Operating,1.0,OCII DSF2014A Bonds Tax Exempt,PVT_PURPS_TRST~29880,Private Purpose Trust Fund,PVT_PURPS_TRST
+47,Unspecified,0.0,HSS Reserve,PSN_OTHR_EMP_BEN~31230,"Pension, Other Employee and Ot",PSN_OTHR_EMP_BEN
+48,Operating,1.0,Tax Collection Agency Fund,7ATAX,Agency Funds,7A
+49,Unspecified,0.0,CPXCF 1997 Zoo Fac S2000B,CPTL_PRJ~15590,Capital Projects Funds,CPTL_PRJ
+50,Grants,4.0,Airport Capital Projects Fund,5ACPF,SF International Airport Funds,5A
+51,Continuing Projects - Authority Control,3.0,SR R&P-Marina Yacht Harbor,SP_REV~11900,Special Revenue Funds,SP_REV
+52,Grants,4.0,Port Capital Projects Fund,5PCPF,Port Of San Francisco Funds,5P
+53,Work Orders/Overhead,5.0,"Public Works, Transp. & Commerce Fund",2SPWF,Special Revenue Funds,2S
+54,Operating,1.0,OCII DSF 2016B MBS Expt Bonds,PVT_PURPS_TRST~30230,Private Purpose Trust Fund,PVT_PURPS_TRST
+55,Operating,1.0,IS-Central Shops Fund,INTRL_SRVC~IS_CNTRL_SHP,Internal Service Funds,INTRL_SRVC
+56,Unspecified,0.0,CPMCF COP MOS EXP PROJ 2013,CPTL_PRJ~16400,Capital Projects Funds,CPTL_PRJ
+57,Operating,1.0,Hetchy Operating Fund,ENT_FUND~HH_OP,Enterprise Funds,ENT_FUND
+58,Continuing Projects - Authority Control,3.0,SR Visitacion Valley CI,SP_REV~10900,Special Revenue Funds,SP_REV
+59,Grants Projects,4.0,SR Neighbor Dev-COVID Stim-FED,SP_REV~10482,Special Revenue Funds,SP_REV
+60,Operating,1.0,SR Rent Arbitration Board,SP_REV~10850,Special Revenue Funds,SP_REV
+61,Annual Projects,2.0,Port South Beach Harbor Fund,5PSBH,Port Of San Francisco Funds,5P
+62,Operating,1.0,CWP-Operating Fund,ENT_FUND~CWP_OP,Enterprise Funds,ENT_FUND
+63,Continuing Projects - Authority Control,3.0,SR Market & Octavia CI,SP_REV~10820,Special Revenue Funds,SP_REV
+64,Annual Projects,2.0,Convention Facilities Fund,2SCFF,Special Revenue Funds,2S
+65,Operating,1.0,Former Rda Comm Facilities Dists,7SCFD,Successor Agency-Former SF Redev Agency,7S
+66,Work Orders/Overhead,5.0,General Hopsital Operating Fund,5HAAA,General Hospital Medical Center Funds,5H
+67,Unspecified,0.0,General Obligation Bond Fund,INVEST_TRST_FUND~30620,Investment Trust Fund,INVEST_TRST_FUND
+68,Continuing Projects - Authority Control,3.0,CPRPF 12 CLN&SF NEIG PK S2013A,CPTL_PRJ~16850,Capital Projects Funds,CPTL_PRJ
+69,Unspecified,0.0,Bayshore Hester Spcl Assmnt Fd,AGNCY_FUNDS~29380,Agency Funds,AGNCY_FUNDS
+70,Grants Projects,4.0,SR Public Protection-Grant Oth,SP_REV~13730,Special Revenue Funds,SP_REV
+71,Continuing Projects,3.0,Other Expendable Trust,7EZEF,Expendable Trust Funds,7E
+72,No Fund Category,No Fund Category Code,City Facilities Improvement Fund,3CXCF,Capital Projects Funds,3C
+73,Unspecified,0.0,OCII DSF 2011D Bonds Tax Expt,PVT_PURPS_TRST~29850,Private Purpose Trust Fund,PVT_PURPS_TRST
+74,Continuing Projects - Project Control,6.0,SFIA-Capital Projects Fund,ENT_FUND~SFIA_CPTL_PRJ,Enterprise Funds,ENT_FUND
+75,Unspecified,0.0,Foster Care Rep Payee Fund,AGNCY_FUNDS~28450,Agency Funds,AGNCY_FUNDS
+76,No Fund Category,No Fund Category Code,Hhwp-Trust & Agency Fund,5TTAF,PUC Hetch Hetchy Funds,5T
+77,Annual Projects,2.0,Assistance Program Agency Fund,7AASS,Agency Funds,7A
+78,Continuing Projects - Authority Control,3.0,2015 AFFORD HOUS GOB 3RD 2019C,SP_REV~10492,Special Revenue Funds,SP_REV
+79,Unspecified,0.0,USD21-90390_2003SchoolBond-03E,INVEST_TRST_FUND~30800,Investment Trust Fund,INVEST_TRST_FUND
+80,Continuing Projects - Project Control,6.0,CP Fire Protctn Sys Impvt-Oth,CPTL_PRJ~16250,Capital Projects Funds,CPTL_PRJ
+81,Operating,1.0,DSODS GENERAL CITY LOANS,DEBT_SRVC~17750,Debt Service Funds,DEBT_SRVC
+82,Unspecified,0.0,Education Rev Augmentatn Fund,AGNCY_FUNDS~29090,Agency Funds,AGNCY_FUNDS
+83,Continuing Projects - Authority Control,3.0,SR Golf Fund -Continuing,SP_REV~12350,Special Revenue Funds,SP_REV
+84,Operating,1.0,SFWD-Operating Fund,ENT_FUND~SFWD_OP,Enterprise Funds,ENT_FUND
+85,Operating,1.0,Hetch Hetchy Operating Fund,5TAAA,PUC Hetch Hetchy Funds,5T
+86,Continuing Projects - Project Control,6.0,Sustainable Streets,ENT_FUND~SU_STREETS,Enterprise Funds,ENT_FUND
+87,Unspecified,0.0,2005 SFCCD G O  Bonds-A-2006,INVEST_TRST_FUND~30470,Investment Trust Fund,INVEST_TRST_FUND
+88,Continuing Projects - Authority Control,3.0,CPXCF 14 EQ SFTY&EMY RE S2018C,CPTL_PRJ~15511,Capital Projects Funds,CPTL_PRJ
+89,Continuing Projects - Authority Control,3.0,Hetchy Capital Projects Fund,ENT_FUND~HH_CPTL_PRJ,Enterprise Funds,ENT_FUND
+90,Continuing Projects,3.0,Parking & Traffic Gasoline Tax Fund,5NGTF,MTA Parking & Traffic Funds,5N
+91,Operating,1.0,SR Golf Fund Annual,SP_REV~12360,Special Revenue Funds,SP_REV
+92,Operating,1.0,Assistance Program Agency Fund,7AASS,Agency Funds,7A
+93,Work Orders/Overhead,5.0,Transit,ENT_FUND~MTA_TRANSIT,Enterprise Funds,ENT_FUND
+94,Continuing Projects,3.0,Building Inspection Fund,2SBIF,Special Revenue Funds,2S
+95,Continuing Projects,3.0,Airport Capital Projects Fund,5ACPF,SF International Airport Funds,5A
+96,No Fund Category,No Fund Category Code,Muni Capital Projects Fund,5MCPF,MTA Municipal Railway Funds,5M
+97,Annual Projects - Authority Control,2.0,LHH-Operating Fund,ENT_FUND~LHH_OP,Enterprise Funds,ENT_FUND
+98,Operating,1.0,Parking Off Street Parking Oper Fund,5XOPF,MTA Parking Garages/Other,5X
+99,Unspecified,0.0,CPXCF 16 PH & SFTY 1St S17A,CPTL_PRJ~15515,Capital Projects Funds,CPTL_PRJ
+100,Unspecified,0.0,OCII DSF 2006B Bonds Tax Expt,PVT_PURPS_TRST~29720,Private Purpose Trust Fund,PVT_PURPS_TRST
+101,Operating,1.0,SFCTA Financial Statements Reclass,8TF/S,SF Transportation Authority Funds,8T
+102,Unspecified,0.0,CPXCF 2008 SFGH IMP S2014A,CPTL_PRJ~15450,Capital Projects Funds,CPTL_PRJ
+103,Unspecified,0.0,Courts Deposits Fund-Interest,AGNCY_FUNDS~28600,Agency Funds,AGNCY_FUNDS
+104,Continuing Projects - Authority Control,3.0,SR SFPD-Criminalistics Lab,SP_REV~13570,Special Revenue Funds,SP_REV
+105,Annual Projects,2.0,Culture & Recreation Fund,2SCRF,Special Revenue Funds,2S
+106,Continuing Projects - Authority Control,3.0,SR SFPD-Auto Fingerprint Id,SP_REV~13590,Special Revenue Funds,SP_REV
+107,Operating,1.0,Deposits Fund,7ADEP,Agency Funds,7A
+108,Grants Projects,4.0,CPSIF Street Impvt-Fed,CPTL_PRJ~17210,Capital Projects Funds,CPTL_PRJ
+109,Grants Projects,4.0,SR Neighborhood Dev-Grants,SP_REV~10770,Special Revenue Funds,SP_REV
+110,Unspecified,0.0,COP  War Memorial Vtrns S16A,DEBT_SRVC~17525,Debt Service Funds,DEBT_SRVC
+111,Unspecified,0.0,HSS Non-Charter Benefits,PSN_OTHR_EMP_BEN~31220,"Pension, Other Employee and Ot",PSN_OTHR_EMP_BEN
+112,Operating,1.0,OCII DSF 2011 Hotel Tax Bonds,PVT_PURPS_TRST~29870,Private Purpose Trust Fund,PVT_PURPS_TRST
+113,Unspecified,0.0,2005 SFCCD Imprvt Bond-B-2007,INVEST_TRST_FUND~30480,Investment Trust Fund,INVEST_TRST_FUND
+114,Grants,4.0,City Facilities Improvement Fund,3CXCF,Capital Projects Funds,3C
+115,Continuing Projects,3.0,Water Capital Projects Fund,5WCPF,PUC Water Department Funds,5W
+116,Continuing Projects - Authority Control,3.0,SR State Auth Special Rev,SP_REV~12610,Special Revenue Funds,SP_REV
+117,Grants,4.0,Laguna Honda Trust & Agency Fund,5LTAF,Laguna Honda Hospital Funds,5L
+118,Operating,1.0,Other Agency Fund,7AZAF,Agency Funds,7A
+119,Grants Projects,4.0,Children's Fund,SP_REV~CHLD,Special Revenue Funds,SP_REV
+120,Annual Projects,2.0,War Memorial Fund,2SWMF,Special Revenue Funds,2S
+121,Continuing Projects,3.0,Muni Capital Projects Fund,5MCPF,MTA Municipal Railway Funds,5M
+122,Grants,4.0,Airport Operating Grants Fund,5AAGT,SF International Airport Funds,5A
+123,Operating,1.0,War Memorial Fund,2SWMF,Special Revenue Funds,2S
+124,Work Orders/Overhead,5.0,Hetch Hetchy Operating Fund,5TAAA,PUC Hetch Hetchy Funds,5T
+125,Continuing Projects - Authority Control,3.0,SR Nov 2016 Prop I Dignity,SP_REV~12965,Special Revenue Funds,SP_REV
+126,Continuing Projects - Authority Control,3.0,OCIICPFContinuingAuthorityCtrl,PVT_PURPS_TRST~30110,Private Purpose Trust Fund,PVT_PURPS_TRST
+127,Operating,1.0,OCII DSF 2017B TBY,PVT_PURPS_TRST~29904,Private Purpose Trust Fund,PVT_PURPS_TRST
+128,Grants,4.0,Street Improvement Fund,3CSIF,Capital Projects Funds,3C
+129,Operating,1.0,Treasurer's Group Of Accounts,99999,Treasurer's Group Of Accounts,99
+130,Operating,1.0,Parking & Traffic Gasoline Tax Fund,2SGTF,Special Revenue Funds,2S
+131,Unspecified,0.0,OCII CPF 2011A BONDS TAXABLE,PVT_PURPS_TRST~30030,Private Purpose Trust Fund,PVT_PURPS_TRST
+132,Unspecified,0.0,LHH - Patient Trust,AGNCY_FUNDS~28651,Agency Funds,AGNCY_FUNDS
+133,Unspecified,0.0,CPXCF 16 PH & SFTY 2nd S18E,CPTL_PRJ~15516,Capital Projects Funds,CPTL_PRJ
+134,Continuing Projects,3.0,Fire Protection Systems Impvt. Fund,3CFPS,Capital Projects Funds,3C
+135,Unspecified,0.0,2001 SFCCD Imprvt Bond-2004,INVEST_TRST_FUND~30450,Investment Trust Fund,INVEST_TRST_FUND
+136,Continuing Projects - Authority Control,3.0,SR Public Health,SP_REV~11630,Special Revenue Funds,SP_REV
+137,Continuing Projects - Authority Control,3.0,SR Eastern Neighborhood CI,SP_REV~10670,Special Revenue Funds,SP_REV
+138,Continuing Projects,3.0,Community Health Services Fund,2SCHS,Special Revenue Funds,2S
+139,Grants,4.0,Trial Courts Agency Fund,7ACRT,Agency Funds,7A
+140,No Fund Category,No Fund Category Code,Sfmta Debt Service Fund - Garage,5XDSF,MTA Parking Garages/Other,5X
+141,Continuing Projects,3.0,Transportation & Commerce Fund,2ST&C,Special Revenue Funds,2S
+142,Continuing Projects - Authority Control,3.0,SR RMRA County Capital Funding,SP_REV~12785,Special Revenue Funds,SP_REV
+143,Continuing Projects,3.0,Culture & Recreation Fund,2SCRF,Special Revenue Funds,2S
+144,Unspecified,0.0,USD35-County School Facilities,INVEST_TRST_FUND~30990,Investment Trust Fund,INVEST_TRST_FUND
+145,Operating,1.0,Retiree Health Care Trust Fund - Prop B,7RRHC,Retiree Health Care Trust Fund - Prop B,7R
+146,Continuing Projects,3.0,Parking Operating Fund,8TAAA,SF Transportation Authority Funds,8T
+147,Continuing Projects - Authority Control,3.0,CleanPowerSF Capital Fund,ENT_FUND~CLN_PWR_CPTL,Enterprise Funds,ENT_FUND
+148,Continuing Projects - Authority Control,3.0,SFIA-Operating Fund,ENT_FUND~SFIA_OP,Enterprise Funds,ENT_FUND
+149,Annual Projects,2.0,Water Operating Fund,5WAAA,PUC Water Department Funds,5W
+150,Operating,1.0,OCII DSF 2011E Bonds Taxable,PVT_PURPS_TRST~29860,Private Purpose Trust Fund,PVT_PURPS_TRST
+151,Operating,1.0,Convention Facilities Fund,2SCFF,Special Revenue Funds,2S
+152,Continuing Projects - Authority Control,3.0,SR Cultural Equity Endowment,SP_REV~11800,Special Revenue Funds,SP_REV
+153,Work Orders/Overhead,5.0,Parking & Traffic Operating Fund,5NAAA,MTA Parking & Traffic Funds,5N
+154,Grants,4.0,Parking & Traffic Capital Projects Fund,5NCPF,MTA Parking & Traffic Funds,5N
+155,Operating,1.0,SR WOM Domestic Violence Prog,SP_REV~12900,Special Revenue Funds,SP_REV
+156,Continuing Projects - Authority Control,3.0,SR Special Gas Tax St Impvt,SP_REV~12760,Special Revenue Funds,SP_REV
+157,Grants Projects,4.0,SR Public Prot-COVID Stim-FED,SP_REV~13551,Special Revenue Funds,SP_REV
+158,Continuing Projects - Authority Control,3.0,Children and Families Fund,SP_REV~CHLD_FAMLY,Special Revenue Funds,SP_REV
+159,Unspecified,0.0,2005 SFCCD Imprvt Bond-D-2010,INVEST_TRST_FUND~30500,Investment Trust Fund,INVEST_TRST_FUND
+160,Continuing Projects,3.0,Wastewater Capital Projects Fund,5CCPF,PUC Wastewater Funds,5C
+161,Continuing Projects - Authority Control,3.0,SR Downtown Park,SP_REV~10660,Special Revenue Funds,SP_REV
+162,No Fund Category,No Fund Category Code,Laguna Honda Operating Grants Fund,5LAGT,Laguna Honda Hospital Funds,5L
+163,Annual Projects,2.0,Parking & Traffic Off-Street Parking Fnd,5NOPF,MTA Parking & Traffic Funds,5N
+164,Grants Projects,4.0,SR Community Health-Grants,SP_REV~11580,Special Revenue Funds,SP_REV
+165,Operating,1.0,SFGH-Operating Fund,ENT_FUND~SFGH_OP_,Enterprise Funds,ENT_FUND
+166,Operating,1.0,LHH-Capital Projects Fund,ENT_FUND~LHH_CPTL_PRJ,Enterprise Funds,ENT_FUND
+167,Continuing Projects,3.0,Taxi Commission Operating Fund,5OAAA,MTA Taxi Commission,5O
+168,Continuing Projects,3.0,Community College District Agency Fund,7ASCC,Agency Funds,7A
+169,Operating,1.0,Water Debt Service Fund,5WDSF,PUC Water Department Funds,5W
+170,Operating,1.0,SR Public Library Preserv,SP_REV~13140,Special Revenue Funds,SP_REV
+171,Continuing Projects - Authority Control,3.0,OCII CPF PROPERTY TAX INCREMT,PVT_PURPS_TRST~30170,Private Purpose Trust Fund,PVT_PURPS_TRST
+172,Unspecified,0.0,CPXCF DPH 101Grove/1064Mis COP,CPTL_PRJ~15383,Capital Projects Funds,CPTL_PRJ
+173,No Fund Category,No Fund Category Code,Deposits Fund,7ADEP,Agency Funds,7A
+174,Continuing Projects - Authority Control,3.0,SR Downtown Neighborhood Prese,SP_REV~10915,Special Revenue Funds,SP_REV
+175,Unspecified,0.0,SFCCD-Retiree Health Care Fund,INVEST_TRST_FUND~30660,Investment Trust Fund,INVEST_TRST_FUND
+176,Operating,1.0,SR Grantor For The Arts Fed,SP_REV~11840,Special Revenue Funds,SP_REV
+177,Operating,1.0,Wastewater Operating Fund,5CAAA,PUC Wastewater Funds,5C
+178,Annual Projects,2.0,Port Operating Fund,5PAAA,Port Of San Francisco Funds,5P
+179,Continuing Projects,3.0,Airport Special Revenue Fund,5ASRF,SF International Airport Funds,5A
+180,Operating,1.0,OCII DSF 2007B Bonds Tax Expt,PVT_PURPS_TRST~29740,Private Purpose Trust Fund,PVT_PURPS_TRST
+181,Unspecified,0.0,SFWD-Debt Service Fund,ENT_FUND~SFWD_DEBT_SRVC,Enterprise Funds,ENT_FUND
+182,Unspecified,0.0,SR Child Support Offset Aid,SP_REV~12891,Special Revenue Funds,SP_REV
+183,No Fund Category,No Fund Category Code,Street Improvement Fund,3CSIF,Capital Projects Funds,3C
+184,No Fund Category,No Fund Category Code,Former Rda Comm Facilities Dists,7SCFD,Successor Agency-Former SF Redev Agency,7S
+185,Unspecified,0.0,SR Hope SF COP,SP_REV~10630,Special Revenue Funds,SP_REV
+186,Unspecified,0.0,CPSIF Street Impvt-Oth,CPTL_PRJ~17230,Capital Projects Funds,CPTL_PRJ
+187,Grants,4.0,Child Support Services Fund,2SCSS,Special Revenue Funds,2S
+188,Continuing Projects,3.0,Public Library Improvement Fund,3CPLI,Capital Projects Funds,3C
+189,Operating,1.0,Parking Uptown Parking,5XUPP,MTA Parking Garages/Other,5X
+190,Unspecified,0.0,CPSIF Octavia Blvd Special,CPTL_PRJ~17240,Capital Projects Funds,CPTL_PRJ
+191,Continuing Projects,3.0,Budget Savings Incentive,1GBSI,General Fund,1G
+192,Continuing Projects - Authority Control,3.0,CPRPF FC OSP VARS PK LRB-S2006,CPTL_PRJ~16780,Capital Projects Funds,CPTL_PRJ
+193,Operating,1.0,Public Protection Fund,2SPPF,Special Revenue Funds,2S
+194,Continuing Projects - Authority Control,3.0,LHH-Operating Fund,ENT_FUND~LHH_OP,Enterprise Funds,ENT_FUND
+195,Annual Projects - Authority Control,2.0,Port Operating,ENT_FUND~PRT_OP,Enterprise Funds,ENT_FUND
+196,Continuing Projects,3.0,Port Operating Fund,5PAAA,Port Of San Francisco Funds,5P
+197,Operating,1.0,Port Operating Fund,5PAAA,Port Of San Francisco Funds,5P
+198,Unspecified,0.0,SFWD-Trust & Agency Fund,ENT_FUND~SFWD_TRST_AGNCY,Enterprise Funds,ENT_FUND
+199,Operating,1.0,Hhwp-Trust & Agency Fund,5TTAF,PUC Hetch Hetchy Funds,5T
+200,Unspecified,0.0,CPSIF COP ST IMP Proj-2012A,CPTL_PRJ~17200,Capital Projects Funds,CPTL_PRJ
+201,Operating,1.0,Cleanpowersf Special Revenue Fund,5QSRF,Clp-Clean Powersf Funds,5Q
+202,Unspecified,0.0,CPSIF ARRA,CPTL_PRJ~17170,Capital Projects Funds,CPTL_PRJ
+203,Continuing Projects - Authority Control,3.0,SR BIF-Continuing Projects,SP_REV~10230,Special Revenue Funds,SP_REV
+204,Continuing Projects - Authority Control,3.0,Port-South Beach Harbor,ENT_FUND~PRT_SBEACH_HBR,Enterprise Funds,ENT_FUND
+205,No Fund Category,No Fund Category Code,Redevelopment Debt Service Fund,7SDSF,Successor Agency-Former SF Redev Agency,7S
+206,Grants,4.0,Recreation & Park Capital Impvts Fund,3CRPF,Capital Projects Funds,3C
+207,Grants,4.0,Community College District Agency Fund,7ASCC,Agency Funds,7A
+208,Continuing Projects,3.0,Parking & Traffic Capital Projects Fund,5NCPF,MTA Parking & Traffic Funds,5N
+209,Unspecified,0.0,CPXCF 10 EQ SFTY&EMY RE S2010E,CPTL_PRJ~15460,Capital Projects Funds,CPTL_PRJ
+210,Grants,4.0,Public Library Fund,2SLIB,Special Revenue Funds,2S
+211,Continuing Projects - Authority Control,3.0,SR SFPD-Vehicle Theft Crimes,SP_REV~13640,Special Revenue Funds,SP_REV
+212,Unspecified,0.0,OCII DSF 2005B Bonds Taxable,PVT_PURPS_TRST~29680,Private Purpose Trust Fund,PVT_PURPS_TRST
+213,Grants,4.0,General Hospital Operating Grants Fund,5HAGT,General Hospital Medical Center Funds,5H
+214,Grants,4.0,Culture & Recreation Fund,2SCRF,Special Revenue Funds,2S
+215,Annual Projects - Authority Control,2.0,SR Gas Tax Annual Authority,SP_REV~12769,Special Revenue Funds,SP_REV
+216,Continuing Projects - Authority Control,3.0,SR Building Standards Comssn,SP_REV~10210,Special Revenue Funds,SP_REV
+217,Continuing Projects - Account Control,7.0,SR Traffic Congest Mitign Tax,SP_REV~13831,Special Revenue Funds,SP_REV
+218,Continuing Projects - Authority Control,3.0,SR DNA Id Fund -Prop 69-2004,SP_REV~13520,Special Revenue Funds,SP_REV
+219,Unspecified,0.0,Sheriff Deposits Fund,AGNCY_FUNDS~28700,Agency Funds,AGNCY_FUNDS
+220,Work Orders/Overhead,5.0,Parking & Traffic Off-Street Parking Fnd,2SOPF,Special Revenue Funds,2S
+221,Continuing Projects - Authority Control,3.0,SR DA-Narc Forf&Asset Seizure,SP_REV~13510,Special Revenue Funds,SP_REV
+222,Grants,4.0,Hetch Hetchy Operating Grants Fund,5TAGT,PUC Hetch Hetchy Funds,5T
+223,Unspecified,0.0,OCII CPF 2011E BONDS TAXABLE,PVT_PURPS_TRST~30070,Private Purpose Trust Fund,PVT_PURPS_TRST
+224,Annual Projects,2.0,Children's Fund,2SCHF,Special Revenue Funds,2S
+225,Annual Projects - Authority Control,2.0,OCII SBH Annual Authority Ctrl,PVT_PURPS_TRST~30200,Private Purpose Trust Fund,PVT_PURPS_TRST
+226,Continuing Projects,3.0,Muni Operating Fund,5MAAA,MTA Municipal Railway Funds,5M
+227,Continuing Projects - Authority Control,3.0,SR SFPD-NarcForf&AssetSeizure,SP_REV~13600,Special Revenue Funds,SP_REV
+228,Operating,1.0,OCII DSF 2010A Bonds Taxable,PVT_PURPS_TRST~29810,Private Purpose Trust Fund,PVT_PURPS_TRST
+229,Work Orders/Overhead,5.0,Wastewater Operating Fund,5CAAA,PUC Wastewater Funds,5C
+230,Unspecified,0.0,SR Grants; GSF Continuing Oth,SP_REV~12520,Special Revenue Funds,SP_REV
+231,Continuing Projects - Authority Control,3.0,SR Sheriff-Peace Offr Traing,SP_REV~13690,Special Revenue Funds,SP_REV
+232,Unspecified,0.0,CPXCF 10 EQ SFTY&EMY RE S2012E,CPTL_PRJ~15480,Capital Projects Funds,CPTL_PRJ
+233,Operating,1.0,General Hopsital Operating Fund,5HAAA,General Hospital Medical Center Funds,5H
+234,Grants,4.0,Hetch Hetchy Capital Projects Fund,5TCPF,PUC Hetch Hetchy Funds,5T
+235,Operating,1.0,Public Library Fund,2SLIB,Special Revenue Funds,2S
+236,Unspecified,0.0,SR SFPD-County AutoWarrant Sys,SP_REV~13650,Special Revenue Funds,SP_REV
+237,Unspecified,0.0,CPXCF COP HOJ Relo-Site Aquis,CPTL_PRJ~15381,Capital Projects Funds,CPTL_PRJ
+238,Unspecified,0.0,OCII DSF 1998C Tax Exempt,PVT_PURPS_TRST~29940,Private Purpose Trust Fund,PVT_PURPS_TRST
+239,No Fund Category,No Fund Category Code,Redevelopment Obligation Fund,7SROF,Successor Agency-Former SF Redev Agency,7S
+240,Unspecified,0.0,CPEQS EARTHQUAKE SFTY IMP-OTH,CPTL_PRJ~16030,Capital Projects Funds,CPTL_PRJ
+241,Grants Projects,4.0,SR ETF-Gift,SP_REV~14820,Special Revenue Funds,SP_REV
+242,Grants,4.0,Wastewater Capital Projects Fund,5CCPF,PUC Wastewater Funds,5C
+243,Unspecified,0.0,DSCOP REFDG -MOS S-N- S2011A-B,DEBT_SRVC~17470,Debt Service Funds,DEBT_SRVC
+244,Unspecified,0.0,TI CFD IA#1 Special Tax Fund,AGNCY_FUNDS~29581,Agency Funds,AGNCY_FUNDS
+245,Unspecified,0.0,CWP-Operating Fund,ENT_FUND~CWP_OP,Enterprise Funds,ENT_FUND
+246,Continuing Projects - Authority Control,3.0,SFGH-Operating Fund,ENT_FUND~SFGH_OP_,Enterprise Funds,ENT_FUND
+247,Continuing Projects - Project Control,6.0,CP R&P Capital Impvt-Oth,CPTL_PRJ~16940,Capital Projects Funds,CPTL_PRJ
+248,Unspecified,0.0,SR Affordable Housing GOB2016F,SP_REV~10565,Special Revenue Funds,SP_REV
+249,Continuing Projects - Authority Control,3.0,OCII CPF DEBT SERVICE,PVT_PURPS_TRST~30140,Private Purpose Trust Fund,PVT_PURPS_TRST
+250,Unspecified,0.0,SR R&P-Fish&Game Propagation,SP_REV~11950,Special Revenue Funds,SP_REV
+251,Unspecified,0.0,OCII CPF 2017C Taxable Bonds,PVT_PURPS_TRST~20275,Private Purpose Trust Fund,PVT_PURPS_TRST
+252,Grants,4.0,Redevelopment Obligation Fund,7SROF,Successor Agency-Former SF Redev Agency,7S
+253,Unspecified,0.0,SR DW-Special Engr Inspection,SP_REV~13960,Special Revenue Funds,SP_REV
+254,Continuing Projects - Authority Control,3.0,GF Continuing Authority Ctrl,GEN_FUND~10020,General Fund,GEN_FUND
+255,Grants,4.0,Courts' Fund,2SCTF,Special Revenue Funds,2S
+256,Unspecified,0.0,CPXCF 10 EQ SFTY&EMY RE S2013B,CPTL_PRJ~15490,Capital Projects Funds,CPTL_PRJ
+257,Continuing Projects - Authority Control,3.0,SR Citywide Affordable Housing,SP_REV~10580,Special Revenue Funds,SP_REV
+258,Unspecified,0.0,SR Affordable Housing Bond-PI,SP_REV~10590,Special Revenue Funds,SP_REV
+259,Unspecified,0.0,CPF Moscone Ctr Expansion,CPTL_PRJ~16420,Capital Projects Funds,CPTL_PRJ
+260,Operating,1.0,Other Debt Service Fund,4DODS,Debt Service Funds,4D
+261,Annual Projects,2.0,Open Space & Park Fund,2SOSP,Special Revenue Funds,2S
+262,No Fund Category,No Fund Category Code,Water Debt Service Fund,5WDSF,PUC Water Department Funds,5W
+263,Work Orders/Overhead,5.0,Laguna Honda Operating Fund,5LAAA,Laguna Honda Hospital Funds,5L
+264,Continuing Projects - Authority Control,3.0,CPSIF 2011 RD REPV&ST SFY-12C,CPTL_PRJ~17080,Capital Projects Funds,CPTL_PRJ
+265,Operating,1.0,Port Trust & Agency Fund,5PTAF,Port Of San Francisco Funds,5P
+266,Continuing Projects - Authority Control,3.0,SR 2016 HOUS REHAB GO2nd 2020C,SP_REV~10568,Special Revenue Funds,SP_REV
+267,Unspecified,0.0,Edison Schools,AGNCY_FUNDS~29410,Agency Funds,AGNCY_FUNDS
+268,Work Orders/Overhead,5.0,Muni Operating Fund,5MAAA,MTA Municipal Railway Funds,5M
+269,Unspecified,0.0,OCII CFD 1,AGNCY_FUNDS~29560,Agency Funds,AGNCY_FUNDS
+270,Grants Projects,4.0,SR Human Welfare-Grants,SP_REV~12960,Special Revenue Funds,SP_REV
+271,Unspecified,0.0,SR PW-Personnel,SP_REV~13950,Special Revenue Funds,SP_REV
+272,Annual Projects - Authority Control,2.0,SFGH-Operating Fund,ENT_FUND~SFGH_OP_,Enterprise Funds,ENT_FUND
+273,Unspecified,0.0,CPXCF 20 HEALTH&RECOV S2021D,CPTL_PRJ~15513,Capital Projects Funds,CPTL_PRJ
+274,Operating,1.0,OCII DSF 2009B Bonds Tax Expt,PVT_PURPS_TRST~29760,Private Purpose Trust Fund,PVT_PURPS_TRST
+275,Unspecified,0.0,Hlth Care-Prop B CC Trust Fund,PSN_OTHR_EMP_BEN~31430,"Pension, Other Employee and Ot",PSN_OTHR_EMP_BEN
+276,Unspecified,0.0,LHH-Operating Grants Fund,ENT_FUND~LHH_OP_GRNTS,Enterprise Funds,ENT_FUND
+277,Continuing Projects,3.0,Children's Fund,2SCHF,Special Revenue Funds,2S
+278,Unspecified,0.0,DSCOP STREET IMPROVMT S2009B,DEBT_SRVC~17360,Debt Service Funds,DEBT_SRVC
+279,Grants,4.0,Human Welfare Fund,2SHWF,Special Revenue Funds,2S
+280,Unspecified,0.0,USD21-90392_2011SchoolBond-11D,INVEST_TRST_FUND~30970,Investment Trust Fund,INVEST_TRST_FUND
+281,Operating,1.0,OCII DSF 2017 E (Tax Exempt),PVT_PURPS_TRST~29907,Private Purpose Trust Fund,PVT_PURPS_TRST
+282,Unspecified,0.0,SR Real Property-General,SP_REV~14290,Special Revenue Funds,SP_REV
+283,Operating,1.0,Bicycle Operating Fund,5YAAA,MTA Bicycle Fund,5Y
+284,Unspecified,0.0,OCII CPF Financial Statements,PVT_PURPS_TRST~30150,Private Purpose Trust Fund,PVT_PURPS_TRST
+285,Continuing Projects - Authority Control,3.0,SR Da-Special Revenue,SP_REV~13500,Special Revenue Funds,SP_REV
+286,Operating,1.0,Muni Operating Fund,5MAAA,MTA Municipal Railway Funds,5M
+287,Operating,1.0,Taxi Commission Operating Fund,5OAAA,MTA Taxi Commission,5O
+288,Continuing Projects,3.0,Citywide Communication System Fund,3CCCS,Capital Projects Funds,3C
+289,Operating,1.0,PUC Operating Fund,5WPUC,PUC Water Department Funds,5W
+290,Continuing Projects,3.0,General Fund,1GAGF,General Fund,1G
+291,Unspecified,0.0,2001 SFCCD Imprvt Bond-2002A,INVEST_TRST_FUND~30440,Investment Trust Fund,INVEST_TRST_FUND
+292,Unspecified,0.0,Hetchy Operating Fund,ENT_FUND~HH_OP,Enterprise Funds,ENT_FUND
+293,Grants Projects,4.0,SR Grants; ENV Continuing,SP_REV~12230,Special Revenue Funds,SP_REV
+294,Unspecified,0.0,CPSIF 2014 TRPTN&RD IMP-2018B,CPTL_PRJ~17101,Capital Projects Funds,CPTL_PRJ
+295,Operating,1.0,Water Trust & Agency Fund,5WTAF,PUC Water Department Funds,5W
+296,Unspecified,0.0,OCII DSF 2011C Bonds Tax Expt,PVT_PURPS_TRST~29840,Private Purpose Trust Fund,PVT_PURPS_TRST
+297,Unspecified,0.0,CPXCF 1997 Zoo Fac S2005H,CPTL_PRJ~15610,Capital Projects Funds,CPTL_PRJ
+298,Unspecified,0.0,SFWD-Capital Projects Fund,ENT_FUND~SFWD_CPTL_PRJ,Enterprise Funds,ENT_FUND
+299,No Fund Category,No Fund Category Code,Mta Garage-Capital Projects Fund,5XCPF,MTA Parking Garages/Other,5X
+300,Unspecified,0.0,SR Van Ness & Market Infr,SP_REV~10890,Special Revenue Funds,SP_REV
+301,Continuing Projects,3.0,Correctional Facilities Impvt. Fund,3CCFI,Capital Projects Funds,3C
+302,Continuing Projects - Authority Control,3.0,HHWP Special Revenue,ENT_FUND~HHWP_SP_REV,Enterprise Funds,ENT_FUND
+303,Annual Projects - Authority Control,2.0,Hetchy Operating Fund,ENT_FUND~HH_OP,Enterprise Funds,ENT_FUND
+304,Operating,1.0,Muni Transbay Joint Powers Authority,7ATJP,Agency Funds,7A
+305,Continuing Projects,3.0,Muni Operating Grants Fund,5MAGT,MTA Municipal Railway Funds,5M
+306,Continuing Projects,3.0,SFCTA Capital Project Fund,8TCPF,SF Transportation Authority Funds,8T
+307,Grants Projects,4.0,LHH-Operating Fund,ENT_FUND~LHH_OP,Enterprise Funds,ENT_FUND
+308,Grants,4.0,Muni Operating Grants Fund,5MAGT,MTA Municipal Railway Funds,5M
+309,Work Orders/Overhead,5.0,Parking & Traffic Gasoline Tax Fund,5NGTF,MTA Parking & Traffic Funds,5N
+310,Continuing Projects - Project Control,6.0,Children's Fund,SP_REV~CHLD,Special Revenue Funds,SP_REV
+311,Operating,1.0,SR Road - Annually Budgeted,SP_REV~12790,Special Revenue Funds,SP_REV
+312,Unspecified,0.0,Deferred Pmt Settlement Fund,AGNCY_FUNDS~29080,Agency Funds,AGNCY_FUNDS
+313,Continuing Projects,3.0,Muni Transbay Joint Powers Authority,5MTJP,MTA Municipal Railway Funds,5M
+314,Annual Projects,2.0,General Hopsital Operating Fund,5HAAA,General Hospital Medical Center Funds,5H
+315,Continuing Projects - Authority Control,3.0,SR Dvros Reimbursement,SP_REV~13580,Special Revenue Funds,SP_REV
+316,Continuing Projects - Project Control,6.0,CP City Fac Impvt-Other,CPTL_PRJ~15730,Capital Projects Funds,CPTL_PRJ
+380,Grants,4.0,Water Capital Projects Fund,5WCPF,PUC Water Department Funds,5W
+317,Continuing Projects - Authority Control,3.0,SR Seismic Safety GOB-2015A,SP_REV~10540,Special Revenue Funds,SP_REV
+318,Continuing Projects,3.0,Redevelopment Obligation Fund,7SROF,Successor Agency-Former SF Redev Agency,7S
+319,Operating,1.0,Certificate of Participation Bond Fund,4DCOP,Debt Service Funds,4D
+320,Unspecified,0.0,OCII DSF 2021A,PVT_PURPS_TRST~29912,Private Purpose Trust Fund,PVT_PURPS_TRST
+321,Continuing Projects,3.0,Neighborhood Development Fund,2SNDF,Special Revenue Funds,2S
+322,Continuing Projects - Authority Control,3.0,SR Planning Code Enforcement,SP_REV~10840,Special Revenue Funds,SP_REV
+323,Continuing Projects - Authority Control,3.0,SR Dispute Resolution Program,SP_REV~12510,Special Revenue Funds,SP_REV
+324,Continuing Projects - Authority Control,3.0,SR Balboa Park CI,SP_REV~10610,Special Revenue Funds,SP_REV
+325,Continuing Projects - Authority Control,3.0,GF COVID STIMULUS FUND-FED,GEN_FUND~10126,General Fund,GEN_FUND
+326,Continuing Projects - Authority Control,3.0,Port-Capital,ENT_FUND~PRT_CPTL,Enterprise Funds,ENT_FUND
+327,Annual Projects - Authority Control,2.0,Port-South Beach Harbor,ENT_FUND~PRT_SBEACH_HBR,Enterprise Funds,ENT_FUND
+328,Unspecified,0.0,SR Courts Grants Cont Fed,SP_REV~12080,Special Revenue Funds,SP_REV
+329,Continuing Projects - Authority Control,3.0,CPXCF 10 EQ SFTY&EMY RE S2014C,CPTL_PRJ~15500,Capital Projects Funds,CPTL_PRJ
+330,Grants Projects,4.0,SFGH-Operating Fund,ENT_FUND~SFGH_OP_,Enterprise Funds,ENT_FUND
+331,Grants,4.0,Water Operating Grants Fund,5WAGT,PUC Water Department Funds,5W
+332,Grants,4.0,TIDA Special Revenue Fund,8ASRF,Treasure Island Development Authority,8A
+333,Unspecified,0.0,Hetchy Operating Grants Fund,ENT_FUND~HH_OP_GRNT,Enterprise Funds,ENT_FUND
+334,Unspecified,0.0,SFGH-Capital Projects Fund,ENT_FUND~SFGH_CPTL_PRJ,Enterprise Funds,ENT_FUND
+335,Continuing Projects,3.0,Human Welfare Fund,2SHWF,Special Revenue Funds,2S
+336,Unspecified,0.0,HSS Dental Ben Trust Fund,PSN_OTHR_EMP_BEN~31200,"Pension, Other Employee and Ot",PSN_OTHR_EMP_BEN
+337,Annual Projects,2.0,Wastewater Operating Fund,5CAAA,PUC Wastewater Funds,5C
+338,Unspecified,0.0,Courts Deposits Fund,AGNCY_FUNDS~28610,Agency Funds,AGNCY_FUNDS
+339,Unspecified,0.0,SR Grants; GSF Continuing Sta,SP_REV~12530,Special Revenue Funds,SP_REV
+340,Grants,4.0,General Services Fund,2SGSF,Special Revenue Funds,2S
+341,No Fund Category,No Fund Category Code,Hetch Hetchy Debt Service Fund,5TDSF,PUC Hetch Hetchy Funds,5T
+342,Unspecified,0.0,Investment Earning Fund,INVEST_TRST_FUND~31090,Investment Trust Fund,INVEST_TRST_FUND
+343,Unspecified,0.0,DNA Penalty Assess Gc 76104 7,AGNCY_FUNDS~28930,Agency Funds,AGNCY_FUNDS
+344,Operating,1.0,General Obligation Bond Fund,4DGOB,Debt Service Funds,4D
+345,Continuing Projects - Authority Control,3.0,OCII CPF 2017A Taxable Bonds,PVT_PURPS_TRST~30273,Private Purpose Trust Fund,PVT_PURPS_TRST
+346,Operating,1.0,Children's Fund,SP_REV~CHLD,Special Revenue Funds,SP_REV
+347,Operating,1.0,SR Workers' Compensation,SP_REV~12460,Special Revenue Funds,SP_REV
+348,No Fund Category,No Fund Category Code,Community Development Fund,2SCDB,Special Revenue Funds,2S
+349,Operating,1.0,OCII DSF 2017 D (Taxable),PVT_PURPS_TRST~29906,Private Purpose Trust Fund,PVT_PURPS_TRST
+350,Continuing Projects - Authority Control,3.0,SR Conv Fac Fd-Continuing,SP_REV~11440,Special Revenue Funds,SP_REV
+351,Unspecified,0.0,Tax Collector State Rev Fund,AGNCY_FUNDS~28970,Agency Funds,AGNCY_FUNDS
+352,Unspecified,0.0,CWP-Capital Projects Fund,ENT_FUND~CWP_CPTL_PRJ,Enterprise Funds,ENT_FUND
+353,Operating,1.0,Low-Mod Income Housing Asset Fund,2SROF,Special Revenue Funds,2S
+354,Grants Projects,4.0,Children and Families Fund,SP_REV~CHLD_FAMLY,Special Revenue Funds,SP_REV
+355,No Fund Category,No Fund Category Code,Wastewater Capital Projects Fund,5CCPF,PUC Wastewater Funds,5C
+356,No Fund Category,No Fund Category Code,Hetch Hetchy Capital Projects Fund,5TCPF,PUC Hetch Hetchy Funds,5T
+357,Operating,1.0,Muni Improv Corp Funds,5MSFM,MTA Municipal Railway Funds,5M
+358,Annual Projects - Authority Control,2.0,GF Annual Authority Ctrl,GEN_FUND~10010,General Fund,GEN_FUND
+359,Unspecified,0.0,USD21-90391_2006SchoolBond-06A,INVEST_TRST_FUND~30860,Investment Trust Fund,INVEST_TRST_FUND
+360,Continuing Projects - Authority Control,3.0,SR Other Special Revenue,SP_REV~13980,Special Revenue Funds,SP_REV
+361,Operating,1.0,Parking Portsmouth Plaza Parking,5XPPP,MTA Parking Garages/Other,5X
+362,Annual Projects,2.0,Wastewater Debt Service Fund,5CDSF,PUC Wastewater Funds,5C
+363,Operating,1.0,SR Outreach Fund - Prop J,SP_REV~12600,Special Revenue Funds,SP_REV
+364,No Fund Category,No Fund Category Code,Recreation & Park Capital Impvts Fund,3CRPF,Capital Projects Funds,3C
+365,Continuing Projects,3.0,Parking & Traffic Off-Street Parking Fnd,5NOPF,MTA Parking & Traffic Funds,5N
+366,Operating,1.0,CleanPowerSF Operating Fund,ENT_FUND~CLN_PWR_OP,Enterprise Funds,ENT_FUND
+367,Work Orders/Overhead,5.0,Overhead Fund,1GOHF,General Fund,1G
+368,Continuing Projects,3.0,Courts' Fund,2SCTF,Special Revenue Funds,2S
+369,Continuing Projects,3.0,Earthquake Safety Improvements Fund,3CEQS,Capital Projects Funds,3C
+370,Unspecified,0.0,CPRPF 2000 NEIG REC&PK S2004A,CPTL_PRJ~16770,Capital Projects Funds,CPTL_PRJ
+371,Grants Projects,4.0,SR Neighborhood Dev-Grants Oth,SP_REV~10690,Special Revenue Funds,SP_REV
+372,Unspecified,0.0,DSODS Pub S Radio Repl Lease,DEBT_SRVC~17757,Debt Service Funds,DEBT_SRVC
+373,Unspecified,0.0,USD21-90391_2006SchoolBond-06F,INVEST_TRST_FUND~30910,Investment Trust Fund,INVEST_TRST_FUND
+374,Continuing Projects - Authority Control,3.0,SR Sheriff-State Authorized,SP_REV~13660,Special Revenue Funds,SP_REV
+375,Continuing Projects - Authority Control,3.0,SFGH-Capital Projects Fund,ENT_FUND~SFGH_CPTL_PRJ,Enterprise Funds,ENT_FUND
+376,Operating,1.0,SR R&P-Marina -Annual,SP_REV~11902,Special Revenue Funds,SP_REV
+377,Grants,4.0,Port Trust & Agency Fund,5PTAF,Port Of San Francisco Funds,5P
+378,Operating,1.0,SR Conv Fac Fd-Operating,SP_REV~11430,Special Revenue Funds,SP_REV
+379,Unspecified,0.0,CPXCF CFD Spcl Tax Bd S17A-TTC,CPTL_PRJ~15787,Capital Projects Funds,CPTL_PRJ
+381,Grants,4.0,Port Operating Grants Fund,5PAGT,Port Of San Francisco Funds,5P
+382,Work Orders/Overhead,5.0,GF PW Work Order,GEN_FUND~10040,General Fund,GEN_FUND
+383,Grants,4.0,Children's Fund,2SCHF,Special Revenue Funds,2S
+384,Unspecified,0.0,DSODS Transbay Transit Ctr160M,DEBT_SRVC~17756,Debt Service Funds,DEBT_SRVC
+385,Continuing Projects - Authority Control,3.0,SR Neighborhood Beautifcation,SP_REV~10600,Special Revenue Funds,SP_REV
+386,Grants,4.0,Children and Families Fund,2SCFC,Special Revenue Funds,2S
+387,Grants,4.0,Laguna Honda Operating Grants Fund,5LAGT,Laguna Honda Hospital Funds,5L
+388,Unspecified,0.0,SFIA-Capital Projects Fund,ENT_FUND~SFIA_CPTL_PRJ,Enterprise Funds,ENT_FUND
+389,Continuing Projects,3.0,Water Operating Fund,5WAAA,PUC Water Department Funds,5W
+390,Operating,1.0,Parking San Francisco Market Corporation,5XSMC,MTA Parking Garages/Other,5X
+391,Unspecified,0.0,CPMCF COP MOS CTR PROJ S2013A,CPTL_PRJ~16390,Capital Projects Funds,CPTL_PRJ
+392,Continuing Projects - Authority Control,3.0,SR Conv Fac Fd-Low Incm House,SP_REV~11450,Special Revenue Funds,SP_REV
+393,Unspecified,0.0,OCII DSF 2009C Bonds Tax Expt,PVT_PURPS_TRST~29770,Private Purpose Trust Fund,PVT_PURPS_TRST
+394,Unspecified,0.0,SFCCD-Restricted General Fund,INVEST_TRST_FUND~30520,Investment Trust Fund,INVEST_TRST_FUND
+395,Continuing Projects,3.0,Muni Special Revenue Fund,5MSRF,MTA Municipal Railway Funds,5M
+396,Work Orders/Overhead,5.0,Hetchy Operating Fund,ENT_FUND~HH_OP,Enterprise Funds,ENT_FUND
+397,Unspecified,0.0,2005 SFCCD Imprvt Bond-C-2010,INVEST_TRST_FUND~30490,Investment Trust Fund,INVEST_TRST_FUND
+398,Continuing Projects - Authority Control,3.0,SR Museums Admission,SP_REV~11940,Special Revenue Funds,SP_REV
+399,Unspecified,0.0,USD21-90392_2011SchoolBond-11B,INVEST_TRST_FUND~30950,Investment Trust Fund,INVEST_TRST_FUND
+400,Operating,1.0,PUC Operating Fund,ENT_FUND~PUC_OP,Enterprise Funds,ENT_FUND
+401,Grants Projects,4.0,SR HumanWelfare-COVID Stim-FED,SP_REV~12961,Special Revenue Funds,SP_REV
+402,Operating,1.0,SFIA-Operating Fund,ENT_FUND~SFIA_OP,Enterprise Funds,ENT_FUND
+403,Unspecified,0.0,USD63 - Enterprise Fund -KALW,INVEST_TRST_FUND~30840,Investment Trust Fund,INVEST_TRST_FUND
+404,Operating,1.0,SR Env-Operating-Non-Project,SP_REV~12200,Special Revenue Funds,SP_REV
+405,Continuing Projects - Authority Control,3.0,SR Vital & Hlth Stat Fees,SP_REV~12650,Special Revenue Funds,SP_REV
+406,Annual Projects - Authority Control,2.0,OCII DSF 1998D Tax Exempt,PVT_PURPS_TRST~29950,Private Purpose Trust Fund,PVT_PURPS_TRST
+407,Unspecified,0.0,OCII CPF SB2113 TAXABLE BONDS,PVT_PURPS_TRST~30180,Private Purpose Trust Fund,PVT_PURPS_TRST
+408,Unspecified,0.0,CPRPF 08 CLN&SF NEIG PK S2016A,CPTL_PRJ~16840,Capital Projects Funds,CPTL_PRJ
+409,Grants Projects,4.0,SR Culture & Rec Grants; C,SP_REV~11870,Special Revenue Funds,SP_REV
+410,Continuing Projects,3.0,"Public Works, Transp. & Commerce Fund",2SPWF,Special Revenue Funds,2S
+411,Continuing Projects - Authority Control,3.0,SR Traffic Offender,SP_REV~13610,Special Revenue Funds,SP_REV
+412,Work Orders/Overhead,5.0,Parking & Traffic Off-Street Parking Fnd,5NOPF,MTA Parking & Traffic Funds,5N
+413,Annual Projects,2.0,Parking & Traffic Off-Street Parking Fnd,2SOPF,Special Revenue Funds,2S
+414,Unspecified,0.0,DSODS Transbay Transit Ctr100M,DEBT_SRVC~17755,Debt Service Funds,DEBT_SRVC
+415,Continuing Projects - Authority Control,3.0,OCII CPF 2016B MBS Expt Bonds,PVT_PURPS_TRST~30260,Private Purpose Trust Fund,PVT_PURPS_TRST
+416,No Fund Category,No Fund Category Code,Sfmta Debt Service Fund - Sustainable St,5NDSF,MTA Parking & Traffic Funds,5N
+417,Operating,1.0,Open Space & Park Fund,2SOSP,Special Revenue Funds,2S
+418,Continuing Projects,3.0,Parking & Traffic Gasoline Tax Fund,2SGTF,Special Revenue Funds,2S
+419,Continuing Projects - Authority Control,3.0,CPSIF Street Impvt-Sta,CPTL_PRJ~17220,Capital Projects Funds,CPTL_PRJ
+420,Unspecified,0.0,Municipal Railway Improv Fund,AGNCY_FUNDS~29270,Agency Funds,AGNCY_FUNDS
+421,Grants,4.0,Community Development Fund,2SCDB,Special Revenue Funds,2S
+422,Continuing Projects,3.0,Parking Off Street Parking Oper Fund,5XOPF,MTA Parking Garages/Other,5X
+423,Unspecified,0.0,SR Community Health-Grants Oth,SP_REV~11620,Special Revenue Funds,SP_REV
+424,Unspecified,0.0,SR War Memorial Reserve,SP_REV~14720,Special Revenue Funds,SP_REV
+425,Unspecified,0.0,USD01 - General Fund,INVEST_TRST_FUND~30680,Investment Trust Fund,INVEST_TRST_FUND
+426,Continuing Projects - Authority Control,3.0,SR Housing Trust COP,SP_REV~10800,Special Revenue Funds,SP_REV
+427,Unspecified,0.0,SSD 2016C Prop A Bond,INVEST_TRST_FUND~28832,Investment Trust Fund,INVEST_TRST_FUND
+428,Grants,4.0,Neighborhood Development Fund,2SNDF,Special Revenue Funds,2S
+429,Grants,4.0,Senior Citizens' Programs Fund,2SSCP,Special Revenue Funds,2S
+430,Continuing Projects - Authority Control,3.0,SR Seismic Safety-UMB Bonds,SP_REV~10870,Special Revenue Funds,SP_REV
+431,Grants Projects,4.0,SR Public Protection-Grant,SP_REV~13550,Special Revenue Funds,SP_REV
+432,Grants Projects,4.0,SR Neighborhood Dev-Grants Sta,SP_REV~10680,Special Revenue Funds,SP_REV
+433,Grants Projects,4.0,Transit,ENT_FUND~MTA_TRANSIT,Enterprise Funds,ENT_FUND
+434,Operating,1.0,Children's Fund,2SCHF,Special Revenue Funds,2S
+435,Continuing Projects - Authority Control,3.0,SR Library Fund - Continuing,SP_REV~13080,Special Revenue Funds,SP_REV
+436,Work Orders/Overhead,5.0,IS-Central Shops Fund,INTRL_SRVC~IS_CNTRL_SHP,Internal Service Funds,INTRL_SRVC
+437,No Fund Category,No Fund Category Code,Other Debt Service Fund,4DODS,Debt Service Funds,4D
+438,Operating,1.0,IS-Reproduction Fund,INTRL_SRVC~IS_REPRO,Internal Service Funds,INTRL_SRVC
+439,Operating,1.0,Laguna Honda Debt Service Fund,5LDSF,Laguna Honda Hospital Funds,5L
+440,Operating,1.0,Child Support Services Fund,2SCSS,Special Revenue Funds,2S
+441,Grants,4.0,Bequests Fund,7EBEQ,Expendable Trust Funds,7E
+442,Continuing Projects - Authority Control,3.0,SR Arts Com-Strt Artist Prog,SP_REV~11750,Special Revenue Funds,SP_REV
+443,No Fund Category,No Fund Category Code,Airport Capital Projects Fund,5ACPF,SF International Airport Funds,5A
+444,Continuing Projects - Authority Control,3.0,CPXCF 10 EQ SFTY&EMY RE S2012A,CPTL_PRJ~15470,Capital Projects Funds,CPTL_PRJ
+445,Unspecified,0.0,USD51-Bond Int & Redemption,INVEST_TRST_FUND~31050,Investment Trust Fund,INVEST_TRST_FUND
+446,Unspecified,0.0,DSCOP REFDG-SF CRTHSE-S2014-R1,DEBT_SRVC~17480,Debt Service Funds,DEBT_SRVC
+447,Grants Projects,4.0,Perm ETF-Bequests,PERMA_FUND~17860,Permanent Fund,PERMA_FUND
+448,Continuing Projects - Authority Control,3.0,DTIS-Telecomm. & Information S,INTRL_SRVC~DTIS_TELCOM_IS,Internal Service Funds,INTRL_SRVC
+449,Annual Projects - Authority Control,2.0,SR WAR - Annual Authority Ctrl,SP_REV~14680,Special Revenue Funds,SP_REV
+450,Grants,4.0,Airport Special Revenue Fund,5ASRF,SF International Airport Funds,5A
+451,Unspecified,0.0,SFCCD Educational-1999A,INVEST_TRST_FUND~30550,Investment Trust Fund,INVEST_TRST_FUND
+452,Continuing Projects - Authority Control,3.0,Sustainable Streets,ENT_FUND~SU_STREETS,Enterprise Funds,ENT_FUND
+453,Continuing Projects,3.0,Telecomm. & Information Svcs Fund,6ITIF,Internal Service Funds,6I
+454,Work Orders/Overhead,5.0,PUC Operating Fund,5WPUC,PUC Water Department Funds,5W
+455,Unspecified,0.0,SR 19 AFFORD HOUSING 1st S21A,SP_REV~10567,Special Revenue Funds,SP_REV
+456,Continuing Projects - Authority Control,3.0,CP SF Capital Planning,CPTL_PRJ~15680,Capital Projects Funds,CPTL_PRJ
+457,Operating,1.0,OCII CPF ALLOCABLE COST FUND,PVT_PURPS_TRST~30120,Private Purpose Trust Fund,PVT_PURPS_TRST
+458,Unspecified,0.0,CP Cmed Building,CPTL_PRJ~15650,Capital Projects Funds,CPTL_PRJ
+459,Unspecified,0.0,SFIA-Special Revenue Fund,ENT_FUND~SFIA_SP_REV,Enterprise Funds,ENT_FUND
+460,Operating,1.0,SR Solid Waste Non-Project,SP_REV~13990,Special Revenue Funds,SP_REV
+461,Continuing Projects,3.0,Real Property Fund,2SRPF,Special Revenue Funds,2S
+462,Operating,1.0,Finance Corporation Capital Project Fund,3CFCF,Capital Projects Funds,3C
+463,Continuing Projects - Authority Control,3.0,SR Road,SP_REV~12780,Special Revenue Funds,SP_REV
+464,Unspecified,0.0,CPXCF 10 EQ SFTY&EMY RE S2016C,CPTL_PRJ~15770,Capital Projects Funds,CPTL_PRJ
+465,Unspecified,0.0,USD - Subsidiary Control Fund,INVEST_TRST_FUND~31070,Investment Trust Fund,INVEST_TRST_FUND
+466,Operating,1.0,General Fund,1GAGF,General Fund,1G
+467,Grants Projects,4.0,SR Senior Citizens-Grants,SP_REV~14560,Special Revenue Funds,SP_REV
+468,Unspecified,0.0,SR 2016 HOUS REHAB GO1st 2019A,SP_REV~10566,Special Revenue Funds,SP_REV
+469,Unspecified,0.0,CPXCF 14 EQ SFTY&EMY RE S2014D,CPTL_PRJ~15510,Capital Projects Funds,CPTL_PRJ
+470,Grants Projects,4.0,SR Senior Citizens-Grants Sta,SP_REV~14520,Special Revenue Funds,SP_REV
+471,Annual Projects - Authority Control,2.0,CleanPowerSF Operating Fund,ENT_FUND~CLN_PWR_OP,Enterprise Funds,ENT_FUND
+472,Annual Projects - Authority Control,2.0,SR Road Annual Authority,SP_REV~12789,Special Revenue Funds,SP_REV
+473,Unspecified,0.0,USD21-90391_2006SchoolBond-06E,INVEST_TRST_FUND~30900,Investment Trust Fund,INVEST_TRST_FUND
+474,Unspecified,0.0,OCII CFD 6,AGNCY_FUNDS~29580,Agency Funds,AGNCY_FUNDS
+475,Grants,4.0,General Hopsital Operating Fund,5HAAA,General Hospital Medical Center Funds,5H
+476,No Fund Category,No Fund Category Code,Water Capital Projects Fund,5WCPF,PUC Water Department Funds,5W
+477,Unspecified,0.0,CPSIF 2006 Prop 1B-City-08,CPTL_PRJ~17060,Capital Projects Funds,CPTL_PRJ
+478,Unspecified,0.0,SSD 2016A Prop A Bond,INVEST_TRST_FUND~28830,Investment Trust Fund,INVEST_TRST_FUND
+479,Operating,1.0,OCII DSF 2009F Bonds Tax Expt,PVT_PURPS_TRST~29800,Private Purpose Trust Fund,PVT_PURPS_TRST
+480,Unspecified,0.0,Mission Rock STD Dev Spcl Tax,AGNCY_FUNDS~29605,Agency Funds,AGNCY_FUNDS
+481,Continuing Projects - Authority Control,3.0,LHH-Capital Projects Fund,ENT_FUND~LHH_CPTL_PRJ,Enterprise Funds,ENT_FUND
+482,Unspecified,0.0,USD - Interest Accumulation,INVEST_TRST_FUND~31060,Investment Trust Fund,INVEST_TRST_FUND
+483,Continuing Projects - Authority Control,3.0,SR Child Care Capital,SP_REV~10570,Special Revenue Funds,SP_REV
+484,Operating,1.0,Child Support Services,SP_REV~CHLD_SUPP_SRVCS,Special Revenue Funds,SP_REV
+485,Work Orders/Overhead,5.0,Water Operating Fund,5WAAA,PUC Water Department Funds,5W
+486,Annual Projects,2.0,Hetch Hetchy Debt Service Fund,5TDSF,PUC Hetch Hetchy Funds,5T
+487,Grants,4.0,Subventions & Other Allocations Fund,1GS&A,General Fund,1G
+488,Operating,1.0,OCII DSF 2003A Bonds Taxable,PVT_PURPS_TRST~29610,Private Purpose Trust Fund,PVT_PURPS_TRST
+489,Operating,1.0,Pedestrian Operating Fund,5ZAAA,MTA Pedestrian Fund,5Z
+490,Continuing Projects - Authority Control,3.0,SR Real Property,SP_REV~14300,Special Revenue Funds,SP_REV
+491,Continuing Projects - Authority Control,3.0,SR 2016 Prop E StreetTreeMaint,SP_REV~13985,Special Revenue Funds,SP_REV
+492,Grants,4.0,Environmental Protection Program Fund,2SENV,Special Revenue Funds,2S
+493,Unspecified,0.0,Bay Area Rapid Transit,AGNCY_FUNDS~29250,Agency Funds,AGNCY_FUNDS
+494,Continuing Projects - Authority Control,3.0,SR Rincon Hill and SOMA CI,SP_REV~10860,Special Revenue Funds,SP_REV
+495,Unspecified,0.0,CPXCF 1500 Mission Project COP,CPTL_PRJ~15786,Capital Projects Funds,CPTL_PRJ
+496,Continuing Projects,3.0,Environmental Protection Program Fund,2SENV,Special Revenue Funds,2S
+497,Unspecified,0.0,Hetchy Debt Service Fund,ENT_FUND~HH_DEBT_SRVC,Enterprise Funds,ENT_FUND
+498,Continuing Projects - Authority Control,3.0,SR Housing Program Fees,SP_REV~10790,Special Revenue Funds,SP_REV
+499,Operating,1.0,Finance Corp Lease Rev Bonds Fund,4DFCL,Debt Service Funds,4D
+500,Annual Projects,2.0,Public Library Fund,2SLIB,Special Revenue Funds,2S
+501,Unspecified,0.0,SR War Memorial – Grants,SP_REV~14660,Special Revenue Funds,SP_REV
+502,Operating,1.0,SR Cigarette Litter Abatement,SP_REV~13850,Special Revenue Funds,SP_REV
+503,Annual Projects,2.0,Muni Operating Fund,5MAAA,MTA Municipal Railway Funds,5M
+504,Unspecified,0.0,CPXCF WMVB COMMERCIAL PAPER,CPTL_PRJ~15640,Capital Projects Funds,CPTL_PRJ
+505,Unspecified,0.0,USD21-90392_2011SchoolBond-11C,INVEST_TRST_FUND~30960,Investment Trust Fund,INVEST_TRST_FUND
+506,Work Orders/Overhead,5.0,Airport Operating Fund,5AAAA,SF International Airport Funds,5A
+507,Continuing Projects - Authority Control,3.0,SR RMRA City Capital Funding,SP_REV~12775,Special Revenue Funds,SP_REV
+508,Continuing Projects,3.0,Parking & Traffic Off-Street Parking Fnd,2SOPF,Special Revenue Funds,2S
+509,Annual Projects - Authority Control,2.0,SFIA-Operating Fund,ENT_FUND~SFIA_OP,Enterprise Funds,ENT_FUND
+510,Unspecified,0.0,TI IRFD Incrmt Tax Prj Housing,SP_REV~14453,Special Revenue Funds,SP_REV
+511,Unspecified,0.0,CPXCF 2008 SFGH IMP S2010A,CPTL_PRJ~15420,Capital Projects Funds,CPTL_PRJ
+512,Continuing Projects,3.0,San Francisco Finance Corporation,6IFCF,Internal Service Funds,6I
+513,Continuing Projects - Authority Control,3.0,CPSIF COP REFUNDING ST IMP2019,CPTL_PRJ~17102,Capital Projects Funds,CPTL_PRJ
+514,Unspecified,0.0,OCII CPF 2009F BONDS TAX EXPT,PVT_PURPS_TRST~30020,Private Purpose Trust Fund,PVT_PURPS_TRST
+515,Unspecified,0.0,SR War Mem Conssn Equip Rplm,SP_REV~14700,Special Revenue Funds,SP_REV
+516,Continuing Projects - Authority Control,3.0,SR Library Special Revenue,SP_REV~13150,Special Revenue Funds,SP_REV
+517,Continuing Projects,3.0,Public Health Facilities Impvt. Fund,3CPHF,Capital Projects Funds,3C
+518,Operating,1.0,Subventions & Other Allocations Fund,1GS&A,General Fund,1G
+519,Work Orders/Overhead,5.0,SR PW Paid Time Off,SP_REV~13940,Special Revenue Funds,SP_REV
+520,Continuing Projects,3.0,Public Protection Fund,2SPPF,Special Revenue Funds,2S
+521,Continuing Projects - Authority Control,3.0,"SR Union Sq Prk, Rec, OS fee",SP_REV~10493,Special Revenue Funds,SP_REV
+522,Continuing Projects - Authority Control,3.0,OCII CPF 2017B Tax Expt Bonds,PVT_PURPS_TRST~30274,Private Purpose Trust Fund,PVT_PURPS_TRST
+523,Operating,1.0,Airport Operating Fund,5AAAA,SF International Airport Funds,5A
+524,Continuing Projects,3.0,Convention Facilities Fund,2SCFF,Special Revenue Funds,2S
+525,Unspecified,0.0,Local Transportation Fund,AGNCY_FUNDS~29260,Agency Funds,AGNCY_FUNDS
+526,Annual Projects,2.0,South Beach Harbor Fund,7SSBH,Successor Agency-Former SF Redev Agency,7S
+527,Continuing Projects - Authority Control,3.0,SR ADP Special Rev Fund,SP_REV~13470,Special Revenue Funds,SP_REV
+528,Operating,1.0,SR BIF Operating Project,SP_REV~10190,Special Revenue Funds,SP_REV
+529,Continuing Projects - Authority Control,3.0,CPXCF CFD Spcl Tax Bd S19A-TTC,CPTL_PRJ~15789,Capital Projects Funds,CPTL_PRJ
+530,Operating,1.0,Golf Fund,2SGOL,Special Revenue Funds,2S
+531,Operating,1.0,Laguna Honda Trust & Agency Fund,5LTAF,Laguna Honda Hospital Funds,5L
+532,Operating,1.0,Transit Agency Fund,7ATRF,Agency Funds,7A
+533,Unspecified,0.0,CleanPowerSF Operating Fund,ENT_FUND~CLN_PWR_OP,Enterprise Funds,ENT_FUND
+534,Unspecified,0.0,Mission Rock Impact Fee,SP_REV~10865,Special Revenue Funds,SP_REV
+535,Operating,1.0,Parking Ellis O'Farrell Parking,5XEOF,MTA Parking Garages/Other,5X
+536,Operating,1.0,Parking Downtown Parking Corporation,5XDPC,MTA Parking Garages/Other,5X
+537,Operating,1.0,Health Service System,7QHSS,Other Employee Benefit Trust Funds,7Q
+538,Unspecified,0.0,Redevelopmnt Property Tax Fund,AGNCY_FUNDS~29120,Agency Funds,AGNCY_FUNDS
+539,Unspecified,0.0,DSCOP WAR MEML VTR BLDG S15AB,DEBT_SRVC~17500,Debt Service Funds,DEBT_SRVC
+540,Operating,1.0,OCII DSF 2006A Bonds Taxable,PVT_PURPS_TRST~29710,Private Purpose Trust Fund,PVT_PURPS_TRST
+541,Unspecified,0.0,SFCCD-Prop A Parcel Tax,INVEST_TRST_FUND~30570,Investment Trust Fund,INVEST_TRST_FUND
+542,Continuing Projects - Authority Control,3.0,SR PW-Strong Motion Admin,SP_REV~10250,Special Revenue Funds,SP_REV
+543,Operating,1.0,HSS ADMIN GF SUPPORT FD,PSN_OTHR_EMP_BEN~31190,"Pension, Other Employee and Ot",PSN_OTHR_EMP_BEN
+544,Grants,4.0,Muni Capital Projects Fund,5MCPF,MTA Municipal Railway Funds,5M
+545,Operating,1.0,Trial Courts Agency Fund,7ACRT,Agency Funds,7A
+546,Operating,1.0,Parking & Traffic Operating Fund,5NAAA,MTA Parking & Traffic Funds,5N
+547,Operating,1.0,Community College District Agency Fund,7ASCC,Agency Funds,7A
+548,Operating,1.0,General Services Fund,2SGSF,Special Revenue Funds,2S
+549,Unspecified,0.0,USD05 - County School Services,INVEST_TRST_FUND~30690,Investment Trust Fund,INVEST_TRST_FUND
+550,Unspecified,0.0,SRCTA SF COUNTY TRANSPRTN AGCY,SP_REV~14960,Special Revenue Funds,SP_REV
+551,Annual Projects,2.0,Water Debt Service Fund,5WDSF,PUC Water Department Funds,5W
+552,Annual Projects,2.0,Deposits Fund,7ADEP,Agency Funds,7A
+553,Operating,1.0,SR Gas Tax-Annually Budgeted,SP_REV~12770,Special Revenue Funds,SP_REV
+554,Grants,4.0,Community Health Services Fund,2SCHS,Special Revenue Funds,2S
+555,Grants Projects,4.0,CP R&P Capital Impvt-Sta,CPTL_PRJ~16950,Capital Projects Funds,CPTL_PRJ
+556,Unspecified,0.0,USD21-90391_2006SchoolBond-06D,INVEST_TRST_FUND~30890,Investment Trust Fund,INVEST_TRST_FUND
+557,Operating,1.0,SR Surety Bond Self-Insurance,SP_REV~12620,Special Revenue Funds,SP_REV
+558,Continuing Projects,3.0,Police Dept. Facilities Impvt. Fund,3CPFI,Capital Projects Funds,3C
+559,Annual Projects,2.0,Hetch Hetchy Operating Fund,5TAAA,PUC Hetch Hetchy Funds,5T
+560,Grants Projects,4.0,OCII CPF Grants Federal,PVT_PURPS_TRST~30280,Private Purpose Trust Fund,PVT_PURPS_TRST
+561,Continuing Projects,3.0,General Hopsital Operating Fund,5HAAA,General Hospital Medical Center Funds,5H
+562,Unspecified,0.0,Bay Area Air Quality Mgmt Div,AGNCY_FUNDS~29370,Agency Funds,AGNCY_FUNDS
+563,Operating,1.0,Transit,ENT_FUND~MTA_TRANSIT,Enterprise Funds,ENT_FUND
+564,Unspecified,0.0,CPXCF COP CITY OFF BG S2007AB,CPTL_PRJ~15660,Capital Projects Funds,CPTL_PRJ
+565,Unspecified,0.0,Unapportioned Property Taxes,AGNCY_FUNDS~29110,Agency Funds,AGNCY_FUNDS
+566,Grants Projects,4.0,Port-Capital,ENT_FUND~PRT_CPTL,Enterprise Funds,ENT_FUND
+567,Grants,4.0,Laguna Honda Capital Projects Fund,5LCPF,Laguna Honda Hospital Funds,5L
+568,Annual Projects,2.0,Airport Debt Service Fund,5ADSF,SF International Airport Funds,5A
+569,Unspecified,0.0,SFWD-Operating Grants Fund,ENT_FUND~SFWD_OP_GRNT,Enterprise Funds,ENT_FUND
+570,Continuing Projects - Authority Control,3.0,SR Low-mod Inc Housing NonBond,SP_REV~14190,Special Revenue Funds,SP_REV
+571,Operating,1.0,Employees' Retirement System,7PRET,Pension Trust Funds,7P
+572,Grants Projects,4.0,SFIA-Capital Projects Fund,ENT_FUND~SFIA_CPTL_PRJ,Enterprise Funds,ENT_FUND
+573,Annual Projects - Authority Control,2.0,SR Courts' Spec Rev Fd-Annual,SP_REV~12050,Special Revenue Funds,SP_REV
+574,Unspecified,0.0,OCII DSF 2009D Bonds Tax Expt,PVT_PURPS_TRST~29780,Private Purpose Trust Fund,PVT_PURPS_TRST
+575,Operating,1.0,Trial Courts - General Fund,INVEST_TRST_FUND~30400,Investment Trust Fund,INVEST_TRST_FUND
+576,Unspecified,0.0,SR Seismic Safety Loan,SP_REV~10810,Special Revenue Funds,SP_REV
+577,Grants Projects,4.0,SR Grants; GSF Continuing,SP_REV~12550,Special Revenue Funds,SP_REV
+578,Continuing Projects - Authority Control,3.0,CPSIF 2011 RD REPV&ST SFY-16E,CPTL_PRJ~17260,Capital Projects Funds,CPTL_PRJ
+579,Unspecified,0.0,SR Grants; ENV Continuing Oth,SP_REV~12250,Special Revenue Funds,SP_REV
+580,Unspecified,0.0,HSS Medical Ben Trust Fund,PSN_OTHR_EMP_BEN~31210,"Pension, Other Employee and Ot",PSN_OTHR_EMP_BEN
+581,Continuing Projects - Authority Control,3.0,CPSIF 2011 RD REPV&ST SFY-13C,CPTL_PRJ~17090,Capital Projects Funds,CPTL_PRJ
+582,Unspecified,0.0,SFCCD 2020 GOB S A TAX EX CAP,INVEST_TRST_FUND~30501,Investment Trust Fund,INVEST_TRST_FUND
+583,Grants Projects,4.0,SR Homeland Security,SP_REV~13560,Special Revenue Funds,SP_REV
+584,Operating,1.0,OCII DSF 2011A Bonds Taxable,PVT_PURPS_TRST~29820,Private Purpose Trust Fund,PVT_PURPS_TRST
+585,Continuing Projects - Authority Control,3.0,Transit,ENT_FUND~MTA_TRANSIT,Enterprise Funds,ENT_FUND
+586,Continuing Projects,3.0,Hetch Hetchy Capital Projects Fund,5TCPF,PUC Hetch Hetchy Funds,5T
+587,Continuing Projects,3.0,General Hospital Capital Projects Fund,5HCPF,General Hospital Medical Center Funds,5H
+588,Continuing Projects,3.0,Long Term Debt,1GLTD,General Fund,1G
+589,Unspecified,0.0,SFCCD Educational-2000A,INVEST_TRST_FUND~30560,Investment Trust Fund,INVEST_TRST_FUND
+590,Unspecified,0.0,OCII CPF 2021A AFH,PVT_PURPS_TRST~30275,Private Purpose Trust Fund,PVT_PURPS_TRST
+591,Annual Projects - Authority Control,2.0,Open Space & Park-Annual Proj,SP_REV~13350,Special Revenue Funds,SP_REV
+592,Continuing Projects - Authority Control,3.0,CPRPF 08 CLN&SF NEIG PK S2008B,CPTL_PRJ~16800,Capital Projects Funds,CPTL_PRJ
+593,Operating,1.0,Parking & Traffic Off-Street Parking Fnd,2SOPF,Special Revenue Funds,2S
+594,Annual Projects,2.0,Laguna Honda Operating Fund,5LAAA,Laguna Honda Hospital Funds,5L
+595,Continuing Projects,3.0,Taxi Commission Capital Projects Fund,5OCPF,MTA Taxi Commission,5O
+596,Continuing Projects,3.0,War Memorial Fund,2SWMF,Special Revenue Funds,2S
+597,Operating,1.0,"Public Works, Transp. & Commerce Fund",2SPWF,Special Revenue Funds,2S
+598,Operating,1.0,Telecomm. & Information Svcs Fund,6ITIF,Internal Service Funds,6I
+599,No Fund Category,No Fund Category Code,Parking & Traffic Capital Projects Fund,5NCPF,MTA Parking & Traffic Funds,5N
+600,Grants Projects,4.0,SR Comm Health-COVID Stim-FED,SP_REV~11621,Special Revenue Funds,SP_REV
+601,Continuing Projects - Authority Control,3.0,SR Conv Fac Fd-Moscone Expan D,SP_REV~11445,Special Revenue Funds,SP_REV
+602,Unspecified,0.0,OCII CFD 7,AGNCY_FUNDS~29590,Agency Funds,AGNCY_FUNDS
+603,Unspecified,0.0,Continuing Authority Ctrl,INVEST_TRST_FUND~31080,Investment Trust Fund,INVEST_TRST_FUND
+604,Operating,1.0,OCII DSF 2016A MBN Ref Bonds,PVT_PURPS_TRST~30220,Private Purpose Trust Fund,PVT_PURPS_TRST
+605,Operating,1.0,Neighborhood Development Fund,2SNDF,Special Revenue Funds,2S
+606,Unspecified,0.0,SFWD-Operating Fund,ENT_FUND~SFWD_OP,Enterprise Funds,ENT_FUND
+607,Continuing Projects,3.0,Public Library Fund,2SLIB,Special Revenue Funds,2S
+608,Operating,1.0,SR Open Space&Park-Annual,SP_REV~13370,Special Revenue Funds,SP_REV
+609,Unspecified,0.0,OCII CPF 2001A BONDS TAX EXPT,PVT_PURPS_TRST~29970,Private Purpose Trust Fund,PVT_PURPS_TRST
+610,Operating,1.0,LHH-Operating Fund,ENT_FUND~LHH_OP,Enterprise Funds,ENT_FUND
+611,Operating,1.0,Building Inspection Fund,2SBIF,Special Revenue Funds,2S
+612,Grants,4.0,Gift Fund,7EGIF,Expendable Trust Funds,7E
+613,Continuing Projects - Authority Control,3.0,CWP-Capital Projects Fund,ENT_FUND~CWP_CPTL_PRJ,Enterprise Funds,ENT_FUND
+614,Unspecified,0.0,USD21-90380_1997SchoolBond-97A,INVEST_TRST_FUND~31030,Investment Trust Fund,INVEST_TRST_FUND
+615,Unspecified,0.0,USD30-StateSchoolBldg-LeasePur,INVEST_TRST_FUND~30730,Investment Trust Fund,INVEST_TRST_FUND
+616,Operating,1.0,Culture & Recreation Fund,2SCRF,Special Revenue Funds,2S
+617,Continuing Projects - Authority Control,3.0,CPRPF 08 CLN&SF NEIG PK S2010B,CPTL_PRJ~16810,Capital Projects Funds,CPTL_PRJ
+618,No Fund Category,No Fund Category Code,Neighborhood Development Fund,2SNDF,Special Revenue Funds,2S
+619,Operating,1.0,Parking Western Addition Parking,5XWAP,MTA Parking Garages/Other,5X
+620,Unspecified,0.0,CPXCF 20 EQ SFTY&EMY RE S2021B,CPTL_PRJ~15512,Capital Projects Funds,CPTL_PRJ
+621,Unspecified,0.0,SFIA-Operating Grants Fund,ENT_FUND~SFIA_OP_GRNT,Enterprise Funds,ENT_FUND
+622,Continuing Projects - Authority Control,3.0,Port Operating,ENT_FUND~PRT_OP,Enterprise Funds,ENT_FUND
+623,Unspecified,0.0,USD67 - Self-Insurance Fund,INVEST_TRST_FUND~30850,Investment Trust Fund,INVEST_TRST_FUND
+624,Continuing Projects - Authority Control,3.0,CPXCF COP Crit Reprs/Rcv Stmls,CPTL_PRJ~15384,Capital Projects Funds,CPTL_PRJ
+625,Work Orders/Overhead,5.0,AgencyWide Oper Overhead,ENT_FUND~AGNCY_WD_OP_OH,Enterprise Funds,ENT_FUND
+626,Unspecified,0.0,CPSIF 2014 TRPTN&RD IMP-2015B,CPTL_PRJ~17100,Capital Projects Funds,CPTL_PRJ
+627,Operating,1.0,OCII DSF 2014B Refunding Bonds,PVT_PURPS_TRST~29890,Private Purpose Trust Fund,PVT_PURPS_TRST
+628,Operating,1.0,Laguna Honda Operating Fund,5LAAA,Laguna Honda Hospital Funds,5L
+629,Unspecified,0.0,CPSIF Street Impvt-Una,CPTL_PRJ~17250,Capital Projects Funds,CPTL_PRJ
+630,Work Orders/Overhead,5.0,GF Work Order,GEN_FUND~10060,General Fund,GEN_FUND
+631,Annual Projects - Authority Control,2.0,CWP-Operating Fund,ENT_FUND~CWP_OP,Enterprise Funds,ENT_FUND
+632,Continuing Projects - Authority Control,3.0,CPRPF FC OSP VARS PK LRB-S2007,CPTL_PRJ~16790,Capital Projects Funds,CPTL_PRJ
+633,Annual Projects,2.0,School District Agency Fund,7ASSD,Agency Funds,7A
+634,No Fund Category,No Fund Category Code,Sfmta Debt Service Fund - Transit,5MDSF,MTA Municipal Railway Funds,5M
+635,Work Orders/Overhead,5.0,CWP-Operating Fund,ENT_FUND~CWP_OP,Enterprise Funds,ENT_FUND
+636,Work Orders/Overhead,5.0,GF Overhead-Recreation & Parks,GEN_FUND~10080,General Fund,GEN_FUND
+637,Unspecified,0.0,OCII CFD 4,AGNCY_FUNDS~29565,Agency Funds,AGNCY_FUNDS
+638,Continuing Projects - Authority Control,3.0,OCII CPF TAXABLE BONDS,PVT_PURPS_TRST~30190,Private Purpose Trust Fund,PVT_PURPS_TRST
+639,Continuing Projects - Authority Control,3.0,SR OCOH Nov18 PropC GF Advance,SP_REV~10581,Special Revenue Funds,SP_REV
+640,Continuing Projects,3.0,Golf Fund,2SGOL,Special Revenue Funds,2S
+641,Continuing Projects,3.0,Airport Operating Fund,5AAAA,SF International Airport Funds,5A
+642,Continuing Projects,3.0,Laguna Honda Capital Projects Fund,5LCPF,Laguna Honda Hospital Funds,5L
+643,Unspecified,0.0,SFCCD-General Fund,INVEST_TRST_FUND~30510,Investment Trust Fund,INVEST_TRST_FUND
+644,Unspecified,0.0,SR Hope SF CP Taxable,SP_REV~10620,Special Revenue Funds,SP_REV
+645,Continuing Projects - Authority Control,3.0,CPRPF 12 CLN&SF NEIG PK S2016B,CPTL_PRJ~16860,Capital Projects Funds,CPTL_PRJ
+646,Work Orders/Overhead,5.0,SR PW-Overhead,SP_REV~13920,Special Revenue Funds,SP_REV
+647,Unspecified,0.0,SR Tenants Overtime,SP_REV~12640,Special Revenue Funds,SP_REV
+648,Continuing Projects,3.0,City Facilities Improvement Fund,3CXCF,Capital Projects Funds,3C
+649,Grants Projects,4.0,SR TC Grants;Continuing,SP_REV~14020,Special Revenue Funds,SP_REV
+650,Operating,1.0,DSGOB SB1128 REV FOR LHH GOB,DEBT_SRVC~17630,Debt Service Funds,DEBT_SRVC
+651,Operating,1.0,SR Cable TV Access Dev&Prog,SP_REV~12500,Special Revenue Funds,SP_REV
+652,Work Orders/Overhead,5.0,Central Shops Fund,6ICSF,Internal Service Funds,6I
+653,Continuing Projects,3.0,Laguna Honda Operating Fund,5LAAA,Laguna Honda Hospital Funds,5L
+654,Continuing Projects - Authority Control,3.0,SFWD-Capital Projects Fund,ENT_FUND~SFWD_CPTL_PRJ,Enterprise Funds,ENT_FUND
+655,Operating,1.0,Health Service System,6IHSS,Internal Service Funds,6I
+656,Continuing Projects - Authority Control,3.0,CPRPF 12 CLN&SF NEIG PK S2018A,CPTL_PRJ~16861,Capital Projects Funds,CPTL_PRJ
+657,Continuing Projects - Authority Control,3.0,CleanPowerSF Special Revenue F,ENT_FUND~CLN_PWR_SP_REV,Enterprise Funds,ENT_FUND
+658,Unspecified,0.0,DSCOP STREET IMPROVMT S2012A,DEBT_SRVC~17370,Debt Service Funds,DEBT_SRVC
+659,Continuing Projects - Authority Control,3.0,OCII CPF 2017E/11B Bond Tax Ex,PVT_PURPS_TRST~30040,Private Purpose Trust Fund,PVT_PURPS_TRST
+660,Continuing Projects - Authority Control,3.0,GF Human Services Care,GEN_FUND~10030,General Fund,GEN_FUND
+661,Grants,4.0,Transportation & Commerce Fund,2ST&C,Special Revenue Funds,2S
+662,Work Orders/Overhead,5.0,General Fund,1GAGF,General Fund,1G
+663,Unspecified,0.0,USD49_SchoolFacSaftey Tax,INVEST_TRST_FUND~30750,Investment Trust Fund,INVEST_TRST_FUND
+664,Unspecified,0.0,USD14 - Deferred Maintenance,INVEST_TRST_FUND~30710,Investment Trust Fund,INVEST_TRST_FUND
+665,Continuing Projects - Authority Control,3.0,SR Sheriff-Inmate Program,SP_REV~13670,Special Revenue Funds,SP_REV
+666,Operating,1.0,State Revenue Collection Fund,7ASTA,Agency Funds,7A
+667,Continuing Projects - Authority Control,3.0,OCII CPF 2016D MBS Expt Bonds,PVT_PURPS_TRST~30270,Private Purpose Trust Fund,PVT_PURPS_TRST
+668,Unspecified,0.0,CWP-Debt Service Fund,ENT_FUND~CWP_DEBT_SRVC,Enterprise Funds,ENT_FUND
+669,Continuing Projects - Authority Control,3.0,SR Env-Continuing Projects,SP_REV~12210,Special Revenue Funds,SP_REV
+670,No Fund Category,No Fund Category Code,Retiree Health Care Trust Fund - Prop B,7RRHC,Retiree Health Care Trust Fund - Prop B,7R
+671,Unspecified,0.0,SFCCD 2020 GOB S A-1 TAXA CAP,INVEST_TRST_FUND~30502,Investment Trust Fund,INVEST_TRST_FUND
+672,Unspecified,0.0,SR Culture & Rec Grants; A Sta,SP_REV~11830,Special Revenue Funds,SP_REV
+673,Unspecified,0.0,SRCTA ANNUAL ALLOCATION,SP_REV~14950,Special Revenue Funds,SP_REV
+674,Unspecified,0.0,Transit,ENT_FUND~MTA_TRANSIT,Enterprise Funds,ENT_FUND
+675,Operating,1.0,OCII DSF 2007A Bonds Taxable,PVT_PURPS_TRST~29730,Private Purpose Trust Fund,PVT_PURPS_TRST
+676,Continuing Projects - Authority Control,3.0,SR Yerba Buena Gardens,SP_REV~14400,Special Revenue Funds,SP_REV
+677,Work Orders/Overhead,5.0,Muni Special Revenue Fund,5MSRF,MTA Municipal Railway Funds,5M
+678,Operating,1.0,DTIS-Telecomm. & Information S,INTRL_SRVC~DTIS_TELCOM_IS,Internal Service Funds,INTRL_SRVC
+679,Unspecified,0.0,Child Support Trust Fund,AGNCY_FUNDS~28420,Agency Funds,AGNCY_FUNDS
+680,Unspecified,0.0,Port-Capital,ENT_FUND~PRT_CPTL,Enterprise Funds,ENT_FUND
+681,Unspecified,0.0,OCII CFD 9,AGNCY_FUNDS~29601,Agency Funds,AGNCY_FUNDS
+682,Continuing Projects - Project Control,6.0,CP R&P Capital Impvts-Fed,CPTL_PRJ~16930,Capital Projects Funds,CPTL_PRJ
+683,Continuing Projects - Project Control,6.0,SR Human Welfare-Grants Sta,SP_REV~12920,Special Revenue Funds,SP_REV
+684,Unspecified,0.0,DSGOB Loan Repmt for PASS S19A,DEBT_SRVC~17650,Debt Service Funds,DEBT_SRVC
+685,Grants,4.0,Correctional Facilities Impvt. Fund,3CCFI,Capital Projects Funds,3C
+686,Unspecified,0.0,CPXCF COP HOJ Relo-Tenant Imp,CPTL_PRJ~15382,Capital Projects Funds,CPTL_PRJ
+687,Continuing Projects - Authority Control,3.0,SR DBI-Repair & Demolitions,SP_REV~10240,Special Revenue Funds,SP_REV
+688,Continuing Projects - Authority Control,3.0,Hetchy Operating Fund,ENT_FUND~HH_OP,Enterprise Funds,ENT_FUND
+689,Grants,4.0,General Fund,1GAGF,General Fund,1G
+690,Operating,1.0,Muni Trust & Agency Fund,5MTAF,MTA Municipal Railway Funds,5M
+691,Grants Projects,4.0,SR Senior Citizens-Grants Oth,SP_REV~14510,Special Revenue Funds,SP_REV
+692,Operating,1.0,Muni Special Revenue Fund,5MSRF,MTA Municipal Railway Funds,5M
+693,Continuing Projects - Authority Control,3.0,SR Solid Waste Projects,SP_REV~14000,Special Revenue Funds,SP_REV
+694,Operating,1.0,Employees Retirement Trust,PSN_OTHR_EMP_BEN~31330,"Pension, Other Employee and Ot",PSN_OTHR_EMP_BEN
+695,Continuing Projects,3.0,Open Space & Park Fund,2SOSP,Special Revenue Funds,2S
+696,No Fund Category,No Fund Category Code,Certificate of Participation Bond Fund,4DCOP,Debt Service Funds,4D
+697,Work Orders/Overhead,5.0,SFIA-Operating Fund,ENT_FUND~SFIA_OP,Enterprise Funds,ENT_FUND
+698,Annual Projects,2.0,Community College District Agency Fund,7ASCC,Agency Funds,7A
+699,Unspecified,0.0,Port-Trust And Agency,ENT_FUND~PRT_TRST_AGNCY,Enterprise Funds,ENT_FUND
+700,Continuing Projects - Authority Control,3.0,SR Seismic Safety GOB-2007A,SP_REV~10530,Special Revenue Funds,SP_REV
+701,Continuing Projects,3.0,Muni Transbay Joint Powers Authority,7ATJP,Agency Funds,7A
+702,Continuing Projects - Authority Control,3.0,OCII CPF 2009B BONDS TAX EXPT,PVT_PURPS_TRST~30000,Private Purpose Trust Fund,PVT_PURPS_TRST
+703,Unspecified,0.0,GF BSI-Continuing Project,GEN_FUND~10070,General Fund,GEN_FUND
+704,Annual Projects,2.0,Telecomm. & Information Svcs Fund,6ITIF,Internal Service Funds,6I
+705,Unspecified,0.0,CPRPF 2000 NEIG REC&PK S2000C,CPTL_PRJ~16750,Capital Projects Funds,CPTL_PRJ
+706,Unspecified,0.0,CPXCF 14 EQ SFTY&EMY RE S2016D,CPTL_PRJ~15780,Capital Projects Funds,CPTL_PRJ
+707,Unspecified,0.0,Sustainable Streets,ENT_FUND~SU_STREETS,Enterprise Funds,ENT_FUND
+708,Continuing Projects - Project Control,6.0,SFGH-Operating Fund,ENT_FUND~SFGH_OP_,Enterprise Funds,ENT_FUND
+709,Unspecified,0.0,SR SFPD-Peace Offr Training,SP_REV~13620,Special Revenue Funds,SP_REV
+710,Annual Projects,2.0,Parking & Traffic Operating Fund,5NAAA,MTA Parking & Traffic Funds,5N
+711,Unspecified,0.0,TI IRFD IncrmtTax Prj Facility,SP_REV~14452,Special Revenue Funds,SP_REV
+712,Unspecified,0.0,Children and Families Fund,SP_REV~CHLD_FAMLY,Special Revenue Funds,SP_REV
+713,Grants,4.0,General Hospital Trust & Agency Fund,5HTAF,General Hospital Medical Center Funds,5H
+714,Grants,4.0,Fire Protection Systems Impvt. Fund,3CFPS,Capital Projects Funds,3C
+715,Operating,1.0,Reproduction Fund,6IOIS,Internal Service Funds,6I
+716,Unspecified,0.0,OCII CPF 2000A BONDS TAX EXPT,PVT_PURPS_TRST~29960,Private Purpose Trust Fund,PVT_PURPS_TRST
+717,No Fund Category,No Fund Category Code,Cleanpowersf Operating Fund,5QAAA,Clp-Clean Powersf Funds,5Q
+718,Unspecified,0.0,USD21 building fund,INVEST_TRST_FUND~30771,Investment Trust Fund,INVEST_TRST_FUND
+719,Operating,1.0,School District Agency Fund,7ASSD,Agency Funds,7A
+720,Operating,1.0,OCII DSF 2011B Bonds Tax Expt,PVT_PURPS_TRST~29830,Private Purpose Trust Fund,PVT_PURPS_TRST
+721,Operating,1.0,Health Care-Prop B Trust Fund,PSN_OTHR_EMP_BEN~31440,"Pension, Other Employee and Ot",PSN_OTHR_EMP_BEN
+722,Unspecified,0.0,CleanPowerSF Operating Grants,ENT_FUND~CLN_PWR_OP_GRNTS,Enterprise Funds,ENT_FUND
+723,Unspecified,0.0,CPXCF COP WAR MEM VET BD S16A,CPTL_PRJ~15665,Capital Projects Funds,CPTL_PRJ
+724,Continuing Projects - Authority Control,3.0,CPRPF 2000 NEIG REC&PK S2001B,CPTL_PRJ~16740,Capital Projects Funds,CPTL_PRJ
+725,Unspecified,0.0,USD40 - Capital Outlay Fund,INVEST_TRST_FUND~30810,Investment Trust Fund,INVEST_TRST_FUND
+726,Continuing Projects,3.0,Low-Mod Income Housing Asset Fund,2SROF,Special Revenue Funds,2S
+727,Unspecified,0.0,CPXCF 18 Emb SeawallGOB S2020A,CPTL_PRJ~15781,Capital Projects Funds,CPTL_PRJ
+728,Unspecified,0.0,DSCOP REFDG-OFF BLDG-S2015-R1,DEBT_SRVC~17510,Debt Service Funds,DEBT_SRVC
+729,Operating,1.0,OCII DSF 2003B Bonds Tax Expt,PVT_PURPS_TRST~29620,Private Purpose Trust Fund,PVT_PURPS_TRST
+730,Continuing Projects - Authority Control,3.0,SR Culture & Rec Hotel Tax,SP_REV~11802,Special Revenue Funds,SP_REV
+731,Operating,1.0,Human Welfare Fund,2SHWF,Special Revenue Funds,2S
+732,Unspecified,0.0,CPXCF 20 EQ SFTY&EMY RE S2021E,CPTL_PRJ~15514,Capital Projects Funds,CPTL_PRJ
+733,Unspecified,0.0,2015 AFFORD HOUS GOB 2nd 2018D,SP_REV~10491,Special Revenue Funds,SP_REV
+734,Continuing Projects - Authority Control,3.0,SFIA-Capital Projects Fund,ENT_FUND~SFIA_CPTL_PRJ,Enterprise Funds,ENT_FUND
+735,Continuing Projects - Authority Control,3.0,CPRPF 08 CLN&SF NEIG PK S2012B,CPTL_PRJ~16830,Capital Projects Funds,CPTL_PRJ
+736,Operating,1.0,GF Annual Account Ctrl,GEN_FUND~10000,General Fund,GEN_FUND
+737,Continuing Projects - Authority Control,3.0,CPRPF 08 CLN&SF NEIG PK S2010D,CPTL_PRJ~16820,Capital Projects Funds,CPTL_PRJ
+738,Annual Projects,2.0,Redevelopment Obligation Fund,7SROF,Successor Agency-Former SF Redev Agency,7S
+739,Grants Projects,4.0,SFIA-Operating Grants Fund,ENT_FUND~SFIA_OP_GRNT,Enterprise Funds,ENT_FUND
+740,Work Orders/Overhead,5.0,SFWD-Operating Fund,ENT_FUND~SFWD_OP,Enterprise Funds,ENT_FUND
+741,Continuing Projects,3.0,Hetch Hetchy Operating Fund,5TAAA,PUC Hetch Hetchy Funds,5T
+742,Grants,4.0,Police Dept. Facilities Impvt. Fund,3CPFI,Capital Projects Funds,3C
+743,Continuing Projects - Authority Control,3.0,SFWD-Operating Fund,ENT_FUND~SFWD_OP,Enterprise Funds,ENT_FUND
+744,Grants Projects,4.0,SR Library Grants; Cont Sta,SP_REV~13120,Special Revenue Funds,SP_REV
+745,Continuing Projects - Authority Control,3.0,SR Arts Com-Public Arts,SP_REV~11740,Special Revenue Funds,SP_REV
+746,Grants,4.0,Airport Trust & Agency Fund,5ATAF,SF International Airport Funds,5A
+747,Operating,1.0,OCII DSF 2017A AFH,PVT_PURPS_TRST~29903,Private Purpose Trust Fund,PVT_PURPS_TRST
+748,Grants,4.0,General Hospital Capital Projects Fund,5HCPF,General Hospital Medical Center Funds,5H
+749,Continuing Projects,3.0,School District Agency Fund,7ASSD,Agency Funds,7A
+750,Unspecified,0.0,SFIA-Trust & Agency Fund,ENT_FUND~SFIA_TRST_AGNCY,Enterprise Funds,ENT_FUND
+751,Unspecified,0.0,CPEQS EARTHQUAKE SFTY IMP-UNA,CPTL_PRJ~16050,Capital Projects Funds,CPTL_PRJ
+752,Unspecified,0.0,CPXCF 2000 ACAMY OF SCI S2005E,CPTL_PRJ~15400,Capital Projects Funds,CPTL_PRJ
+753,Operating,1.0,Port Debt Service Fund,5PDSF,Port Of San Francisco Funds,5P
+754,Unspecified,0.0,DSCOP REFDG-JUVE HALL-S2014-R2,DEBT_SRVC~17490,Debt Service Funds,DEBT_SRVC
+755,Unspecified,0.0,CPSIF 2014 TRTPN&RD IMP-2021C,CPTL_PRJ~17104,Capital Projects Funds,CPTL_PRJ
+756,Unspecified,0.0,CPXCF 2008 SFGH IMP S2012D,CPTL_PRJ~15440,Capital Projects Funds,CPTL_PRJ
+757,Unspecified,0.0,DSCOP Hope SF,DEBT_SRVC~17530,Debt Service Funds,DEBT_SRVC
+758,Continuing Projects - Authority Control,3.0,SR City Attorney-Special Rev,SP_REV~13490,Special Revenue Funds,SP_REV
+759,Grants Projects,4.0,SFIA-Special Revenue Fund,ENT_FUND~SFIA_SP_REV,Enterprise Funds,ENT_FUND
+760,Continuing Projects,3.0,General Services Fund,2SGSF,Special Revenue Funds,2S
+761,Unspecified,0.0,Cwp-Trust & Agency Fund,ENT_FUND~CWP_TRST_AGNCY,Enterprise Funds,ENT_FUND
+762,Unspecified,0.0,SR Library Grants; Cont Oth,SP_REV~13090,Special Revenue Funds,SP_REV
+763,Grants,4.0,Water Trust & Agency Fund,5WTAF,PUC Water Department Funds,5W
+764,Unspecified,0.0,Bus Improv & Commty Bnfit Dist,AGNCY_FUNDS~29390,Agency Funds,AGNCY_FUNDS
+765,No Fund Category,No Fund Category Code,School District Agency Fund,7ASSD,Agency Funds,7A
+766,Continuing Projects - Authority Control,3.0,SR Mobed-Film Prod Sp,SP_REV~11890,Special Revenue Funds,SP_REV
+767,Operating,1.0,OCII DSF 2016C MBS Ref Bonds,PVT_PURPS_TRST~30240,Private Purpose Trust Fund,PVT_PURPS_TRST
+768,Unspecified,0.0,SSD 2016B Prop A Bond,INVEST_TRST_FUND~28831,Investment Trust Fund,INVEST_TRST_FUND
+769,No Fund Category,No Fund Category Code,Port Capital Projects Fund,5PCPF,Port Of San Francisco Funds,5P
+770,Continuing Projects - Authority Control,3.0,SR Development Agreement,SP_REV~10650,Special Revenue Funds,SP_REV
+771,Annual Projects - Authority Control,2.0,OCII CPF Annual Authority Ctrl,PVT_PURPS_TRST~30100,Private Purpose Trust Fund,PVT_PURPS_TRST
+772,Operating,1.0,Wastewater Debt Service Fund,5CDSF,PUC Wastewater Funds,5C
+773,Unspecified,0.0,SR HOPE SF COP 2nd,SP_REV~10631,Special Revenue Funds,SP_REV
+774,Continuing Projects - Authority Control,3.0,SR Court Dispute Resolution,SP_REV~12470,Special Revenue Funds,SP_REV
+775,Grants,4.0,Public Protection Fund,2SPPF,Special Revenue Funds,2S
+776,Operating,1.0,OCII DSF 2009E Bonds Taxable,PVT_PURPS_TRST~29790,Private Purpose Trust Fund,PVT_PURPS_TRST
+777,Operating,1.0,Port Operating,ENT_FUND~PRT_OP,Enterprise Funds,ENT_FUND
+778,Grants,4.0,Earthquake Safety Improvements Fund,3CEQS,Capital Projects Funds,3C
+779,Continuing Projects - Authority Control,3.0,SR Transit Center District,SP_REV~10880,Special Revenue Funds,SP_REV
+780,Continuing Projects,3.0,Parking & Traffic Operating Fund,5NAAA,MTA Parking & Traffic Funds,5N
+781,Continuing Projects,3.0,Business Tax Fund,2SBUS,Special Revenue Funds,2S
+782,Unspecified,0.0,Public Health State Rev Fund,AGNCY_FUNDS~28940,Agency Funds,AGNCY_FUNDS
+783,Operating,1.0,Water Operating Fund,5WAAA,PUC Water Department Funds,5W
+784,Annual Projects,2.0,Tax Collection Agency Fund,7ATAX,Agency Funds,7A
+785,Operating,1.0,SR War Memorial-Operating,SP_REV~14670,Special Revenue Funds,SP_REV
+786,Annual Projects - Authority Control,2.0,DTIS-Telecomm. & Information S,INTRL_SRVC~DTIS_TELCOM_IS,Internal Service Funds,INTRL_SRVC
+787,Grants,4.0,Wastewater Operating Grants Fund,5CAGT,PUC Wastewater Funds,5C
+788,Continuing Projects - Authority Control,3.0,SR Police Law Enforcement Svcs,SP_REV~13630,Special Revenue Funds,SP_REV
+789,Continuing Projects - Project Control,6.0,Transit,ENT_FUND~MTA_TRANSIT,Enterprise Funds,ENT_FUND
+790,Grants,4.0,Muni Trust & Agency Fund,5MTAF,MTA Municipal Railway Funds,5M
+791,Continuing Projects,3.0,Recreation & Park Capital Impvts Fund,3CRPF,Capital Projects Funds,3C
+792,Operating,1.0,OCII DSF 2014C Refunding Bonds,PVT_PURPS_TRST~29900,Private Purpose Trust Fund,PVT_PURPS_TRST
+793,Unspecified,0.0,CPRPF 12 CLN&SF NEIG PK S2019B,CPTL_PRJ~16862,Capital Projects Funds,CPTL_PRJ
+794,Unspecified,0.0,2001 SFCCD Imprvt Bond-C-2006,INVEST_TRST_FUND~30460,Investment Trust Fund,INVEST_TRST_FUND
+795,Continuing Projects,3.0,Moscone Convention Center Fund,3CMCF,Capital Projects Funds,3C
+796,Unspecified,0.0,DSCOP MOSCONE EXPANSION,DEBT_SRVC~17400,Debt Service Funds,DEBT_SRVC
+797,Unspecified,0.0,USD21-90391_2006SchoolBond-06C,INVEST_TRST_FUND~30880,Investment Trust Fund,INVEST_TRST_FUND
+798,Unspecified,0.0,SR  Civil Service-Spec Rev,SP_REV~12490,Special Revenue Funds,SP_REV
+799,Operating,1.0,Sustainable Streets,ENT_FUND~SU_STREETS,Enterprise Funds,ENT_FUND
+800,Unspecified,0.0,Hetchy Capital Projects Fund,ENT_FUND~HH_CPTL_PRJ,Enterprise Funds,ENT_FUND
+801,Unspecified,0.0,CPXCF Pub S Radio Repl Lease,CPTL_PRJ~15788,Capital Projects Funds,CPTL_PRJ
+802,Unspecified,0.0,CPRPF 1992 GGP Irrigatn S1995B,CPTL_PRJ~16900,Capital Projects Funds,CPTL_PRJ
+803,Unspecified,0.0,USD21-90380_1997SchoolBond-03B,INVEST_TRST_FUND~30770,Investment Trust Fund,INVEST_TRST_FUND
+804,Unspecified,0.0,CPRPF FC OSP VARS PK LRBS06&07,CPTL_PRJ~16781,Capital Projects Funds,CPTL_PRJ
+805,Work Orders/Overhead,5.0,PUC Operating Fund,ENT_FUND~PUC_OP,Enterprise Funds,ENT_FUND
+806,Continuing Projects - Authority Control,3.0,SR Community Living,SP_REV~12890,Special Revenue Funds,SP_REV
+807,Operating,1.0,Central Shops Fund,6ICSF,Internal Service Funds,6I
+808,Unspecified,0.0,Self Insurance Fund,AGNCY_FUNDS~29440,Agency Funds,AGNCY_FUNDS
+809,Unspecified,0.0,OCII DSF 1991A Tax Exempt,PVT_PURPS_TRST~29910,Private Purpose Trust Fund,PVT_PURPS_TRST
+810,Annual Projects,2.0,Building Inspection Fund,2SBIF,Special Revenue Funds,2S
+811,Continuing Projects - Project Control,6.0,SFWD-Capital Projects Fund,ENT_FUND~SFWD_CPTL_PRJ,Enterprise Funds,ENT_FUND
+812,Annual Projects,2.0,General Fund,1GAGF,General Fund,1G
+813,Unspecified,0.0,CPXCF COP WAR MEM VET BG S15AB,CPTL_PRJ~15670,Capital Projects Funds,CPTL_PRJ
+814,Unspecified,0.0,CPXCF 2008 SFGH IMP S2009A,CPTL_PRJ~15410,Capital Projects Funds,CPTL_PRJ
+815,Unspecified,0.0,CPSIF 2014 TRTPN&RD IMP-2020B,CPTL_PRJ~17103,Capital Projects Funds,CPTL_PRJ
+816,Unspecified,0.0,OCII CFD 5,AGNCY_FUNDS~29570,Agency Funds,AGNCY_FUNDS
+817,Unspecified,0.0,OCII CPF 1990S BDS COMB TAX EX,PVT_PURPS_TRST~30090,Private Purpose Trust Fund,PVT_PURPS_TRST
+818,Unspecified,0.0,SR Community Dev Revolvng Loan,SP_REV~10480,Special Revenue Funds,SP_REV
+819,Unspecified,0.0,CPXCF 16 PH & SFTY 3rd S20D,CPTL_PRJ~15517,Capital Projects Funds,CPTL_PRJ
+820,Unspecified,0.0,LHH-Trust & Agency Fund,ENT_FUND~LHH_TRST_AGNCY,Enterprise Funds,ENT_FUND
+821,Unspecified,0.0,DSCOP MOSCONE CENTER S2013A,DEBT_SRVC~17390,Debt Service Funds,DEBT_SRVC
+822,Continuing Projects - Authority Control,3.0,SR Open Space-Continuing,SP_REV~13360,Special Revenue Funds,SP_REV
+823,Unspecified,0.0,CP COP Animal Care&Contrl Proj,CPTL_PRJ~15790,Capital Projects Funds,CPTL_PRJ
+824,Unspecified,0.0,CPSIF 2006 Prop 1B-County-08,CPTL_PRJ~17070,Capital Projects Funds,CPTL_PRJ
+825,Continuing Projects - Authority Control,3.0,SR WAR Cont Authority Ctrl,SP_REV~14690,Special Revenue Funds,SP_REV
+826,Continuing Projects,3.0,Port Capital Projects Fund,5PCPF,Port Of San Francisco Funds,5P
+827,Unspecified,0.0,OCII CPF 2003C BONDS TAX EXPT,PVT_PURPS_TRST~29990,Private Purpose Trust Fund,PVT_PURPS_TRST
+828,Annual Projects - Authority Control,2.0,SFWD-Operating Fund,ENT_FUND~SFWD_OP,Enterprise Funds,ENT_FUND
+829,Operating,1.0,Senior Citizens' Programs Fund,2SSCP,Special Revenue Funds,2S
+830,Work Orders/Overhead,5.0,LHH-Operating Fund,ENT_FUND~LHH_OP,Enterprise Funds,ENT_FUND
+831,Unspecified,0.0,SR PW-Const Inspection,SP_REV~13840,Special Revenue Funds,SP_REV
+832,Operating,1.0,Sustainable Streets,ENT_FUND~STBL_ST,Enterprise Funds,ENT_FUND
+833,Unspecified,0.0,CPXCF 2008 SFGH IMP TAX S2010C,CPTL_PRJ~15430,Capital Projects Funds,CPTL_PRJ
+834,Grants Projects,4.0,SR Public Protection-Grant Sta,SP_REV~13720,Special Revenue Funds,SP_REV
+835,Unspecified,0.0,DA Pre-Forfeited Asset Accnts,AGNCY_FUNDS~28660,Agency Funds,AGNCY_FUNDS
+836,Unspecified,0.0,CPSIF COP ST IMP Proj-2009B,CPTL_PRJ~17190,Capital Projects Funds,CPTL_PRJ
+837,Annual Projects,2.0,Courts' Fund,2SCTF,Special Revenue Funds,2S

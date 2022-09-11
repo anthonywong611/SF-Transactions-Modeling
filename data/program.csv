@@ -1,0 +1,1572 @@
+program_id,program,program_code,department,department_code,organization_group,organization_group_code,related_govt_units
+1,Special Events,EVENT,DPH Public Health,DPH,Community Health,4,No
+2,No Program Defined,XXX,BOA Board Of Appeals - PAB,PAB,"Public Works, Transportation & Commerce",2,No
+3,City Capital Projects,BAW,GEN General City / Unallocated,GEN,General City Responsibilities,7,No
+4,Operating,OPR,POL Police,POL,Public Protection,1,Yes
+5,Administration,ASC,JUV Juvenile Probation,JUV,Public Protection,1,No
+6,Services To Frail Elders,CIB,HSA Human Services Agency,DSS,Human Welfare & Neighborhood Development,3,No
+7,Community Development Block Grants,CGC,MYR Mayor,MYR,General Administration & Finance,6,No
+8,Water Capital Projects,BCI,DT GSA - Technology,TIS,General Administration & Finance,6,No
+9,Municipal Court Services,AMA,ADM Gen Svcs Agency-City Admin,ADM,General Administration & Finance,6,No
+10,No Program Defined,NKEY,PRT Port,PRT,"Public Works, Transportation & Commerce",2,No
+11,City Distribution,BCF,WTR Water Enterprise,WTR,"Public Works, Transportation & Commerce",2,No
+12,County Jail 8 & 9,AKN,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+13,Seismic Safety Loan Program,BK2,ECN Economic & Wrkfrce Dvlpmnt,ECN,"Public Works, Transportation & Commerce",2,No
+14,No Program Defined,XXX,MTA Municipal Transprtn Agncy,MTA,"Public Works, Transportation & Commerce",2,Yes
+15,DSS Central Management,CGA,HSA Human Services Agency,DSS,Human Welfare & Neighborhood Development,3,No
+16,Medical Examiner,ASG,ADM Gen Svcs Agency-City Admin,ADM,Public Protection,1,No
+17,Customer Services,BCE,WTR Water Enterprise,WTR,"Public Works, Transportation & Commerce",2,No
+18,Gross Receipts Tax,FGR,TTX Treasurer/Tax Collector,TTX,General Administration & Finance,6,No
+19,Administrative,ADMIN,WAR War Memorial,WAR,Culture & Recreation,5,No
+20,Investment,FDF,RET Retirement System,RET,General Administration & Finance,6,Yes
+21,Disabled Children/Poor/Needy Svcs,CGI,HSA Human Services Agency,DSS,Human Welfare & Neighborhood Development,3,No
+22,General Fund Unallocated,FXX,ADM Gen Svcs Agency-City Admin,ADM,General Administration & Finance,6,No
+23,Central Administration,DHA,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+24,Tourism Events,EIJ,ADM Gen Svcs Agency-City Admin,ADM,General Administration & Finance,6,No
+25,Benefit Programs,BEW,MTA Municipal Transprtn Agncy,MTA,"Public Works, Transportation & Commerce",2,No
+26,Central Administration,DHA,DPH Public Health,DPH,Community Health,4,Yes
+27,Operating,OPR,CTA SF County Transprtn Auth,CTA,"Public Works, Transportation & Commerce",2,No
+28,No Program Defined,NKEY,SHF Sheriff,SHF,Public Protection,1,No
+29,Economic Development,BK5,MYR Mayor,MYR,General Administration & Finance,6,No
+30,Maintenance,MAINT,HSA Human Services Agency,HSA,Human Welfare & Neighborhood Development,3,No
+31,No Program Defined,XXX,CFC Children & Families Commsn,CFC,Human Welfare & Neighborhood Development,3,No
+32,Technology,TECH,CON Controller,CON,General Administration & Finance,6,No
+33,Debt Service,BDQ,WWE Wastewater Enterprise,CWP,"Public Works, Transportation & Commerce",2,No
+34,I D Maintenance & Opr Of Bldg,BAS,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+35,Animal Welfare,AUA,HHP Hetch Hetchy Water & Power,HHP,"Public Works, Transportation & Commerce",2,No
+36,Hetch Hetchy Project Operations,BCL,HHP Hetch Hetchy Water & Power,HHP,"Public Works, Transportation & Commerce",2,No
+37,Maintenance-CPC Funded,MAINC,REC Recreation & Park Commsn,REC,Culture & Recreation,5,No
+38,Technology-COIT Funded,TECHC,AAM Asian Art Museum,AAM,Culture & Recreation,5,No
+39,Public Administrator,CIH,HSA Human Services Agency,DSS,Human Welfare & Neighborhood Development,3,No
+40,Children's Baseline,FAL,ECN Economic & Wrkfrce Dvlpmnt,ECN,"Public Works, Transportation & Commerce",2,No
+41,Costs Of Bond Issuance,FAP,CON Controller,CON,General Administration & Finance,6,No
+42,Work Order Services,AEH,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+43,3Com Park Project,ECL,ECN Economic & Wrkfrce Dvlpmnt,ECN,"Public Works, Transportation & Commerce",2,No
+44,Substance Abuse - Early Intervention,DIS,DPH Public Health,DPH,Community Health,4,No
+45,No Program Defined,NKEY,POL Police,POL,Public Protection,1,No
+46,City Capital Projects,BAW,REC Recreation & Park Commsn,REC,Culture & Recreation,5,No
+47,Maintenance,MAINT,REC Recreation & Park Commsn,REC,Culture & Recreation,5,No
+48,Operating,OPR,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+49,No Program,No Program Code,REC Recreation & Park Commsn,REC,Culture & Recreation,5,No
+50,Special Events,EVENT,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+51,911 Project,BIX,DEM Emergency Management,ECD,Public Protection,1,No
+52,No Program Defined,CXX,DAT District Attorney,DAT,Public Protection,1,No
+53,SFGH - Emergency - Emergency,D5E,DPH Public Health,DPH,Community Health,4,No
+54,Operating,OPR,HOM Homelessness Services,HOM,Human Welfare & Neighborhood Development,3,No
+55,Plan Review Services,BPS,ADM Gen Svcs Agency-City Admin,ADM,General Administration & Finance,6,No
+56,Children and Families Fund,CFC,CFC Children & Families Commsn,CFC,Human Welfare & Neighborhood Development,3,No
+57,Capital-CPC Funded,CAPCP,LIB Public Library,LIB,Culture & Recreation,5,No
+58,Airport Police,AC5,POL Police,POL,Public Protection,1,No
+59,Water Facilities Maintenance Projects,BCJ,AIR Airport Commission,AIR,"Public Works, Transportation & Commerce",2,No
+60,Administrative,ADMIN,ART Arts Commission,ART,Culture & Recreation,5,No
+61,Housing Inspection/Code Enforcement Svcs,BHS,DBI Building Inspection,DBI,"Public Works, Transportation & Commerce",2,No
+62,Building Operations,EAG,ADM Gen Svcs Agency-City Admin,ADM,Culture & Recreation,5,No
+63,Pop Growth Gf Alloc Capital Projects,BE8,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+127,Fire Airport,AEM,FIR Fire Department,FIR,Public Protection,1,No
+64,Long Range Planning & Policy,BCX,PUB Public Utilities Bureaus,PUC,"Public Works, Transportation & Commerce",2,No
+65,No Program Defined,XXX,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,Yes
+66,Construction Inspection,BAO,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+67,Hetch Hetchy Capital Projects,BCP,CAT City Attorney,CAT,General Administration & Finance,6,No
+68,Capital,CAP,CSS Child Support Services,CSS,Human Welfare & Neighborhood Development,3,No
+69,Primary Care - Ambu Care - Health Cntrs,DHP,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+70,Operating,OPR,GEN General City / Unallocated,GEN,General City Responsibilities,7,Yes
+71,Capital,CAP,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+72,Administration & Management,CMN,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+73,Administration,BKO,PRT Port,PRT,"Public Works, Transportation & Commerce",2,No
+74,Golden Gate Park,EAA,REC Recreation & Park Commsn,REC,Culture & Recreation,5,No
+75,Water Transmission/ Distribution,BDK,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+76,City Capital Projects,BAW,JUV Juvenile Probation,JUV,Public Protection,1,No
+77,Employee Deferred Comp Plan,EDC,RET Retirement System,RET,General Administration & Finance,6,No
+78,Sf Benefits Net,CGW,HSA Human Services Agency,DSS,Human Welfare & Neighborhood Development,3,No
+79,25 Van Ness Building,FEV,ADM Gen Svcs Agency-City Admin,ADM,General Administration & Finance,6,No
+80,Operating,OPR,CCD SF Communtiy College Dist,CCD,Human Welfare & Neighborhood Development,3,Yes
+81,Traffic Engineering & Operation,BKG,HHP Hetch Hetchy Water & Power,HHP,"Public Works, Transportation & Commerce",2,No
+82,No Program Defined,XXX,ADM Gen Svcs Agency-City Admin,ADM,General Administration & Finance,6,No
+83,SFGH - Ambu Care - Women'S Health Center,D3W,DPH Public Health,DPH,Community Health,4,No
+84,Community Health/Support Service,DCH,HRD Human Resources,HRD,General Administration & Finance,6,Yes
+85,Transitional-Aged Youth Baseline,FAY,HSA Human Services Agency,DSS,Human Welfare & Neighborhood Development,3,No
+86,Laguna Honda - Non Lhh Program Expenses,DA4,DPH Public Health,DPH,Community Health,4,No
+87,Water Quality,BCD,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+88,Custody,AFC,SHF Sheriff,SHF,Public Protection,1,No
+89,No Program Defined,XXX,SHF Sheriff,SHF,Public Protection,1,Yes
+90,No Program Defined,AXX,CRT Superior Court,CRT,Public Protection,1,No
+91,Entertainment Commission,FFL,ADM Gen Svcs Agency-City Admin,ADM,General Administration & Finance,6,No
+92,Consent Decree/Stipulated Order,AEB,FIR Fire Department,FIR,Public Protection,1,No
+93,Ag Wts & Measures Inspection,AOB,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+94,Water Transmission/ Distribution,BDK,PUB Public Utilities Bureaus,PUC,"Public Works, Transportation & Commerce",2,No
+95,General Fund,FDM,ADM Gen Svcs Agency-City Admin,ADM,General Administration & Finance,6,No
+96,Economic Development,BK5,ECN Economic & Wrkfrce Dvlpmnt,ECN,"Public Works, Transportation & Commerce",2,No
+97,Maintenance,MAINT,LIB Public Library,LIB,Culture & Recreation,5,No
+98,No Program Defined,XXX,CRT Superior Court,CRT,Public Protection,1,No
+99,MRD-Compliance & Materials Mgmt Div(CMM),BED,MTA Municipal Transprtn Agncy,MTA,"Public Works, Transportation & Commerce",2,No
+100,Admissions,EEB,FAM Fine Arts Museum,FAM,Culture & Recreation,5,No
+101,No Program Defined,NKEY,ADM Gen Svcs Agency-City Admin,ADM,Culture & Recreation,5,No
+102,Work Orders,EIF,REC Recreation & Park Commsn,REC,Culture & Recreation,5,No
+103,No Program Defined,AXX,ADP Adult Probation,ADP,Public Protection,1,No
+104,Operating,OPR,MTA Municipal Transprtn Agncy,MTA,"Public Works, Transportation & Commerce",2,No
+105,No Program Defined,NKEY,CPC City Planning,CPC,General Administration & Finance,6,No
+106,Children's Baseline,FAL,REC Recreation & Park Commsn,REC,Culture & Recreation,5,No
+107,Water Transmission/ Distribution,BDK,WTR Water Enterprise,WTR,"Public Works, Transportation & Commerce",2,No
+108,Customer Services,BCE,TTX Treasurer/Tax Collector,TTX,General Administration & Finance,6,No
+109,No Program,No Program Code,DPH Public Health,DPH,Community Health,4,No
+110,Moscone Expansion Project,BGP,HHP Hetch Hetchy Water & Power,HHP,"Public Works, Transportation & Commerce",2,No
+111,Parking & Traffic,BE2,DT GSA - Technology,TIS,General Administration & Finance,6,No
+112,Cable Television Access,FAD,BOS Board Of Supervisors,BOS,General Administration & Finance,6,No
+113,Substance Abuse - Community Care,DMS,CRT Superior Court,CRT,Public Protection,1,No
+114,Maintenance,MAINT,DPH Public Health,DPH,Community Health,4,No
+115,Water Transmission/ Distribution,BDK,HHP Hetch Hetchy Water & Power,HHP,"Public Works, Transportation & Commerce",2,No
+116,Substance Abuse - Acute Care,DQS,DPH Public Health,DPH,Community Health,4,No
+117,Maintenance-CPC Funded,MAINC,AAM Asian Art Museum,AAM,Culture & Recreation,5,No
+118,SFGH - Acute Care - Hospital,D1H,DT GSA - Technology,TIS,General Administration & Finance,6,No
+119,Recycling,CIS,ENV Environment,ENV,Human Welfare & Neighborhood Development,3,No
+120,Capital,CAP,POL Police,POL,Public Protection,1,No
+121,Comm Hlth - Prevention - Disease Control,DPD,DPH Public Health,DPH,Community Health,4,No
+122,Medical Examiner - Investigative Service,ASN,ADM Gen Svcs Agency-City Admin,ADM,General Administration & Finance,6,No
+123,Water Programmatic Projects,BCK,WTR Water Enterprise,WTR,"Public Works, Transportation & Commerce",2,No
+124,Comm Hlth - Community Support - Eap,DSE,DPH Public Health,DPH,Community Health,4,No
+125,DPW Interdepartment Work Order Program,BX1,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+126,Wastewater Operations,BAX,AIR Airport Commission,AIR,"Public Works, Transportation & Commerce",2,No
+128,Animal Welfare,AUA,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+129,Municipal Court Services,AMA,CRT Superior Court,CRT,Public Protection,1,Yes
+130,No Program Defined,XXX,RET Retirement System,RET,General Administration & Finance,6,Yes
+131,Capital,CAP,BOA Board of Appeals,BOA,"Public Works, Transportation & Commerce",2,No
+132,Administration,FCW,HRD Human Resources,HRD,General Administration & Finance,6,No
+133,Capital,CAP,DAT District Attorney,DAT,Public Protection,1,No
+134,Technical Services,FDL,ASR Assessor / Recorder,ASR,General Administration & Finance,6,No
+135,Turf Management,EAB,REC Recreation & Park Commsn,REC,Culture & Recreation,5,No
+136,Administrative,ADMIN,HSA Human Services Agency,HSA,Human Welfare & Neighborhood Development,3,No
+137,City Capital Projects,BAW,CPC City Planning,CPC,General Administration & Finance,6,No
+138,Water Distribution,BCA,WTR Water Enterprise,WTR,"Public Works, Transportation & Commerce",2,No
+139,Engineering,BCU,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+140,Maintenance-CPC Funded,MAINC,ADM GSA - City Administrator,ADM,General Administration & Finance,6,No
+141,Departmental Fund Transfer,BZZ,DBI Building Inspection,DBI,"Public Works, Transportation & Commerce",2,No
+142,Citywide Planning,FAH,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+143,Administration,BDA,PUB Public Utilities Bureaus,PUC,"Public Works, Transportation & Commerce",2,No
+144,Reproduction Services,FCB,DT GSA - Technology,TIS,General Administration & Finance,6,No
+145,Accounting Automation,AMM,CRT Superior Court,CRT,Public Protection,1,No
+146,No Program,No Program Code,TTX Treasurer/Tax Collector,TTX,General Administration & Finance,6,No
+147,Moscone Expansion Project,BGP,ADM Gen Svcs Agency-City Admin,ADM,Culture & Recreation,5,No
+148,Water Supply & Power Operations,BCB,WTR Water Enterprise,WTR,"Public Works, Transportation & Commerce",2,No
+149,MRD-Construction Division (Const),BEK,DPH Public Health,DPH,Community Health,4,No
+150,Treasure Island Jail,AKQ,SHF Sheriff,SHF,Public Protection,1,No
+151,Fingerprint,ACF,POL Police,POL,Public Protection,1,No
+152,Capital-CPC Funded,CAPCP,ART Arts Commission,ART,Culture & Recreation,5,No
+153,Branch Program,EEG,WTR Water Enterprise,WTR,"Public Works, Transportation & Commerce",2,No
+154,Prevention & Investigation,API,FIR Fire Department,FIR,Public Protection,1,No
+155,No Program Defined,XXX,MYR Mayor,MYR,General Administration & Finance,6,No
+156,Juvenile Hall Replacement Debt Payment,AKS,JUV Juvenile Probation,JUV,Public Protection,1,No
+157,Diversion And Community Integration Prog,CGP,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+158,911 Project,BIX,DT GSA - Technology,TIS,General Administration & Finance,6,No
+159,No Program Defined,XXX,JUV Juvenile Probation,JUV,Public Protection,1,No
+160,Disaster Recovery,RCVY,ART Arts Commission,ART,Culture & Recreation,5,No
+161,Administration,FCW,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+162,Facilities & Equipment,ASP,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+163,Operating,OPR,ART Arts Commission,ART,Culture & Recreation,5,No
+164,Farmer's Market,AOA,ADM Gen Svcs Agency-City Admin,ADM,General Administration & Finance,6,Yes
+165,Disaster Recovery,RCVY,PRT Port,PRT,"Public Works, Transportation & Commerce",2,No
+166,Maintenance-CPC Funded,MAINC,FIR Fire Department,FIR,Public Protection,1,No
+167,Disaster Recovery,RCVY,DBI Building Inspection,DBI,"Public Works, Transportation & Commerce",2,No
+168,No Program Defined,XXX,USD County Education Office,USD,Human Welfare & Neighborhood Development,3,No
+169,Technology-COIT Funded,TECHC,HRD Human Resources,HRD,General Administration & Finance,6,No
+170,Clean Air,CIO,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+171,Capital Programs & Construction,BE7,DT GSA - Technology,TIS,General Administration & Finance,6,No
+172,Disaster Recovery,RCVY,DEM Emergency Management,DEM,Public Protection,1,No
+173,Turf Management,EAB,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+174,Development And Planning,BEB,MTA Municipal Transprtn Agncy,MTA,"Public Works, Transportation & Commerce",2,No
+175,Hetch Hetchy Capital Projects,BCP,LIB Public Library,LIB,Culture & Recreation,5,No
+176,Child Support Services Program,CAF,CSS Child Support Services,CSS,Human Welfare & Neighborhood Development,3,Yes
+177,Disability Access,FAV,MTA Municipal Transprtn Agncy,MTA,"Public Works, Transportation & Commerce",2,No
+178,Human Rights Commission,CAD,HRC Human Rights Commission,HRC,Human Welfare & Neighborhood Development,3,No
+179,Fire Port Fireboat,AEL,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+180,Capital Projects,ECS,CAT City Attorney,CAT,General Administration & Finance,6,No
+181,SFGH - Ambu Care - Family Health Center,D3F,DPH Public Health,DPH,Community Health,4,No
+182,Parking,BKP,MTA Municipal Transprtn Agncy,MTA,"Public Works, Transportation & Commerce",2,No
+183,Fire Investigation,AEE,FIR Fire Department,FIR,Public Protection,1,No
+184,Primary Care - Comm Supp - Ihss,DSH,DPH Public Health,DPH,Community Health,4,No
+185,Emergency Services,BIV,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+186,Operations & Maintenance,BGE,PRT Port,PRT,"Public Works, Transportation & Commerce",2,No
+187,Reseidential Hotel Preservation,BRH,DBI Building Inspection,DBI,"Public Works, Transportation & Commerce",2,No
+188,Engineering,BGD,PRT Port,PRT,"Public Works, Transportation & Commerce",2,No
+189,Technology,TECH,HRD Human Resources,HRD,General Administration & Finance,6,No
+190,Operating,OPR,CON Controller,CON,General Administration & Finance,6,No
+191,General City Responsibilities,FCZ,CHF Children;Youth & Families,CHF,Human Welfare & Neighborhood Development,3,No
+321,Special Investigations,ACR,POL Police,POL,Public Protection,1,No
+192,Chinese Historical Society,FHS,MYR Mayor,MYR,General Administration & Finance,6,No
+193,Superior Court Services,AMF,CRT Superior Court,CRT,Public Protection,1,No
+194,Parking Garages & Lots,BE5,MTA Municipal Transprtn Agncy,MTA,"Public Works, Transportation & Commerce",2,No
+195,Central Shops,FDA,ADM Gen Svcs Agency-City Admin,ADM,General Administration & Finance,6,No
+196,Operating,OPR,REG Elections,REG,General Administration & Finance,6,No
+197,Family And Children's Service,CAL,HSA Human Services Agency,DSS,Human Welfare & Neighborhood Development,3,No
+198,Transitional-Aged Youth Baseline,FAY,CHF Children;Youth & Families,CHF,Human Welfare & Neighborhood Development,3,No
+199,Street Use Management,BAT,SHF Sheriff,SHF,Public Protection,1,No
+200,Maintenance,MAINT,MTA Municipal Transprtn Agncy,MTA,"Public Works, Transportation & Commerce",2,No
+201,Development & Planning,EAC,MTA Municipal Transprtn Agncy,MTA,"Public Works, Transportation & Commerce",2,No
+202,Environmental Regulation And Management,BAY,WWE Wastewater Enterprise,CWP,"Public Works, Transportation & Commerce",2,No
+203,City Capital Projects,BAW,CAT City Attorney,CAT,General Administration & Finance,6,No
+204,Special Events,EVENT,MTA Municipal Transprtn Agncy,MTA,"Public Works, Transportation & Commerce",2,No
+205,Medical Examiner - Investigative Service,ASN,ADM Gen Svcs Agency-City Admin,ADM,Public Protection,1,No
+206,Capital Programs & Construction,BE7,CPC City Planning,CPC,General Administration & Finance,6,No
+207,DPW Labor Cost Distribution,BLC,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+208,Finance And Administration,BL2,ECN Economic & Wrkfrce Dvlpmnt,ECN,"Public Works, Transportation & Commerce",2,No
+209,Crime Control,AC3,MYR Mayor,MYR,General Administration & Finance,6,No
+210,Technology-COIT Funded,TECHC,TTX Treasurer/Tax Collector,TTX,General Administration & Finance,6,No
+211,City Capital Projects,BAW,WTR Water Enterprise,WTR,"Public Works, Transportation & Commerce",2,No
+212,Capital,CAP,CON Controller,CON,General Administration & Finance,6,No
+213,Maintenance,BKY,WTR Water Enterprise,WTR,"Public Works, Transportation & Commerce",2,No
+214,SFGH - Ambu Care - Adult Med Hlth Cntr,D3A,DPH Public Health,DPH,Community Health,4,No
+215,Disability Access,FAV,ADM Gen Svcs Agency-City Admin,ADM,General Administration & Finance,6,No
+216,Affordable Housing,FFC,CII Commty Invest & Infrstrctr,CII,Human Welfare & Neighborhood Development,3,Yes
+217,Bio-Diversity,CIY,ENV Environment,ENV,Human Welfare & Neighborhood Development,3,No
+218,Operating,OPR,FAM Fine Arts Museum,FAM,Culture & Recreation,5,No
+219,Medi-Cal,CAJ,HSA Human Services Agency,DSS,Human Welfare & Neighborhood Development,3,No
+220,Mental Health - Children's Program,FAM,DPH Public Health,DPH,Community Health,4,No
+221,Treasury,FCL,TTX Treasurer/Tax Collector,TTX,General Administration & Finance,6,No
+222,Disaster Recovery,RCVY,HSA Human Services Agency,HSA,Human Welfare & Neighborhood Development,3,No
+223,Maintenance,MAINT,DT  GSA - Technology,TIS,General Administration & Finance,6,No
+224,City Capital Projects,BAW,FIR Fire Department,FIR,Public Protection,1,No
+225,Medical Examiner - Medical Services,ASM,ADM Gen Svcs Agency-City Admin,ADM,General Administration & Finance,6,No
+226,Children's Fund Programs,CBI,CHF Children;Youth & Families,CHF,Human Welfare & Neighborhood Development,3,No
+227,Criminal And Special Defense,AIB,SHF Sheriff,SHF,Public Protection,1,No
+228,Administrative,ADMIN,PUC Public Utilities Commsn,PUC,"Public Works, Transportation & Commerce",2,No
+229,Capital,CAP,ADP Adult Probation,ADP,Public Protection,1,No
+230,Adult Services,CIL,HSA Human Services Agency,DSS,Human Welfare & Neighborhood Development,3,No
+231,Real Estate Services,FFI,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+232,Maintenance,MAINT,DAT District Attorney,DAT,Public Protection,1,No
+233,Capital Asset Planning,FAU,ADM Gen Svcs Agency-City Admin,ADM,General Administration & Finance,6,No
+234,Technology-COIT Funded,TECHC,FIR Fire Department,FIR,Public Protection,1,No
+235,Substance Abuse - Prevention,DVS,DPH Public Health,DPH,Community Health,4,No
+236,Exemptions,FD9,ASR Assessor / Recorder,ASR,General Administration & Finance,6,No
+237,Taxi Enforcement,ACE,POL Police,POL,Public Protection,1,No
+238,Current Planning,FDP,CPC City Planning,CPC,General Administration & Finance,6,No
+239,Welfare to Work,CGV,HSA Human Services Agency,DSS,Human Welfare & Neighborhood Development,3,No
+240,Disaster Recovery,RCVY,DPA Police Accountabilty,DPA,Public Protection,1,No
+241,Agency Wide Expenses,BEG,MTA Municipal Transprtn Agncy,MTA,"Public Works, Transportation & Commerce",2,No
+242,Capital-CPC Funded,CAPCP,FAM Fine Arts Museum,FAM,Culture & Recreation,5,No
+243,Administrative,ADMIN,ADM GSA - City Administrator,ADM,General Administration & Finance,6,No
+244,No Program Defined,XXX,CHF Children;Youth & Families,CHF,Human Welfare & Neighborhood Development,3,No
+245,Special Events,EVENT,PUC Public Utilities Commsn,PUC,"Public Works, Transportation & Commerce",2,No
+246,Power Retail Services,BDF,HHP Hetch Hetchy Water & Power,HHP,"Public Works, Transportation & Commerce",2,No
+247,Central Administration,DHA,DPH Public Health,DPH,Community Health,4,No
+248,Parking & Traffic,BE2,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+249,Civic Design,EET,ART Arts Commission,ART,Culture & Recreation,5,No
+250,Disaster Recovery,RCVY,HRC Human Rights Commission,HRC,Human Welfare & Neighborhood Development,3,No
+251,Maintenance-CPC Funded,MAINC,FAM Fine Arts Museum,FAM,Culture & Recreation,5,No
+252,T T X - Working Families Credit,FE1,TTX Treasurer/Tax Collector,TTX,General Administration & Finance,6,No
+253,Technology,TECH,PRT Port,PRT,"Public Works, Transportation & Commerce",2,No
+254,No Program Defined,XXX,CSS Child Support Services,CSS,Human Welfare & Neighborhood Development,3,Yes
+255,Capital-CPC Funded,CAPCP,GEN General City / Unallocated,GEN,General City Responsibilities,7,No
+256,Community Development,BAQ,CAT City Attorney,CAT,General Administration & Finance,6,No
+257,Capital-CPC Funded,CAPCP,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+258,Environmental Planning,FFP,CPC City Planning,CPC,General Administration & Finance,6,No
+259,Mental Health - Long Term Care,DLT,DPH Public Health,DPH,Community Health,4,No
+260,Operating,OPR,DT  GSA - Technology,TIS,General Administration & Finance,6,No
+261,No Program Defined,XXX,PDR Public Defender,PDR,Public Protection,1,No
+262,Immigrant And Language Services,FFN,ADM Gen Svcs Agency-City Admin,ADM,General Administration & Finance,6,No
+263,Refugee Resettlement Program,CAW,HSA Human Services Agency,DSS,Human Welfare & Neighborhood Development,3,No
+264,Crime Control,AC3,POL Police,POL,Public Protection,1,No
+265,Surveys And Mapping,BAU,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+266,Law Library,EEA,LLB Law Library,LLB,Culture & Recreation,5,No
+267,County Clerk Services,AME,CRT Superior Court,CRT,Public Protection,1,Yes
+268,Operating,OPR,WAR War Memorial,WAR,Culture & Recreation,5,No
+269,Retirement Services,FDD,RET Retirement System,RET,General Administration & Finance,6,Yes
+270,No Program,No Program Code,CHF Children;Youth & Families,CHF,Human Welfare & Neighborhood Development,3,No
+271,Operating,OPR,JUV Juvenile Probation,JUV,Public Protection,1,No
+272,Family Violence Program,AIJ,DAT District Attorney,DAT,Public Protection,1,No
+273,Grants For The Arts,FEQ,MYR Mayor,MYR,General Administration & Finance,6,No
+274,Emergency Services,BIV,DEM Emergency Management,ECD,Public Protection,1,No
+275,Safety & Security,BGG,AIR Airport Commission,AIR,"Public Works, Transportation & Commerce",2,No
+276,PUC Land Management,BCZ,WTR Water Enterprise,WTR,"Public Works, Transportation & Commerce",2,No
+277,Digital Services Program,FD2,ADM Gen Svcs Agency-City Admin,ADM,General Administration & Finance,6,No
+278,Planning & Development,BKW,POL Police,POL,Public Protection,1,No
+279,Maintenance Of Streetlights,BC1,HHP Hetch Hetchy Water & Power,HHP,"Public Works, Transportation & Commerce",2,No
+280,Patrol,ACX,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+281,No Program Defined,XXX,BOS Board Of Supervisors,BOS,General Administration & Finance,6,No
+282,Hetch Hetchy Power,BDN,HHP Hetch Hetchy Water & Power,HHP,"Public Works, Transportation & Commerce",2,No
+283,Library Administration,EIB,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+284,Water Capital Projects,BCI,PUB Public Utilities Bureaus,PUC,"Public Works, Transportation & Commerce",2,No
+285,Child Support Services Program,CAF,DAT District Attorney,DAT,Public Protection,1,No
+286,Plan Review Services,BPS,DBI Building Inspection,DBI,"Public Works, Transportation & Commerce",2,No
+287,Work Order Services,AEH,FIR Fire Department,FIR,Public Protection,1,No
+288,Operating,OPR,ADP Adult Probation,ADP,Public Protection,1,No
+289,Emergency Communications,BIR,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+290,555 Seventh Street Building,FEZ,ADM Gen Svcs Agency-City Admin,ADM,General Administration & Finance,6,No
+291,Development & Planning,EAC,ART Arts Commission,ART,Culture & Recreation,5,No
+292,Clean Air,CIO,ENV Environment,ENV,Human Welfare & Neighborhood Development,3,No
+293,Disaster Recovery,RCVY,PDR Public Defender,PDR,Public Protection,1,No
+294,Comm Hlth - Administration,DHC,DPH Public Health,DPH,Community Health,4,No
+295,Alternative Programs,AKL,SHF Sheriff,SHF,Public Protection,1,No
+296,Operating,OPR,RET Retirement System,RET,General Administration & Finance,6,Yes
+297,Operating,OPR,POL Police,POL,Public Protection,1,No
+298,Transitional-Aged Youth Baseline,FAY,MYR Mayor,MYR,General Administration & Finance,6,No
+299,Operating,OPR,FIR Fire Department,FIR,Public Protection,1,No
+300,Collection Technical Services,EGD,LIB Public Library,LIB,Culture & Recreation,5,No
+301,Climate Change/Energy,CIP,ENV Environment,ENV,Human Welfare & Neighborhood Development,3,No
+302,Capital,CAP,FIR Fire Department,FIR,Public Protection,1,No
+303,Water Programmatic Projects,BCK,CAT City Attorney,CAT,General Administration & Finance,6,No
+304,General City Responsibilities,FCZ,ECN Economic & Wrkfrce Dvlpmnt,ECN,"Public Works, Transportation & Commerce",2,No
+305,Fire General,AGE,FIR Fire Department,FIR,Public Protection,1,No
+306,Technology-COIT Funded,TECHC,ASR Assessor / Recorder,ASR,General Administration & Finance,6,No
+307,Children's Fund Programs,CBI,MYR Mayor,MYR,General Administration & Finance,6,No
+308,Capital,CAP,WAR War Memorial,WAR,Culture & Recreation,5,No
+309,No Program Defined,AXX,SHF Sheriff,SHF,Public Protection,1,No
+310,General Engineering Servi,BAF,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+311,Capital-CPC Funded,CAPCP,CON Controller,CON,General Administration & Finance,6,No
+312,Publicity And Advertising,EEK,MYR Mayor,MYR,General Administration & Finance,6,No
+313,Maintenance,BKY,PRT Port,PRT,"Public Works, Transportation & Commerce",2,No
+314,Capital-CPC Funded,CAPCP,HSA Human Services Agency,HSA,Human Welfare & Neighborhood Development,3,No
+315,Operating,OPR,CII Community Invest/Infrastr,CII,Human Welfare & Neighborhood Development,3,Yes
+316,Environment,CIG,ENV Environment,ENV,Human Welfare & Neighborhood Development,3,No
+317,Affordable Housing,FFC,GEN General City / Unallocated,GEN,General City Responsibilities,7,No
+318,Disaster Recovery,RCVY,ADM GSA - City Administrator,ADM,General Administration & Finance,6,No
+319,Water Capital Projects,BCI,WTR Water Enterprise,WTR,"Public Works, Transportation & Commerce",2,No
+320,Engineering,BCU,HRD Human Resources,HRD,General Administration & Finance,6,No
+322,No Program Defined,DXX,DPH Public Health,DPH,Community Health,4,No
+323,Management Information,BCS,PUB Public Utilities Bureaus,PUC,"Public Works, Transportation & Commerce",2,No
+324,Human Resources,BCW,PUB Public Utilities Bureaus,PUC,"Public Works, Transportation & Commerce",2,No
+325,Capital-CPC Funded,CAPCP,PUC Public Utilities Commsn,PUC,"Public Works, Transportation & Commerce",2,No
+326,Strategic Planning/Compliance,BCV,PUB Public Utilities Bureaus,PUC,"Public Works, Transportation & Commerce",2,No
+327,Maritime,BGA,PRT Port,PRT,"Public Works, Transportation & Commerce",2,No
+328,Delinquent Revenue,FCS,TTX Treasurer/Tax Collector,TTX,General Administration & Finance,6,No
+329,SFGH - Emergency - Psychiatric Services,D5S,DPH Public Health,DPH,Community Health,4,No
+330,Capital-CPC Funded,CAPCP,REC Recreation & Park Commsn,REC,Culture & Recreation,5,No
+331,MRD-Construction Division (Const),BEK,ART Arts Commission,ART,Culture & Recreation,5,No
+332,Disaster Recovery,RCVY,REC Recreation & Park Commsn,REC,Culture & Recreation,5,No
+333,Communications & Marketing,BG3,AIR Airport Commission,AIR,"Public Works, Transportation & Commerce",2,No
+334,Debt Service,BDQ,WTR Water Enterprise,WTR,"Public Works, Transportation & Commerce",2,No
+335,Procurement Services,FCC,ADM Gen Svcs Agency-City Admin,ADM,General Administration & Finance,6,No
+336,Planning & Development,BKW,PRT Port,PRT,"Public Works, Transportation & Commerce",2,No
+337,Operating,OPR,AIR Airport Commission,AIR,"Public Works, Transportation & Commerce",2,No
+338,911/Communications,ACI,POL Police,POL,Public Protection,1,No
+339,Community Arts & Education,EEO,ART Arts Commission,ART,Culture & Recreation,5,No
+340,City Capital Projects,BAW,HSA Human Services Agency,DSS,Human Welfare & Neighborhood Development,3,No
+341,Branch Program,EEG,AIR Airport Commission,AIR,"Public Works, Transportation & Commerce",2,No
+342,Culture & Recreation/Departmental,EIG,REC Recreation & Park Commsn,REC,Culture & Recreation,5,No
+343,Capital,CAP,PUC Public Utilities Commsn,PUC,"Public Works, Transportation & Commerce",2,No
+344,Engineering,BCU,DT GSA - Technology,TIS,General Administration & Finance,6,No
+345,No Program Defined,XXX,REC Recreation & Park Commsn,REC,Culture & Recreation,5,Yes
+346,Children's Baseline,FAL,LIB Public Library,LIB,Culture & Recreation,5,No
+347,No Program Defined,AXX,ADM Gen Svcs Agency-City Admin,ADM,Public Protection,1,No
+348,Capital,CAP,HRC Human Rights Commission,HRC,Human Welfare & Neighborhood Development,3,No
+349,Technology-COIT Funded,TECHC,CON Controller,CON,General Administration & Finance,6,No
+350,Pre - Sentencing Investigation,AKG,ADP Adult Probation,ADP,Public Protection,1,No
+351,Outdoor Public Warning System,BIY,DEM Emergency Management,ECD,Public Protection,1,No
+352,Water Capital Projects,BCI,REC Recreation & Park Commsn,REC,Culture & Recreation,5,No
+353,Citywide Planning,FAH,WTR Water Enterprise,WTR,"Public Works, Transportation & Commerce",2,No
+354,No Program Defined,XXX,ADP Adult Probation,ADP,Public Protection,1,No
+355,Disaster Recovery,RCVY,SCI Academy of Sciences,SCI,Culture & Recreation,5,No
+356,Administration,BG1,AIR Airport Commission,AIR,"Public Works, Transportation & Commerce",2,No
+357,Asian Arts Museum,EEI,AAM Asian Art Museum,AAM,Culture & Recreation,5,No
+358,Wastewater Operations,BAX,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+359,SFGH - Acute Care - Hospital,D1H,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+360,Parking & Traffic,BE2,REC Recreation & Park Commsn,REC,Culture & Recreation,5,No
+361,Sheriff Facilities Maintenance,AKD,SHF Sheriff,SHF,Public Protection,1,No
+362,Disaster Recovery,RCVY,RET Retirement System,RET,General Administration & Finance,6,No
+363,Emergency Communications,BIR,DEM Emergency Management,ECD,Public Protection,1,No
+364,Medical Examiner,ASG,SHF Sheriff,SHF,Public Protection,1,No
+365,Hetch Hetchy Capital Projects,BCP,MTA Municipal Transprtn Agncy,MTA,"Public Works, Transportation & Commerce",2,No
+366,No Program Defined,XXX,DPH Public Health,DPH,Community Health,4,Yes
+367,Administrative,ADMIN,PDR Public Defender,PDR,Public Protection,1,No
+368,Toxics,CIT,ENV Environment,ENV,Human Welfare & Neighborhood Development,3,No
+369,No Program Defined,NKEY,DBI Building Inspection,DBI,"Public Works, Transportation & Commerce",2,No
+370,Wastewater Capital Projects,BDP,HHP Hetch Hetchy Water & Power,HHP,"Public Works, Transportation & Commerce",2,No
+371,Maintenance-CPC Funded,MAINC,SHF Sheriff,SHF,Public Protection,1,No
+372,Art Commission-Administration,EEJ,ART Arts Commission,ART,Culture & Recreation,5,No
+373,Capital,CAP,PRT Port,PRT,"Public Works, Transportation & Commerce",2,No
+374,1660 Mission Street Building,FEW,ADM Gen Svcs Agency-City Admin,ADM,General Administration & Finance,6,No
+375,Disaster Recovery,RCVY,LIB Public Library,LIB,Culture & Recreation,5,No
+376,Capital,CAP,ENV Environment,ENV,Human Welfare & Neighborhood Development,3,No
+377,Maintenance,MAINT,ART Arts Commission,ART,Culture & Recreation,5,No
+378,Water Capital Projects,BCI,SHF Sheriff,SHF,Public Protection,1,No
+379,Operating,OPR,MTA Municipal Transprtn Agncy,MTA,"Public Works, Transportation & Commerce",2,Yes
+380,Muni-Accessible Services,BEO,MTA Municipal Transprtn Agncy,MTA,"Public Works, Transportation & Commerce",2,No
+381,Public Administrator,CIH,ADM Gen Svcs Agency-City Admin,ADM,Human Welfare & Neighborhood Development,3,No
+382,Hetch Hetchy Capital Projects,BCP,DT GSA - Technology,TIS,General Administration & Finance,6,No
+383,Trial Court Services,AMT,CRT Superior Court,CRT,Public Protection,1,No
+384,Mapping,BA6,WWE Wastewater Enterprise,CWP,"Public Works, Transportation & Commerce",2,No
+385,Neighborhood Services,EAE,REC Recreation & Park Commsn,REC,Culture & Recreation,5,No
+386,Civic Collection,EER,ART Arts Commission,ART,Culture & Recreation,5,No
+387,Recreation,ECB,REC Recreation & Park Commsn,REC,Culture & Recreation,5,No
+388,Community Development,BAQ,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+389,Administrative,ADMIN,HOM Homelessness Services,HOM,Human Welfare & Neighborhood Development,3,No
+390,Technology-COIT Funded,TECHC,SHF Sheriff,SHF,Public Protection,1,No
+391,Disaster Recovery,RCVY,POL Police,POL,Public Protection,1,No
+392,No Program,No Program Code,REG Elections,REG,General Administration & Finance,6,No
+393,Capital Programs & Construction,BE7,MTA Municipal Transprtn Agncy,MTA,"Public Works, Transportation & Commerce",2,No
+394,Solid Waste Management,BAI,ENV Environment,ENV,Human Welfare & Neighborhood Development,3,No
+395,Disaster Recovery,RCVY,HRD Human Resources,HRD,General Administration & Finance,6,No
+396,Neighborhood Services,EAE,WTR Water Enterprise,WTR,"Public Works, Transportation & Commerce",2,No
+397,Administration,BDA,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+398,Departmental Fund Transfer,FZZ,DT GSA - Technology,TIS,General Administration & Finance,6,No
+399,Juvenile Hall,AKE,JUV Juvenile Probation,JUV,Public Protection,1,No
+400,Mapping,BA6,WTR Water Enterprise,WTR,"Public Works, Transportation & Commerce",2,No
+401,Administrative,ADMIN,ADP Adult Probation,ADP,Public Protection,1,No
+402,Operating,OPR,MYR Mayor,MYR,General Administration & Finance,6,No
+403,City Distribution,BCF,PUB Public Utilities Bureaus,PUC,"Public Works, Transportation & Commerce",2,No
+404,County Education Services,EEE,USD County Education Office,USD,Human Welfare & Neighborhood Development,3,Yes
+405,Adult Services,EGE,LIB Public Library,LIB,Culture & Recreation,5,No
+406,Hetch Hetchy Capital Projects,BCP,WTR Water Enterprise,WTR,"Public Works, Transportation & Commerce",2,No
+407,Facilites,EGH,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+408,Mental Health - Community Care,DMM,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+409,Traffic Engineering & Operation,BKG,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+410,Wastewater Collection,BDE,WWE Wastewater Enterprise,CWP,"Public Works, Transportation & Commerce",2,No
+411,Retiree Health Care -  Prop B,FHC,GEN General City / Unallocated,GEN,General City Responsibilities,7,Yes
+412,Rail & Bus Services,BEN,PUB Public Utilities Bureaus,PUC,"Public Works, Transportation & Commerce",2,No
+413,Civil Enforcement,AMG,SHF Sheriff,SHF,Public Protection,1,No
+414,Economic Analysis,FFM,CON Controller,CON,General Administration & Finance,6,No
+415,General City Responsibilities,FCZ,LIB Public Library,LIB,Culture & Recreation,5,No
+416,General City Responsibilities,FCZ,GEN General City / Unallocated,GEN,General City Responsibilities,7,Yes
+417,General Fund Unallocated,FXX,GEN General City / Unallocated,GEN,General City Responsibilities,7,No
+418,Untitled,ZZZ,FIR Fire Department,FIR,Public Protection,1,No
+419,Public Guardian,CGS,HSA Human Services Agency,DSS,Human Welfare & Neighborhood Development,3,No
+420,Transitional-Aged Youth Baseline,FAY,HOM HOMELESSNESS SERVICES,HOM,Human Welfare & Neighborhood Development,3,No
+421,General Fund Unallocated,FXX,GEN General City / Unallocated,UNA,General City Responsibilities,7,No
+422,Employee Relations,FC4,HRD Human Resources,HRD,General Administration & Finance,6,No
+423,Operating,OPR,CSS Child Support Services,CSS,Human Welfare & Neighborhood Development,3,Yes
+424,Admin/Finance,BKU,PRT Port,PRT,"Public Works, Transportation & Commerce",2,No
+425,General Management,BCR,DT GSA - Technology,TIS,General Administration & Finance,6,No
+426,County Veterans Services,AQB,ADM Gen Svcs Agency-City Admin,ADM,Human Welfare & Neighborhood Development,3,No
+427,Lead-Based Paint Hazard Control Program,CGN,MYR Mayor,MYR,General Administration & Finance,6,No
+428,No Program Defined,NKEY,CFC Children & Families Commsn,CFC,Human Welfare & Neighborhood Development,3,No
+429,Children's Baseline,FAL,HOM HOMELESSNESS SERVICES,HOM,Human Welfare & Neighborhood Development,3,No
+430,Operating,OPR,DPH Public Health,DPH,Community Health,4,Yes
+431,Operating,OPR,TTX Treasurer/Tax Collector,TTX,General Administration & Finance,6,No
+432,Clean Air,CIO,AIR Airport Commission,AIR,"Public Works, Transportation & Commerce",2,No
+433,Food Stamps,CAH,HSA Human Services Agency,DSS,Human Welfare & Neighborhood Development,3,No
+434,Wastewater Operations,BAX,ART Arts Commission,ART,Culture & Recreation,5,No
+435,Police,ASA,POL Police,POL,Public Protection,1,No
+436,PUC-Work Order Recovery,BKN,PUB Public Utilities Bureaus,PUC,"Public Works, Transportation & Commerce",2,No
+437,Wastewater Collection,BDE,PRT Port,PRT,"Public Works, Transportation & Commerce",2,No
+438,Capital Programs & Construction,BE7,WTR Water Enterprise,WTR,"Public Works, Transportation & Commerce",2,No
+439,No Program Defined,XXX,DEM Emergency Management,ECD,Public Protection,1,No
+440,Operating,OPR,HSA Human Services Agency,HSA,Human Welfare & Neighborhood Development,3,Yes
+441,Administrative,ADMIN,MYR Mayor,MYR,General Administration & Finance,6,No
+442,Building Repair And Maintenance,BAR,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+443,Facilities,BG6,FIR Fire Department,FIR,Public Protection,1,No
+444,Street Use Management,BAT,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+445,Neighborhood Services,FAJ,MYR Mayor,MYR,General Administration & Finance,6,No
+446,No Program Defined,XXX,CSS Child Support Services,CSS,Human Welfare & Neighborhood Development,3,No
+447,Water Quality,BCD,HHP Hetch Hetchy Water & Power,HHP,"Public Works, Transportation & Commerce",2,No
+448,Office Of Emergency Service,ASK,POL Police,POL,Public Protection,1,No
+449,General Fund Unallocated,FXX,MYR Mayor,MYR,General Administration & Finance,6,No
+450,Administration/Support Services,BAN,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+451,Operating,OPR,HSS Health Service System,HSS,General Administration & Finance,6,Yes
+452,Rec & Park Administration,EIA,MYR Mayor,MYR,General Administration & Finance,6,No
+453,Power Utility Services,BCC,HHP Hetch Hetchy Water & Power,HHP,"Public Works, Transportation & Commerce",2,No
+454,No Program Defined,XXX,AIR Airport Commission,AIR,"Public Works, Transportation & Commerce",2,Yes
+455,Hetch Hetchy Power,BDN,PUB Public Utilities Bureaus,PUC,"Public Works, Transportation & Commerce",2,No
+456,Citywide Services,ECQ,REC Recreation & Park Commsn,REC,Culture & Recreation,5,No
+457,Business & Finance,BG2,AIR Airport Commission,AIR,"Public Works, Transportation & Commerce",2,No
+458,Administration,FEK,CAT City Attorney,CAT,General Administration & Finance,6,No
+459,Special Events,EVENT,SHF Sheriff,SHF,Public Protection,1,No
+460,Operating,OPR,LLB Law Library,LLB,Culture & Recreation,5,No
+461,Water Quality,BCD,WWE Wastewater Enterprise,CWP,"Public Works, Transportation & Commerce",2,No
+462,Adult Protective Services,CGO,HSA Human Services Agency,DSS,Human Welfare & Neighborhood Development,3,No
+463,Water Capital Projects,BCI,HRD Human Resources,HRD,General Administration & Finance,6,No
+464,Departmental Fund Transfer,EZZ,REC Recreation & Park Commsn,REC,Culture & Recreation,5,No
+465,Workers Compensation Claims,BEC,MTA Municipal Transprtn Agncy,MTA,"Public Works, Transportation & Commerce",2,No
+466,Administration & Management,CMN,HOM HOMELESSNESS SERVICES,HOM,Human Welfare & Neighborhood Development,3,No
+467,No Program Defined,XXX,GEN General City / Unallocated,UNA,General City Responsibilities,7,No
+468,No Program Defined,XXX,CPC City Planning,CPC,General Administration & Finance,6,No
+469,Comm Hlth - Prevention - Aids,DPC,DPH Public Health,DPH,Community Health,4,No
+470,No Program,No Program Code,HOM Homelessness Services,HOM,Human Welfare & Neighborhood Development,3,No
+471,Customer Relations Management,BTC,DT GSA - Technology,TIS,General Administration & Finance,6,No
+472,Street And Sewer Repair,BA2,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+473,Residential Permit Parking,BKR,MTA Municipal Transprtn Agncy,MTA,"Public Works, Transportation & Commerce",2,No
+474,No Program Defined,XXX,DT GSA - Technology,TIS,General Administration & Finance,6,No
+475,Diversion And Community Integration Prog,CGP,HSA Human Services Agency,DSS,Human Welfare & Neighborhood Development,3,No
+476,"Facilities Maintenance,Construction",BGH,MTA Municipal Transprtn Agncy,MTA,"Public Works, Transportation & Commerce",2,No
+477,Moscone Expansion Project,BGP,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+478,Public Art,EEN,ART Arts Commission,ART,Culture & Recreation,5,No
+479,Maintenance-CPC Funded,MAINC,POL Police,POL,Public Protection,1,No
+480,City Administrator - Administration,FAC,DT GSA - Technology,TIS,General Administration & Finance,6,No
+481,Operating,OPR,TTX Treasurer/Tax Collector,TTX,General Administration & Finance,6,Yes
+482,Wastewater Treatment,BDC,WTR Water Enterprise,WTR,"Public Works, Transportation & Commerce",2,No
+483,No Program Defined,NKEY,HSA Human Services Agency,DSS,Human Welfare & Neighborhood Development,3,No
+484,Mapping,BA6,PUB Public Utilities Bureaus,PUC,"Public Works, Transportation & Commerce",2,No
+485,Non-Grant Construction Projects,BAC,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+486,Violence Prevention,CVP,PDR Public Defender,PDR,Public Protection,1,No
+487,Treasure Island,BK6,ADM Gen Svcs Agency-City Admin,ADM,General Administration & Finance,6,Yes
+488,Administrative,ADMIN,HRD Human Resources,HRD,General Administration & Finance,6,No
+489,Administrative,ADMIN,ECN Economic & Wrkfrce Dvlpmnt,ECN,"Public Works, Transportation & Commerce",2,No
+490,Office On Aging,CIF,HSA Human Services Agency,DSS,Human Welfare & Neighborhood Development,3,No
+491,Community Arts & Education,EID,LIB Public Library,LIB,Culture & Recreation,5,No
+492,Neighborhood Services,EAE,MTA Municipal Transprtn Agncy,MTA,"Public Works, Transportation & Commerce",2,No
+493,Sunshine Ordinance Task Force,FAK,BOS Board Of Supervisors,BOS,General Administration & Finance,6,No
+494,Administration,FCW,GEN General City / Unallocated,UNA,General City Responsibilities,7,No
+495,Patrol,ACX,POL Police,POL,Public Protection,1,No
+496,Capital,CAP,DBI Building Inspection,DBI,"Public Works, Transportation & Commerce",2,No
+497,Waterfront Transportation,FEU,MYR Mayor,MYR,General Administration & Finance,6,No
+498,Operating,OPR,CHF Children;Youth & Families,CHF,Human Welfare & Neighborhood Development,3,No
+499,No Program Defined,XXX,TTX Treasurer/Tax Collector,TTX,General Administration & Finance,6,No
+500,Fast Pass On Bart,BEY,MTA Municipal Transprtn Agncy,MTA,"Public Works, Transportation & Commerce",2,No
+501,Maintenance-CPC Funded,MAINC,MYR Mayor,MYR,General Administration & Finance,6,No
+502,City Capital Projects,BAW,HHP Hetch Hetchy Water & Power,HHP,"Public Works, Transportation & Commerce",2,No
+503,No Program Defined,XXX,POL Police,POL,Public Protection,1,No
+504,Operating,OPR,ADM GSA - City Administrator,ADM,General Administration & Finance,6,No
+505,Facilites,EGH,CAT City Attorney,CAT,General Administration & Finance,6,No
+506,Public Art,EEN,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+507,Fire Bureau Of Training,AEG,FIR Fire Department,FIR,Public Protection,1,No
+508,No Program Defined,XXX,GEN General City / Unallocated,UNA,General City Responsibilities,7,Yes
+509,Neighborhood Services,EAE,HHP Hetch Hetchy Water & Power,HHP,"Public Works, Transportation & Commerce",2,No
+510,Laguna Honda Hosp - Acute Care,DBG,DPH Public Health,DPH,Community Health,4,No
+511,No Program,No Program Code,MYR Mayor,MYR,General Administration & Finance,6,No
+512,No Program Defined,NKEY,JUV Juvenile Probation,JUV,Public Protection,1,No
+513,Fire Neighborhood Emerg. Resp. Training,AEI,FIR Fire Department,FIR,Public Protection,1,No
+514,Capital Projects,ECS,PRT Port,PRT,"Public Works, Transportation & Commerce",2,No
+515,Clerk Of The Board,FAE,BOS Board Of Supervisors,BOS,General Administration & Finance,6,No
+516,Clean Powersf,BC5,HHP CleanPowerSF,CLP,"Public Works, Transportation & Commerce",2,No
+517,MRD-Municipal Railway Exec Office (MREO),BEM,MTA Municipal Transprtn Agncy,MTA,"Public Works, Transportation & Commerce",2,No
+518,Operating,OPR,DAT District Attorney,DAT,Public Protection,1,Yes
+519,Public Administrator/Guardian,AQA,ADM Gen Svcs Agency-City Admin,ADM,Human Welfare & Neighborhood Development,3,No
+520,Zoning Administration And Compliance,FZA,CPC City Planning,CPC,General Administration & Finance,6,No
+521,Water Capital Projects,BCI,CON Controller,CON,General Administration & Finance,6,No
+522,No Program Defined,XXX,GEN General City / Unallocated,GEN,General City Responsibilities,7,No
+523,Power Infrastructure Development,BDI,HHP Hetch Hetchy Water & Power,HHP,"Public Works, Transportation & Commerce",2,No
+524,Work Orders & Grants,AIE,DAT District Attorney,DAT,Public Protection,1,No
+525,Wastewater Operations,BAX,CPC City Planning,CPC,General Administration & Finance,6,No
+526,Laguna Honda - Long Term Care,DA5,HHP Hetch Hetchy Water & Power,HHP,"Public Works, Transportation & Commerce",2,No
+527,Police Operations,ACQ,POL Police,POL,Public Protection,1,No
+528,SFGH - Acute Care - Hospital,D1H,DPH Public Health,DPH,Community Health,4,Yes
+529,Bureau Of Design And Construction,BG8,AIR Airport Commission,AIR,"Public Works, Transportation & Commerce",2,No
+530,Capital Projects,ECS,MTA Municipal Transprtn Agncy,MTA,"Public Works, Transportation & Commerce",2,No
+531,Community Investment,FAB,DPH Public Health,DPH,Community Health,4,No
+532,Gallery,EES,ART Arts Commission,ART,Culture & Recreation,5,No
+533,Facilities Mgmt & Operations,FFH,PUB Public Utilities Bureaus,PUC,"Public Works, Transportation & Commerce",2,No
+534,Convention Facilities Program Management,EAD,ADM Gen Svcs Agency-City Admin,ADM,General Administration & Finance,6,No
+535,Maintenance-CPC Funded,MAINC,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+536,Mta Development Impact Fee,BE9,MTA Municipal Transprtn Agncy,MTA,"Public Works, Transportation & Commerce",2,No
+537,SFGH - Acute Care - Hospital,D1H,HHP Hetch Hetchy Water & Power,HHP,"Public Works, Transportation & Commerce",2,No
+538,General Management,BCR,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+539,Main Program,EEF,LIB Public Library,LIB,Culture & Recreation,5,No
+540,No Program Defined,NKEY,PUB Public Utilities Bureaus,PUC,"Public Works, Transportation & Commerce",2,No
+541,Public Defender Work Order,AIC,PDR Public Defender,PDR,Public Protection,1,No
+542,General Management,BCR,CAT City Attorney,CAT,General Administration & Finance,6,No
+543,City Capital Projects,BAW,AIR Airport Commission,AIR,"Public Works, Transportation & Commerce",2,No
+544,Legal Service,FC2,CAT City Attorney,CAT,General Administration & Finance,6,No
+545,Work Order Services,ACP,POL Police,POL,Public Protection,1,No
+546,City Distribution,BCF,DT GSA - Technology,TIS,General Administration & Finance,6,No
+547,No Program Defined,XXX,REC Recreation & Park Commsn,REC,Culture & Recreation,5,No
+548,Natural Resources,BC3,WTR Water Enterprise,WTR,"Public Works, Transportation & Commerce",2,No
+549,Water Source Of Supply,BDJ,PUB Public Utilities Bureaus,PUC,"Public Works, Transportation & Commerce",2,No
+550,Laguna Honda Hospital,DEX,DPH Public Health,DPH,Community Health,4,No
+551,Disaster Recovery,RCVY,FIR Fire Department,FIR,Public Protection,1,No
+552,Adult Services,CAM,HSA Human Services Agency,DSS,Human Welfare & Neighborhood Development,3,No
+553,Substance Abuse - Community Care,DMS,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+554,Operating,OPR,HRD Human Resources,HRD,General Administration & Finance,6,No
+555,Administration,FD6,ASR Assessor / Recorder,ASR,General Administration & Finance,6,No
+556,Wastewater Treatment,BDC,WWE Wastewater Enterprise,CWP,"Public Works, Transportation & Commerce",2,No
+557,Operating,OPR,SHF Sheriff,SHF,Public Protection,1,Yes
+558,Rec & Park Administration,EIA,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+559,County Adult Assistance Program,CAI,HSA Human Services Agency,DSS,Human Welfare & Neighborhood Development,3,No
+560,Rail & Bus Services,BEN,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+561,No Program Defined,NKEY,WWE Wastewater Enterprise,CWP,"Public Works, Transportation & Commerce",2,No
+562,Cultural Equity,EEP,ART Arts Commission,ART,Culture & Recreation,5,No
+563,Administrative,ADMIN,REC Recreation & Park Commsn,REC,Culture & Recreation,5,No
+564,Ag Wts & Measures Inspection,AOB,ADM Gen Svcs Agency-City Admin,ADM,General Administration & Finance,6,No
+565,Capital,CAP,CAT City Attorney,CAT,General Administration & Finance,6,No
+566,No Program,No Program Code,FIR Fire Department,FIR,Public Protection,1,No
+567,Operating,OPR,DAT District Attorney,DAT,Public Protection,1,No
+568,Operating,OPR,ENV Environment,ENV,Human Welfare & Neighborhood Development,3,No
+569,Maintenance,BKY,AIR Airport Commission,AIR,"Public Works, Transportation & Commerce",2,No
+570,Administrative Support,CAO,HHP Hetch Hetchy Water & Power,HHP,"Public Works, Transportation & Commerce",2,No
+571,No Program Defined,XXX,ADM Gen Svcs Agency-City Admin,ADM,Culture & Recreation,5,No
+572,Permit Center,BPC,DBI Building Inspection,DBI,"Public Works, Transportation & Commerce",2,No
+573,DPW Interdepartment Work Order Program,BX1,DT GSA - Technology,TIS,General Administration & Finance,6,No
+574,Library Administration,EIB,ART Arts Commission,ART,Culture & Recreation,5,No
+575,Technology,TECH,HOM Homelessness Services,HOM,Human Welfare & Neighborhood Development,3,No
+576,Capital Projects,ECS,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+577,Moscone Expansion Project,BGP,CAT City Attorney,CAT,General Administration & Finance,6,No
+578,Disability Access,FAV,HHP Hetch Hetchy Water & Power,HHP,"Public Works, Transportation & Commerce",2,No
+579,Capital,CAP,DEM Emergency Management,DEM,Public Protection,1,No
+580,Supply & Treatment,BCG,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+581,No Program Defined,AXX,FIR Fire Department,FIR,Public Protection,1,No
+582,Parks,EAP,AAM Asian Art Museum,AAM,Culture & Recreation,5,No
+583,Departmental Fund Transfer,AZZ,FIR Fire Department,FIR,Public Protection,1,No
+584,Disaster Recovery,RCVY,HSS Health Service System,HSS,General Administration & Finance,6,Yes
+585,Golden Gate Park,EAA,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+586,Family And Children's Service,CAL,HSA Human Services Agency,DSS,Human Welfare & Neighborhood Development,3,Yes
+587,Disaster Recovery,RCVY,JUV Juvenile Probation,JUV,Public Protection,1,No
+588,Traffic Engineering & Operation,BKG,WTR Water Enterprise,WTR,"Public Works, Transportation & Commerce",2,No
+589,No Program Defined,XXX,USD County Education Office,USD,Human Welfare & Neighborhood Development,3,Yes
+590,Office Of Emergency Service,ASK,MYR Mayor,MYR,General Administration & Finance,6,No
+591,Capital,CAP,RNT Rent Arbitration Board,RNT,Human Welfare & Neighborhood Development,3,No
+592,No Program Defined,XXX,HSA Human Services Agency,DSS,Human Welfare & Neighborhood Development,3,No
+593,City Administrator - Administration,FAC,HHP Hetch Hetchy Water & Power,HHP,"Public Works, Transportation & Commerce",2,No
+594,Capital,CAP,ART Arts Commission,ART,Culture & Recreation,5,No
+595,No Program,No Program Code,ADM GSA - City Administrator,ADM,General Administration & Finance,6,No
+596,Golf Course,ECG,REC Recreation & Park Commsn,REC,Culture & Recreation,5,No
+597,Wastewater Capital Projects,BDP,MTA Municipal Transprtn Agncy,MTA,"Public Works, Transportation & Commerce",2,No
+598,Administration,CIA,HSA Human Services Agency,DSS,Human Welfare & Neighborhood Development,3,No
+599,Hall Of Justice Jails,AKM,SHF Sheriff,SHF,Public Protection,1,No
+600,Fire,ASD,FIR Fire Department,FIR,Public Protection,1,No
+601,Administration/Planning,FEF,CPC City Planning,CPC,General Administration & Finance,6,No
+602,Technology,TECH,LIB Public Library,LIB,Culture & Recreation,5,No
+603,Technology-COIT Funded,TECHC,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+604,Disaster Recovery,RCVY,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+605,Disaster Recovery,RCVY,CHF Children;Youth & Families,CHF,Human Welfare & Neighborhood Development,3,No
+606,Water Transmission/ Distribution,BDK,REC Recreation & Park Commsn,REC,Culture & Recreation,5,No
+607,Branch Program,EEG,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+608,Primary Care - Ambu Care - Health Cntrs,DHP,DPH Public Health,DPH,Community Health,4,No
+609,Public Finance,FFG,ECN Economic & Wrkfrce Dvlpmnt,ECN,"Public Works, Transportation & Commerce",2,No
+610,Wastewater Operations,BAX,WWE Wastewater Enterprise,CWP,"Public Works, Transportation & Commerce",2,No
+611,MRD-Construction Division (Const),BEK,MYR Mayor,MYR,General Administration & Finance,6,No
+612,Branch Program,EEG,LIB Public Library,LIB,Culture & Recreation,5,No
+613,Indigent Defense/Grand Jury,AML,GEN General City / Unallocated,GEN,General City Responsibilities,7,No
+614,Administration-Fire Department,ASF,FIR Fire Department,FIR,Public Protection,1,No
+615,Technology,BIT,PUB Public Utilities Bureaus,PUC,"Public Works, Transportation & Commerce",2,No
+616,Mapping,BA6,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+617,No Program Defined,XXX,HSS Health Service System,HSS,General Administration & Finance,6,Yes
+618,No Program Defined,XXX,TJP Transbay Joint Power Auth,TJP,"Public Works, Transportation & Commerce",2,Yes
+619,Integrated Intake,CGQ,HSA Human Services Agency,DSS,Human Welfare & Neighborhood Development,3,No
+620,CHF-Public Health,CBD,DPH Public Health,DPH,Community Health,4,No
+621,Community Arts & Education-General Admin,EEX,ART Arts Commission,ART,Culture & Recreation,5,No
+622,Environmental Health,DA2,MYR Mayor,MYR,General Administration & Finance,6,No
+623,Architecture,BAM,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+624,Wastewater Operations,BAX,PUB Public Utilities Bureaus,PUC,"Public Works, Transportation & Commerce",2,No
+625,No Program Defined,NKEY,MYR Mayor,MYR,General Administration & Finance,6,No
+626,Parking & Traffic,BE2,WTR Water Enterprise,WTR,"Public Works, Transportation & Commerce",2,No
+627,No Program Defined,XXX,CTA SF County Transprtn Auth,CTA,"Public Works, Transportation & Commerce",2,No
+628,Maintenance,MAINT,GEN General City / Unallocated,GEN,General City Responsibilities,7,No
+629,Comm Hlth - Prevention - Aids,DPC,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+630,Children's Baseline,FAL,BOS Board Of Supervisors,BOS,General Administration & Finance,6,No
+631,General City Responsibilities,FCZ,REG Elections,REG,General Administration & Finance,6,No
+632,General City Responsibilities,FCZ,DEM Emergency Management,ECD,Public Protection,1,No
+633,Capital-CPC Funded,CAPCP,REG Elections,REG,General Administration & Finance,6,No
+634,No Program Defined,XXX,ADP Adult Probation,ADP,Public Protection,1,Yes
+635,City Administrator - Administration,FAC,ADM Gen Svcs Agency-City Admin,ADM,General Administration & Finance,6,No
+636,Power Utility Field Services,BDH,HHP Hetch Hetchy Water & Power,HHP,"Public Works, Transportation & Commerce",2,No
+637,Agency Wide Expenses,BEG,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+638,Board - Legislative Analysis,FAQ,BOS Board Of Supervisors,BOS,General Administration & Finance,6,No
+639,Maintenance-CPC Funded,MAINC,ART Arts Commission,ART,Culture & Recreation,5,No
+640,Operating,OPR,TJP Transbay Joint Power Auth,TJP,"Public Works, Transportation & Commerce",2,Yes
+641,Wastewater Operations,BAX,WTR Water Enterprise,WTR,"Public Works, Transportation & Commerce",2,No
+642,Disaster Recovery,RCVY,PUC Public Utilities Commsn,PUC,"Public Works, Transportation & Commerce",2,No
+643,Current Planning,FDP,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+644,In Home Supportive Services,CIM,HSA Human Services Agency,DSS,Human Welfare & Neighborhood Development,3,No
+645,Capital-CPC Funded,CAPCP,MYR Mayor,MYR,General Administration & Finance,6,No
+646,Hetch Hetchy Capital Projects,BCP,DPH Public Health,DPH,Community Health,4,No
+647,Operating,OPR,CAT City Attorney,CAT,General Administration & Finance,6,No
+648,Hetch Hetchy Capital Projects,BCP,WWE Wastewater Enterprise,CWP,"Public Works, Transportation & Commerce",2,No
+649,Recreation,ECU,REC Recreation & Park Commsn,REC,Culture & Recreation,5,No
+650,Wastewater Disposal,BDD,WWE Wastewater Enterprise,CWP,"Public Works, Transportation & Commerce",2,No
+651,No Program Defined,NKEY,DPH Public Health,DPH,Community Health,4,No
+652,Water Source Of Supply,BDJ,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+653,Economic Development,BK5,AAM Asian Art Museum,AAM,Culture & Recreation,5,No
+654,Administrative,ADMIN,PRT Port,PRT,"Public Works, Transportation & Commerce",2,No
+655,Fire Support Services,AEF,FIR Fire Department,FIR,Public Protection,1,No
+656,Technology,TECH,FIR Fire Department,FIR,Public Protection,1,No
+657,Solid Waste Management,BAI,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+658,Inspection Services,BIS,DBI Building Inspection,DBI,"Public Works, Transportation & Commerce",2,No
+659,Sheriff Field Services,AFS,SHF Sheriff,SHF,Public Protection,1,No
+660,MRD-Construction Division (Const),BEK,PRT Port,PRT,"Public Works, Transportation & Commerce",2,No
+661,Rec & Park Administration,EIA,CPC City Planning,CPC,General Administration & Finance,6,No
+662,Hetch Hetchy Administration,BCO,PUB Public Utilities Bureaus,PUC,"Public Works, Transportation & Commerce",2,No
+663,Clean Water Grants,BAD,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+664,Integrated Police Prosecution / Subpoena,AIG,DAT District Attorney,DAT,Public Protection,1,No
+665,Disaster Recovery,RCVY,DAT District Attorney,DAT,Public Protection,1,No
+666,Hetch Hetchy Capital Projects,BCP,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+667,Academy Of Sciences,EEH,SCI Academy Of Sciences,SCI,Culture & Recreation,5,No
+668,Branch Program,EEG,ART Arts Commission,ART,Culture & Recreation,5,No
+669,DPW Interdepartment Work Order Program,BX1,HHP Hetch Hetchy Water & Power,HHP,"Public Works, Transportation & Commerce",2,No
+670,Criminal Justice,CGD,DT GSA - Technology,TIS,General Administration & Finance,6,No
+671,Operations And Administration,ACM,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+672,Water Source Of Supply,BDJ,CPC City Planning,CPC,General Administration & Finance,6,No
+673,Local Agency Formation,FAT,BOS Board Of Supervisors,BOS,General Administration & Finance,6,No
+674,Capital,CAP,PRT Port,PRT,"Public Works, Transportation & Commerce",2,Yes
+675,Disaster Recovery,RCVY,ADP Adult Probation,ADP,Public Protection,1,No
+676,MRD-Chief Operating Officer Div (COO),BER,MTA Municipal Transprtn Agncy,MTA,"Public Works, Transportation & Commerce",2,No
+677,Capital,CAP,HSA Human Services Agency,HSA,Human Welfare & Neighborhood Development,3,No
+678,"Management, Budget And Analysis",FEB,CON Controller,CON,General Administration & Finance,6,No
+679,Debt Service,BDQ,HHP Hetch Hetchy Water & Power,HHP,"Public Works, Transportation & Commerce",2,No
+680,Development & Planning,EAC,REC Recreation & Park Commsn,REC,Culture & Recreation,5,No
+681,Supply & Treatment,BCG,WTR Water Enterprise,WTR,"Public Works, Transportation & Commerce",2,No
+682,Administrative,ADMIN,ENV Environment,ENV,Human Welfare & Neighborhood Development,3,No
+683,Street Use Management,BAT,DT GSA - Technology,TIS,General Administration & Finance,6,No
+684,Commute Assistance,FES,ADM Gen Svcs Agency-City Admin,ADM,General Administration & Finance,6,No
+685,Power Infrastructure Development,BDI,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+686,No Program Defined,XXX,CRT Superior Court,CRT,Public Protection,1,Yes
+687,General City Responsibilities,FCZ,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+688,No Program Defined,XXX,ECN Economic & Wrkfrce Dvlpmnt,ECN,"Public Works, Transportation & Commerce",2,No
+689,Emergency Services,BIV,FIR Fire Department,FIR,Public Protection,1,No
+690,Disaster Recovery,RCVY,CON Controller,CON,General Administration & Finance,6,No
+691,Civil Service Commission,FCV,CSC Civil Service Commission,CSC,General Administration & Finance,6,No
+692,Administrative,ADMIN,WOM Status of Women,WOM,Human Welfare & Neighborhood Development,3,No
+693,No Program Defined,XXX,GEN General City / Unallocated,GEN,General City Responsibilities,7,Yes
+694,Taxi Services,BE6,MTA Municipal Transprtn Agncy,MTA,"Public Works, Transportation & Commerce",2,No
+695,Golf Course,ECG,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+696,Legal,BEZ,MTA Municipal Transprtn Agncy,MTA,"Public Works, Transportation & Commerce",2,No
+697,Chief Operating Officer,BG4,AIR Airport Commission,AIR,"Public Works, Transportation & Commerce",2,No
+698,Mental Health - Acute Care,DQM,DPH Public Health,DPH,Community Health,4,No
+699,Street Environmental Services,BAZ,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+700,Criminal And Special Defense,AIB,PDR Public Defender,PDR,Public Protection,1,No
+701,Enforcement,BKQ,MTA Municipal Transprtn Agncy,MTA,"Public Works, Transportation & Commerce",2,No
+702,Planning And Research,ACN,AIR Airport Commission,AIR,"Public Works, Transportation & Commerce",2,No
+703,Appeals Processing,BAH,BOA Board Of Appeals - PAB,PAB,"Public Works, Transportation & Commerce",2,No
+704,Dispute Resolution Program,AIK,CRT Superior Court,CRT,Public Protection,1,No
+705,Reproduction Services,FCB,ADM Gen Svcs Agency-City Admin,ADM,General Administration & Finance,6,No
+706,County Education Services,EEE,USD County Education Office,USD,Human Welfare & Neighborhood Development,3,No
+707,Golf Course,ECG,WTR Water Enterprise,WTR,"Public Works, Transportation & Commerce",2,No
+708,CHF-Administration,CBA,DPH Public Health,DPH,Community Health,4,No
+709,Admin/Finance,BKU,DT GSA - Technology,TIS,General Administration & Finance,6,No
+710,SFPD Training,ACO,POL Police,POL,Public Protection,1,No
+711,No Program Defined,XXX,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+712,Committee On Information Technology,FIT,ADM Gen Svcs Agency-City Admin,ADM,General Administration & Finance,6,No
+713,Technology,TECH,POL Police,POL,Public Protection,1,No
+714,General Management,BCR,AIR Airport Commission,AIR,"Public Works, Transportation & Commerce",2,No
+715,Concourse Authority,ECT,REC Recreation & Park Commsn,REC,Culture & Recreation,5,No
+716,Clean Powersf,BC5,HHP Hetch Hetchy Water & Power,HHP,"Public Works, Transportation & Commerce",2,No
+717,Substance Abuse - Community Support,DSS,DPH Public Health,DPH,Community Health,4,No
+718,Operating,OPR,CRT Superior Court,CRT,Public Protection,1,No
+719,Water Facilities Maintenance Projects,BCJ,WTR Water Enterprise,WTR,"Public Works, Transportation & Commerce",2,No
+720,Maintenance,BKY,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+721,Operating,OPR,GEN General City / Unallocated,GEN,General City Responsibilities,7,No
+722,Solar Power Program,BK8,HHP Hetch Hetchy Water & Power,HHP,"Public Works, Transportation & Commerce",2,No
+723,No Program Defined,NKEY,ADP Adult Probation,ADP,Public Protection,1,No
+724,Sfhn-Managed Care,DHM,DPH Public Health,DPH,Community Health,4,No
+725,DPW Bureau Overhead Program,BX2,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+726,Governance And Outreach,BK4,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+727,No Program,No Program Code,SHF Sheriff,SHF,Public Protection,1,No
+728,Operating,OPR,ASR Assessor / Recorder,ASR,General Administration & Finance,6,No
+729,Children's Services,CBF,LIB Public Library,LIB,Culture & Recreation,5,No
+730,No Program Defined,XXX,AAM Asian Art Museum,AAM,Culture & Recreation,5,No
+731,Disaster Recovery,RCVY,CAT City Attorney,CAT,General Administration & Finance,6,No
+732,Laguna Honda Hosp - Acute Care,DBG,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+733,Fire Suppression,AEC,FIR Fire Department,FIR,Public Protection,1,No
+734,No Program,No Program Code,ADP Adult Probation,ADP,Public Protection,1,No
+735,Capital Facilities,EGB,REC Recreation & Park Commsn,REC,Culture & Recreation,5,No
+736,Engineering,BCU,PUB Public Utilities Bureaus,PUC,"Public Works, Transportation & Commerce",2,No
+737,Capital Projects,ECS,ART Arts Commission,ART,Culture & Recreation,5,No
+738,Operations & Maintenance,EED,WAR War Memorial,WAR,Culture & Recreation,5,No
+739,Water Pumping,BDL,WTR Water Enterprise,WTR,"Public Works, Transportation & Commerce",2,No
+740,Narcotics Forfeiture,ACC,POL Police,POL,Public Protection,1,No
+741,No Program Defined,XXX,ETH Ethics Commission,ETH,General Administration & Finance,6,No
+742,Capital,CAP,SCI Academy of Sciences,SCI,Culture & Recreation,5,No
+743,Mental Health - Community Care,DMM,DPH Public Health,DPH,Community Health,4,No
+744,Public Administrator/Guardian,AQA,HSA Human Services Agency,DSS,Human Welfare & Neighborhood Development,3,No
+745,No Program Defined,XXX,HHP Hetch Hetchy Water & Power,HHP,"Public Works, Transportation & Commerce",2,No
+746,No Program Defined,NKEY,GEN General City / Unallocated,GEN,General City Responsibilities,7,No
+747,CHF-Public Health,CBD,CHF Children;Youth & Families,CHF,Human Welfare & Neighborhood Development,3,No
+748,Wastewater Treatment,BDC,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+749,Maintenance-CPC Funded,MAINC,SCI Academy of Sciences,SCI,Culture & Recreation,5,No
+750,SFGH - Acute Care - Psychiatry,D1P,DPH Public Health,DPH,Community Health,4,No
+751,Neighborhood Beautification,FER,MYR Mayor,MYR,General Administration & Finance,6,No
+752,Legal Service,FC2,TTX Treasurer/Tax Collector,TTX,General Administration & Finance,6,No
+753,Public Service,F10,ASR Assessor / Recorder,ASR,General Administration & Finance,6,No
+754,MRD-Operations Division(OP),BEA,MTA Municipal Transprtn Agncy,MTA,"Public Works, Transportation & Commerce",2,No
+755,Hetch Hetchy Capital Projects,BCP,FIR Fire Department,FIR,Public Protection,1,No
+756,Justis Project - City Adm Office,AJU,ADM Gen Svcs Agency-City Admin,ADM,General Administration & Finance,6,No
+757,Farmer's Market,AOA,ADM Gen Svcs Agency-City Admin,ADM,General Administration & Finance,6,No
+758,Property Conservation,BAP,DBI Building Inspection,DBI,"Public Works, Transportation & Commerce",2,No
+759,Development & Planning,EAC,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+760,Water Capital Projects,BCI,MTA Municipal Transprtn Agncy,MTA,"Public Works, Transportation & Commerce",2,No
+761,No Program Defined,XXX,ADM Gen Svcs Agency-City Admin,ADM,Public Protection,1,No
+762,No Program Defined,XXX,HRC Human Rights Commission,HRC,Human Welfare & Neighborhood Development,3,No
+763,No Program Defined,NKEY,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+764,Supply & Treatment,BCG,CAT City Attorney,CAT,General Administration & Finance,6,No
+765,Disaster Recovery,RCVY,ENV Environment,ENV,Human Welfare & Neighborhood Development,3,No
+766,CHF-Juvenile Probation,CBE,JUV Juvenile Probation,JUV,Public Protection,1,No
+767,No Program Defined,NKEY,REC Recreation & Park Commsn,REC,Culture & Recreation,5,No
+768,Seismic Safety Loan Program,BK2,MYR Mayor,MYR,General Administration & Finance,6,No
+769,Technology,TECH,DT  GSA - Technology,TIS,General Administration & Finance,6,No
+770,Maintenance,BKY,DT GSA - Technology,TIS,General Administration & Finance,6,No
+771,Capital-CPC Funded,CAPCP,FIR Fire Department,FIR,Public Protection,1,No
+772,Grant Services,AKI,PDR Public Defender,PDR,Public Protection,1,No
+773,Administrative,ADMIN,DEM Emergency Management,DEM,Public Protection,1,No
+774,Laguna Honda - Long Term Care,DA5,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+775,County Education Services,EEE,CCD SF Communtiy College Dist,CCD,Human Welfare & Neighborhood Development,3,Yes
+776,No Program Defined,NKEY,GEN General City / Unallocated,UNA,General City Responsibilities,7,No
+777,Moscone Expansion Project,BGP,MYR Mayor,MYR,General Administration & Finance,6,No
+778,Technology-COIT Funded,TECHC,HOM Homelessness Services,HOM,Human Welfare & Neighborhood Development,3,No
+779,Water Programmatic Projects,BCK,PUB Public Utilities Bureaus,PUC,"Public Works, Transportation & Commerce",2,No
+780,Water Treatment,BDM,HHP Hetch Hetchy Water & Power,HHP,"Public Works, Transportation & Commerce",2,No
+781,Judgment & Claims Against,FCI,GEN General City / Unallocated,GEN,General City Responsibilities,7,No
+782,Community Redevelopment,CRD,CII Commty Invest & Infrstrctr,CII,Human Welfare & Neighborhood Development,3,Yes
+783,Departmental Fund Transfer,AZZ,POL Police,POL,Public Protection,1,No
+784,Children's Baseline,FAL,JUV Juvenile Probation,JUV,Public Protection,1,No
+785,Program Support,CAP,HSA Human Services Agency,DSS,Human Welfare & Neighborhood Development,3,No
+786,Earthquake Safety Program,BA8,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+787,Disaster Recovery,RCVY,LLB Law Library,LLB,Culture & Recreation,5,No
+788,No Program Defined,BXX,CON Controller,CON,General Administration & Finance,6,No
+789,Maintenance,BKY,ART Arts Commission,ART,Culture & Recreation,5,No
+790,Water Capital Projects,BCI,AIR Airport Commission,AIR,"Public Works, Transportation & Commerce",2,No
+791,Capital,CAP,GEN General City / Unallocated,GEN,General City Responsibilities,7,No
+792,Indigent Defense/Grand Jury,AML,CRT Superior Court,CRT,Public Protection,1,No
+793,Engineering & Environmental,BK9,PRT Port,PRT,"Public Works, Transportation & Commerce",2,No
+794,Muni-General Management,BKM,MTA Municipal Transprtn Agncy,MTA,"Public Works, Transportation & Commerce",2,No
+795,Hetch Hetchy Capital Projects,BCP,ADM Gen Svcs Agency-City Admin,ADM,General Administration & Finance,6,No
+796,Retirement Services,FDD,RET Retirement System,RET,General Administration & Finance,6,No
+797,Capital Projects,ECS,WWE Wastewater Enterprise,CWP,"Public Works, Transportation & Commerce",2,No
+798,City Administrator Support,FAW,ADM Gen Svcs Agency-City Admin,ADM,General Administration & Finance,6,No
+799,Jail Services,AKP,SHF Sheriff,SHF,Public Protection,1,No
+800,Administrative,ADMIN,CON Controller,CON,General Administration & Finance,6,Yes
+801,Street Environmental Services,BAZ,WTR Water Enterprise,WTR,"Public Works, Transportation & Commerce",2,No
+802,Operating,OPR,HSA Human Services Agency,HSA,Human Welfare & Neighborhood Development,3,No
+803,County Jail 8 & 9,AKN,SHF Sheriff,SHF,Public Protection,1,No
+804,Affordable Housing,FFC,MYR Mayor,MYR,General Administration & Finance,6,No
+805,MRD-Human Resources Division (HR),BEE,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+806,Hetch Hetchy Capital Projects,BCP,PUB Public Utilities Bureaus,PUC,"Public Works, Transportation & Commerce",2,No
+807,Airport Director,BG5,AIR Airport Commission,AIR,"Public Works, Transportation & Commerce",2,No
+808,Street And Sewer Repair,BA2,MTA Municipal Transprtn Agncy,MTA,"Public Works, Transportation & Commerce",2,No
+809,No Program Defined,XXX,AIR Airport Commission,AIR,"Public Works, Transportation & Commerce",2,No
+810,Operating,OPR,CFC Children & Families Commsn,CFC,Human Welfare & Neighborhood Development,3,No
+811,Forensics - Ambulatory Care,DMF,DPH Public Health,DPH,Community Health,4,No
+812,City Capital Projects,BAW,LIB Public Library,LIB,Culture & Recreation,5,No
+813,Violence Prevention,CVP,CHF Children;Youth & Families,CHF,Human Welfare & Neighborhood Development,3,No
+814,Power Utility Services,BCC,PUB Public Utilities Bureaus,PUC,"Public Works, Transportation & Commerce",2,No
+815,Hetch Hetchy Administration,BCO,HHP Hetch Hetchy Water & Power,HHP,"Public Works, Transportation & Commerce",2,No
+816,Cases Consortium,CAR,CSS Child Support Services,CSS,Human Welfare & Neighborhood Development,3,No
+817,General Purpose Vehicle &,FDB,ADM Gen Svcs Agency-City Admin,ADM,General Administration & Finance,6,No
+818,Water Supply & Power Operations,BCB,DT GSA - Technology,TIS,General Administration & Finance,6,No
+819,Workers Compensation,FDE,HRD Human Resources,HRD,General Administration & Finance,6,No
+820,Capital Programs & Construction,BE7,HHP Hetch Hetchy Water & Power,HHP,"Public Works, Transportation & Commerce",2,No
+821,No Program,No Program Code,DAT District Attorney,DAT,Public Protection,1,No
+822,Juvenile Bureau,ACD,POL Police,POL,Public Protection,1,No
+823,Administrative,ADMIN,ADM GSA - City Administrator,ADM,General Administration & Finance,6,Yes
+824,Engineering Consultation,BAV,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+825,Strategic Planning/Compliance,BCV,CAT City Attorney,CAT,General Administration & Finance,6,No
+826,No Program Defined,EXX,WAR War Memorial,WAR,Culture & Recreation,5,No
+827,Operating,OPR,PUC Public Utilities Commsn,PUC,"Public Works, Transportation & Commerce",2,No
+828,No Program Defined,NKEY,ENV Environment,ENV,Human Welfare & Neighborhood Development,3,No
+829,311 Call Center,FFO,ADM Gen Svcs Agency-City Admin,ADM,General Administration & Finance,6,No
+830,No Program Defined,NKEY,CSS Child Support Services,CSS,Human Welfare & Neighborhood Development,3,No
+831,Zoo Operations,ECI,REC Recreation & Park Commsn,REC,Culture & Recreation,5,No
+832,No Program,No Program Code,POL Police,POL,Public Protection,1,No
+833,Streetlight Maintenance & Lhp Admin,BC2,HHP Hetch Hetchy Water & Power,HHP,"Public Works, Transportation & Commerce",2,No
+834,Operations & Maintenance,BGE,AIR Airport Commission,AIR,"Public Works, Transportation & Commerce",2,No
+835,Administrative,ADMIN,POL Police,POL,Public Protection,1,No
+836,Management/Administration,FEC,ADM Gen Svcs Agency-City Admin,ADM,General Administration & Finance,6,No
+837,SFGH - Acute Care - Forensics,D1F,DPH Public Health,DPH,Community Health,4,No
+838,Medical Examiner,ASG,ADM Gen Svcs Agency-City Admin,ADM,General Administration & Finance,6,No
+839,Claims,FA2,CAT City Attorney,CAT,General Administration & Finance,6,No
+840,Health Service System,FEE,HSS Health Service System,HSS,General Administration & Finance,6,No
+841,Parks,EAP,MYR Mayor,MYR,General Administration & Finance,6,No
+842,Environmental Planning,FFP,PUB Public Utilities Bureaus,PUC,"Public Works, Transportation & Commerce",2,No
+843,Solar Power Program,BK8,ENV Environment,ENV,Human Welfare & Neighborhood Development,3,No
+844,Maintenance-CPC Funded,MAINC,WAR War Memorial,WAR,Culture & Recreation,5,No
+845,Operating,OPR,ECN Economic & Wrkfrce Dvlpmnt,ECN,"Public Works, Transportation & Commerce",2,No
+846,"Facilities Maintenance,Construction",BGH,AIR Airport Commission,AIR,"Public Works, Transportation & Commerce",2,No
+847,No Program Defined,BXX,POL Police,POL,Public Protection,1,No
+848,Acute Care Psychiatry,DIP,DPH Public Health,DPH,Community Health,4,No
+849,Operating,OPR,WOM Status of Women,WOM,Human Welfare & Neighborhood Development,3,No
+850,Marina Yacht Harbor,ECE,REC Recreation & Park Commsn,REC,Culture & Recreation,5,No
+851,City Capital Projects,BAW,WWE Wastewater Enterprise,CWP,"Public Works, Transportation & Commerce",2,No
+852,Disaster Recovery,RCVY,ASR Assessor / Recorder,ASR,General Administration & Finance,6,No
+853,Water Resources,BC4,WTR Water Enterprise,WTR,"Public Works, Transportation & Commerce",2,No
+854,Disaster Recovery,RCVY,ETH Ethics Commission,ETH,General Administration & Finance,6,No
+855,Children's Baseline,FAL,HSA Human Services Agency,DSS,Human Welfare & Neighborhood Development,3,No
+856,No Program Defined,XXX,CAT City Attorney,CAT,General Administration & Finance,6,No
+857,CHF-Juvenile Probation,CBE,CHF Children;Youth & Families,CHF,Human Welfare & Neighborhood Development,3,No
+858,Police Operations,AGB,POL Police,POL,Public Protection,1,No
+859,CWP-Non Program Specific-Revenue,BRV,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+860,Training,ATR,FIR Fire Department,FIR,Public Protection,1,No
+861,CHF-Rec & Park,CBB,REC Recreation & Park Commsn,REC,Culture & Recreation,5,No
+862,"Security, Safety, Training & Enforcement",BE3,MTA Municipal Transprtn Agncy,MTA,"Public Works, Transportation & Commerce",2,No
+863,Water Capital Projects,BCI,ENV Environment,ENV,Human Welfare & Neighborhood Development,3,No
+864,Laguna Honda Hospital,DEX,MYR Mayor,MYR,General Administration & Finance,6,No
+865,Operating,OPR,JUV Juvenile Probation,JUV,Public Protection,1,Yes
+866,Capital,CAP,PDR Public Defender,PDR,Public Protection,1,No
+867,Case Management,CIN,HSA Human Services Agency,DSS,Human Welfare & Neighborhood Development,3,No
+868,Marina Harbor,ECY,REC Recreation & Park Commsn,REC,Culture & Recreation,5,No
+869,Community Services,AKB,JUV Juvenile Probation,JUV,Public Protection,1,No
+870,Wastewater Collection,BDE,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+871,Cultural Enrichment,EEL,ART Arts Commission,ART,Culture & Recreation,5,No
+872,Wastewater Operations,BAX,CAT City Attorney,CAT,General Administration & Finance,6,No
+873,Capital,CAP,REG Elections,REG,General Administration & Finance,6,No
+874,Engineering & Environmental,BK9,WWE Wastewater Enterprise,CWP,"Public Works, Transportation & Commerce",2,No
+875,Operating,OPR,REC Recreation & Park Commsn,REC,Culture & Recreation,5,No
+876,Operations & Maintenance,EED,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+877,No Program Defined,BXX,PRT Port,PRT,"Public Works, Transportation & Commerce",2,No
+878,Investigations,ACB,POL Police,POL,Public Protection,1,No
+879,No Program Defined,XXX,FAM Fine Arts Museum,FAM,Culture & Recreation,5,No
+880,I D Maintenance & Opr Of Bldg,BAS,GEN General City / Unallocated,UNA,General City Responsibilities,7,No
+881,Sheriff Administration,ASB,SHF Sheriff,SHF,Public Protection,1,No
+882,Water Capital Projects,BCI,WWE Wastewater Enterprise,CWP,"Public Works, Transportation & Commerce",2,No
+883,Administrative,ADMIN,CHF Children;Youth & Families,CHF,Human Welfare & Neighborhood Development,3,No
+884,Convention Facilities Program Management,EAD,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+885,Administration,FED,RET Retirement System,RET,General Administration & Finance,6,Yes
+886,Public Finance,FFG,ADM Gen Svcs Agency-City Admin,ADM,General Administration & Finance,6,No
+887,No Program Defined,NKEY,AIR Airport Commission,AIR,"Public Works, Transportation & Commerce",2,No
+888,Disaster Recovery,RCVY,DPH Public Health,DPH,Community Health,4,No
+889,No Program Defined,XXX,CII Commty Invest & Infrstrctr,CII,Human Welfare & Neighborhood Development,3,Yes
+890,Client Services,FD1,HRD Human Resources,HRD,General Administration & Finance,6,No
+891,Laguna Honda - Long Term Care,DA5,HRD Human Resources,HRD,General Administration & Finance,6,No
+892,Neighborhood Services,EAE,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+893,Administration,BDA,CAT City Attorney,CAT,General Administration & Finance,6,No
+894,Shelter & Housing,CSH,HOM HOMELESSNESS SERVICES,HOM,Human Welfare & Neighborhood Development,3,No
+895,General Management,BCR,HSA Human Services Agency,DSS,Human Welfare & Neighborhood Development,3,No
+896,MRD-Construction Division (Const),BEK,PUB Public Utilities Bureaus,PUC,"Public Works, Transportation & Commerce",2,No
+897,Disaster Recovery,RCVY,BOS Board of Supervisors,BOS,General Administration & Finance,6,No
+898,Operating,OPR,CSS Child Support Services,CSS,Human Welfare & Neighborhood Development,3,No
+899,San Bruno Jail No. 3 Replacement,AJS,SHF Sheriff,SHF,Public Protection,1,No
+900,Disaster Recovery,RCVY,RET Retirement System,RET,General Administration & Finance,6,Yes
+901,Hetch Hetchy Programmatic Project,BCY,HHP Hetch Hetchy Water & Power,HHP,"Public Works, Transportation & Commerce",2,No
+902,Treasure Island,BK6,ECN Economic & Wrkfrce Dvlpmnt,ECN,"Public Works, Transportation & Commerce",2,Yes
+903,Park Preservation,EAF,REC Recreation & Park Commsn,REC,Culture & Recreation,5,No
+904,Neighborhood Beautification,FER,ADM Gen Svcs Agency-City Admin,ADM,General Administration & Finance,6,No
+905,Operating,OPR,SCI Academy of Sciences,SCI,Culture & Recreation,5,No
+906,Office Of Emergency Service,ASK,SHF Sheriff,SHF,Public Protection,1,No
+907,No Program Defined,XXX,DAT District Attorney,DAT,Public Protection,1,No
+908,Technology,BIT,DT GSA - Technology,TIS,General Administration & Finance,6,No
+909,Street Artists,EEM,ART Arts Commission,ART,Culture & Recreation,5,No
+910,Capital,CAP,CCD SF Communtiy College Dist,CCD,Human Welfare & Neighborhood Development,3,Yes
+911,Human Welfare & Neighborhood Development,CAS,HSA Human Services Agency,DSS,Human Welfare & Neighborhood Development,3,No
+912,Homeless Services,CAN,MYR Mayor,MYR,General Administration & Finance,6,No
+913,Grants For The Arts,FEQ,ART Arts Commission,ART,Culture & Recreation,5,No
+914,Outreach & Prevention,COT,HOM HOMELESSNESS SERVICES,HOM,Human Welfare & Neighborhood Development,3,No
+915,Capital-CPC Funded,CAPCP,DEM Emergency Management,DEM,Public Protection,1,No
+916,SFGH - Ambu Care - Methadone Clinic,D3C,DPH Public Health,DPH,Community Health,4,No
+917,Disability Access,FAV,PUB Public Utilities Bureaus,PUC,"Public Works, Transportation & Commerce",2,No
+918,Medical Examiner - Medical Services,ASM,ADM Gen Svcs Agency-City Admin,ADM,Public Protection,1,No
+919,Disaster Recovery,RCVY,RNT Rent Arbitration Board,RNT,Human Welfare & Neighborhood Development,3,No
+920,Children's Baseline,FAL,USD County Education Office,USD,Human Welfare & Neighborhood Development,3,No
+921,Administration,ASC,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+922,Juvenile Hall,AKE,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+923,Capital Programs & Construction,BE7,WWE Wastewater Enterprise,CWP,"Public Works, Transportation & Commerce",2,No
+924,Wastewater Treatment,BDC,PUB Public Utilities Bureaus,PUC,"Public Works, Transportation & Commerce",2,No
+925,Street Use Management,BAT,PUB Public Utilities Bureaus,PUC,"Public Works, Transportation & Commerce",2,No
+926,S E Community Facility,BAB,ART Arts Commission,ART,Culture & Recreation,5,No
+927,Hetch Hetchy Capital Projects,BCP,ENV Environment,ENV,Human Welfare & Neighborhood Development,3,No
+928,No Program Defined,XXX,WTR Water Enterprise,WTR,"Public Works, Transportation & Commerce",2,No
+929,SFPD-Crime Photo Labs-Cri,ACJ,POL Police,POL,Public Protection,1,No
+930,Technology-COIT Funded,TECHC,POL Police,POL,Public Protection,1,No
+931,Commission On Status Of Women,CAE,WOM Status Of Women,WOM,Human Welfare & Neighborhood Development,3,No
+932,No Program Defined,XXX,LIB Public Library,LIB,Culture & Recreation,5,No
+933,MRD-Construction Division (Const),BEK,HSA Human Services Agency,DSS,Human Welfare & Neighborhood Development,3,No
+934,Capital-CPC Funded,CAPCP,SHF Sheriff,SHF,Public Protection,1,No
+935,General City Responsibilities,FCZ,MTA Municipal Transprtn Agncy,MTA,"Public Works, Transportation & Commerce",2,No
+936,Solar Power Program,BK8,PUB Public Utilities Bureaus,PUC,"Public Works, Transportation & Commerce",2,No
+937,Capital,CAP,LIB Public Library,LIB,Culture & Recreation,5,No
+938,General Management,BCR,HRD Human Resources,HRD,General Administration & Finance,6,No
+939,Public Policy & Finance,FEY,ECN Economic & Wrkfrce Dvlpmnt,ECN,"Public Works, Transportation & Commerce",2,No
+940,Capital,CAP,AIR Airport Commission,AIR,"Public Works, Transportation & Commerce",2,No
+941,Water Capital Projects,BCI,CPC City Planning,CPC,General Administration & Finance,6,No
+942,Green Building,CIR,ENV Environment,ENV,Human Welfare & Neighborhood Development,3,No
+943,No Program Defined,XXX,ENV Environment,ENV,Human Welfare & Neighborhood Development,3,No
+944,Work Orders & Grants,AIE,ADP Adult Probation,ADP,Public Protection,1,No
+945,Mapping,BA6,PRT Port,PRT,"Public Works, Transportation & Commerce",2,No
+946,Children's Svcs - Non - Children's Fund,CAQ,REC Recreation & Park Commsn,REC,Culture & Recreation,5,No
+947,Parking & Traffic,BE2,HHP Hetch Hetchy Water & Power,HHP,"Public Works, Transportation & Commerce",2,No
+948,Parking & Traffic,BE2,PRT Port,PRT,"Public Works, Transportation & Commerce",2,No
+949,Customer Services,BCE,PUB Public Utilities Bureaus,PUC,"Public Works, Transportation & Commerce",2,No
+950,Disability Access,FAV,WTR Water Enterprise,WTR,"Public Works, Transportation & Commerce",2,No
+951,Log Cabin Ranch,AKF,JUV Juvenile Probation,JUV,Public Protection,1,No
+952,Payroll And Personnel Services,FDC,CON Controller,CON,General Administration & Finance,6,No
+953,Wastewater Capital Projects,BDP,WTR Water Enterprise,WTR,"Public Works, Transportation & Commerce",2,No
+954,Workforce Training,BL1,ECN Economic & Wrkfrce Dvlpmnt,ECN,"Public Works, Transportation & Commerce",2,No
+955,Administration,BE1,PUB Public Utilities Bureaus,PUC,"Public Works, Transportation & Commerce",2,No
+956,Superior Court Services,AMF,CRT Superior Court,CRT,Public Protection,1,Yes
+957,Facilites,EGH,LIB Public Library,LIB,Culture & Recreation,5,No
+958,Ethics Commission,FET,ETH Ethics Commission,ETH,General Administration & Finance,6,No
+959,Technology,TECH,DAT District Attorney,DAT,Public Protection,1,No
+960,Capital,CAP,ADM GSA - City Administrator,ADM,General Administration & Finance,6,No
+961,Domestic Violence,CAZ,WOM Status Of Women,WOM,Human Welfare & Neighborhood Development,3,No
+962,Departmental Fund Transfer,BZZ,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+963,Operating,OPR,DEM Emergency Management,DEM,Public Protection,1,No
+964,Children's Baseline,FAL,TTX Treasurer/Tax Collector,TTX,General Administration & Finance,6,No
+965,Capital,CAP,REC Recreation & Park Commsn,REC,Culture & Recreation,5,No
+966,Management Control,ACS,POL Police,POL,Public Protection,1,No
+967,Operations And Administration,ACM,POL Police,POL,Public Protection,1,No
+968,City Capital Projects,BAW,PRT Port,PRT,"Public Works, Transportation & Commerce",2,No
+969,Office Of Short-Term Rentals,FSR,ADM Gen Svcs Agency-City Admin,ADM,General Administration & Finance,6,No
+970,Capital-CPC Funded,CAPCP,DPH Public Health,DPH,Community Health,4,No
+971,Technology,TECH,HSA Human Services Agency,HSA,Human Welfare & Neighborhood Development,3,No
+972,Vehicle Theft Abatement,AC2,POL Police,POL,Public Protection,1,No
+973,No Program,No Program Code,DEM Emergency Management,DEM,Public Protection,1,No
+974,No Program,No Program Code,CPC City Planning,CPC,General Administration & Finance,6,No
+975,Living Wage / Living Health (Mco/Hcao),FFB,ADM Gen Svcs Agency-City Admin,ADM,General Administration & Finance,6,No
+976,Water Supply & Power Operations,BCB,WWE Wastewater Enterprise,CWP,"Public Works, Transportation & Commerce",2,No
+977,Urban Forestry,ECJ,REC Recreation & Park Commsn,REC,Culture & Recreation,5,No
+978,Rent Board,CCC,GEN General City / Unallocated,GEN,General City Responsibilities,7,No
+979,Investigations,FCU,TTX Treasurer/Tax Collector,TTX,General Administration & Finance,6,No
+980,No Program Defined,XXX,HRD Human Resources,HRD,General Administration & Finance,6,No
+981,SFGH,DEY,HSA Human Services Agency,DSS,Human Welfare & Neighborhood Development,3,No
+982,Administration,BIU,DT GSA - Technology,TIS,General Administration & Finance,6,No
+983,No Program,No Program Code,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+984,Disaster Recovery,RCVY,DT  GSA - Technology,TIS,General Administration & Finance,6,No
+985,Administration,BDA,DT GSA - Technology,TIS,General Administration & Finance,6,No
+986,City Services Auditor,FDO,CON Controller,CON,General Administration & Finance,6,No
+987,Parks,EAP,REC Recreation & Park Commsn,REC,Culture & Recreation,5,No
+988,Real Estate Services,FFI,ADM Gen Svcs Agency-City Admin,ADM,General Administration & Finance,6,No
+989,Capital-CPC Funded,CAPCP,SCI Academy of Sciences,SCI,Culture & Recreation,5,No
+990,Grant Services,AKI,SHF Sheriff,SHF,Public Protection,1,No
+991,Parks,EAP,CPC City Planning,CPC,General Administration & Finance,6,No
+992,Strategic Planning/Compliance,BCV,WWE Wastewater Enterprise,CWP,"Public Works, Transportation & Commerce",2,No
+993,Technology Services:Public Safety,BTO,DT GSA - Technology,TIS,General Administration & Finance,6,No
+994,MRD-Construction Division (Const),BEK,AIR Airport Commission,AIR,"Public Works, Transportation & Commerce",2,No
+995,Real Estate Services,FFI,DT GSA - Technology,TIS,General Administration & Finance,6,No
+996,City Capital Projects,BAW,ADM Gen Svcs Agency-City Admin,ADM,General Administration & Finance,6,No
+997,City Capital Projects,BAW,SHF Sheriff,SHF,Public Protection,1,No
+998,Rail & Bus Services,BEN,WTR Water Enterprise,WTR,"Public Works, Transportation & Commerce",2,No
+999,General Management,BCR,WTR Water Enterprise,WTR,"Public Works, Transportation & Commerce",2,No
+1000,Safe Contract,ACG,POL Police,POL,Public Protection,1,No
+1001,Water Supply & Power Operations,BCB,PUB Public Utilities Bureaus,PUC,"Public Works, Transportation & Commerce",2,No
+1002,DPW Bureau Overhead Program,BX2,AIR Airport Commission,AIR,"Public Works, Transportation & Commerce",2,No
+1003,Wastewater Capital Projects,BDP,PUB Public Utilities Bureaus,PUC,"Public Works, Transportation & Commerce",2,No
+1004,Capital Asset Planning,FAU,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+1005,Jail Programs,AKH,SHF Sheriff,SHF,Public Protection,1,No
+1006,Capital,CAP,SHF Sheriff,SHF,Public Protection,1,No
+1007,Operating,OPR,CPC City Planning,CPC,General Administration & Finance,6,No
+1008,Water Capital Projects,BCI,ART Arts Commission,ART,Culture & Recreation,5,No
+1009,Ceta Administration-Mayor,CGB,MYR Mayor,MYR,General Administration & Finance,6,No
+1010,No Program Defined,AXX,ADM Gen Svcs Agency-City Admin,ADM,General Administration & Finance,6,No
+1011,Neighborhood Beautification,FER,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+1012,Water Facilities Maintenance Projects,BCJ,PUB Public Utilities Bureaus,PUC,"Public Works, Transportation & Commerce",2,No
+1013,MRD-Construction Division (Const),BEK,WWE Wastewater Enterprise,CWP,"Public Works, Transportation & Commerce",2,No
+1014,Hetch Hetchy Capital Projects,BCP,ART Arts Commission,ART,Culture & Recreation,5,No
+1015,Log Cabin Ranch,AKF,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+1016,Architecture,BAM,ART Arts Commission,ART,Culture & Recreation,5,No
+1017,Mental Health - Emergency Care,DBF,DPH Public Health,DPH,Community Health,4,No
+1018,PUC Land Management,BCZ,PUB Public Utilities Bureaus,PUC,"Public Works, Transportation & Commerce",2,No
+1019,Administration,BDA,HHP CleanPowerSF,CLP,"Public Works, Transportation & Commerce",2,No
+1020,Police Airport Bureau Non-Personnel Cost,BGR,AIR Airport Commission,AIR,"Public Works, Transportation & Commerce",2,No
+1021,Business Tax Fund,FCO,TTX Treasurer/Tax Collector,TTX,General Administration & Finance,6,No
+1022,Disaster Recovery,RCVY,CPC City Planning,CPC,General Administration & Finance,6,No
+1023,Operating,OPR,BOA Board of Appeals,BOA,"Public Works, Transportation & Commerce",2,No
+1024,Real Estate Work Orders,FDN,ADM Gen Svcs Agency-City Admin,ADM,General Administration & Finance,6,No
+1025,Federal Transportation Security,AC6,POL Police,POL,Public Protection,1,No
+1026,Disaster Recovery,RCVY,BOA Board of Appeals,BOA,"Public Works, Transportation & Commerce",2,No
+1027,Vehicle & Equipment Main & Fueling,FFJ,ADM Gen Svcs Agency-City Admin,ADM,General Administration & Finance,6,No
+1028,Health Service System,FEE,HSS Health Service System,HSS,General Administration & Finance,6,Yes
+1029,Grants For The Arts,EEU,ART Arts Commission,ART,Culture & Recreation,5,No
+1030,Pop Growth Gf Alloc Capital Projects,BE8,WTR Water Enterprise,WTR,"Public Works, Transportation & Commerce",2,No
+1031,Departmental Fund Transfer,BZZ,MTA Municipal Transprtn Agncy,MTA,"Public Works, Transportation & Commerce",2,No
+1032,Parking & Traffic,BE2,MTA Municipal Transprtn Agncy,MTA,"Public Works, Transportation & Commerce",2,No
+1033,SFGH - Long Term Care - Rf Psychiatry,D6P,DPH Public Health,DPH,Community Health,4,No
+1034,Office Of Citizen Complaints,ACV,POL Police,POL,Public Protection,1,No
+1035,Capital Projects,ECS,WTR Water Enterprise,WTR,"Public Works, Transportation & Commerce",2,No
+1036,Security Services,AFT,SHF Sheriff,SHF,Public Protection,1,No
+1037,General Management,BCR,PUB Public Utilities Bureaus,PUC,"Public Works, Transportation & Commerce",2,No
+1038,Probation Services,AKC,JUV Juvenile Probation,JUV,Public Protection,1,No
+1039,Operating,OPR,USD County Education Office,USD,Human Welfare & Neighborhood Development,3,Yes
+1040,Community Investments,EEY,ART Arts Commission,ART,Culture & Recreation,5,No
+1041,Treasure Island,BK6,ADM Gen Svcs Agency-City Admin,ADM,General Administration & Finance,6,No
+1042,Operating,OPR,CRT Superior Court,CRT,Public Protection,1,Yes
+1043,No Program Defined,XXX,DPH Public Health,DPH,Community Health,4,No
+1044,Maintenance,BKY,HHP Hetch Hetchy Water & Power,HHP,"Public Works, Transportation & Commerce",2,No
+1045,Public Finance,FFG,MYR Mayor,MYR,General Administration & Finance,6,No
+1046,Hiv Health Services,DPA,DPH Public Health,DPH,Community Health,4,No
+1047,SFGH - Ambu Care - Methadone Grant,D3G,DPH Public Health,DPH,Community Health,4,No
+1048,Operating,OPR,DPH Public Health,DPH,Community Health,4,No
+1049,Operating,OPR,SDA Sheriff Accountability OIG,SDA,Public Protection,1,No
+1050,Disaster Recovery,RCVY,TTX Treasurer/Tax Collector,TTX,General Administration & Finance,6,No
+1051,Capital,CAP,AAM Asian Art Museum,AAM,Culture & Recreation,5,No
+1052,City Capital Projects,BAW,PUB Public Utilities Bureaus,PUC,"Public Works, Transportation & Commerce",2,No
+1053,Child Support Services Program,CAF,CSS Child Support Services,CSS,Human Welfare & Neighborhood Development,3,No
+1054,No Program Defined,NKEY,TTX Treasurer/Tax Collector,TTX,General Administration & Finance,6,Yes
+1055,No Program Defined,AXX,POL Police,POL,Public Protection,1,No
+1056,Capital,CAP,DPA Police Accountabilty,DPA,Public Protection,1,No
+1057,Neighborhood Services,EAE,CAT City Attorney,CAT,General Administration & Finance,6,No
+1058,District Attorney Child Support Services,AMS,CRT Superior Court,CRT,Public Protection,1,No
+1059,Neighborhood Services,EAE,GEN General City / Unallocated,GEN,General City Responsibilities,7,No
+1060,Public Finance,FFG,CON Controller,CON,General Administration & Finance,6,No
+1061,Energy Conservation,BCN,HHP Hetch Hetchy Water & Power,HHP,"Public Works, Transportation & Commerce",2,No
+1062,Maintenance,BKY,PUB Public Utilities Bureaus,PUC,"Public Works, Transportation & Commerce",2,No
+1063,Maintenance,BGC,PRT Port,PRT,"Public Works, Transportation & Commerce",2,No
+1064,Citywide Facilities,ECR,REC Recreation & Park Commsn,REC,Culture & Recreation,5,No
+1065,Capital-CPC Funded,CAPCP,PRT Port,PRT,"Public Works, Transportation & Commerce",2,No
+1066,No Program Defined,XXX,REG Elections,REG,General Administration & Finance,6,No
+1067,Technology,TECH,DPH Public Health,DPH,Community Health,4,No
+1068,Public Policy & Finance,FEY,MYR Mayor,MYR,General Administration & Finance,6,No
+1069,Emergency Management - Emsa,BIZ,DEM Emergency Management,ECD,Public Protection,1,No
+1070,Operating,OPR,SHF Sheriff,SHF,Public Protection,1,No
+1071,Transactions,FD8,ASR Assessor / Recorder,ASR,General Administration & Finance,6,No
+1072,S E Community Facility,BAB,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+1073,Operating,OPR,BOS Board of Supervisors,BOS,General Administration & Finance,6,No
+1074,Environmental Regulation And Management,BAY,PUB Public Utilities Bureaus,PUC,"Public Works, Transportation & Commerce",2,No
+1075,Turf Management,EAB,ART Arts Commission,ART,Culture & Recreation,5,No
+1076,Community Investment,FAB,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+1077,No Program Defined,CXX,HSA Human Services Agency,DSS,Human Welfare & Neighborhood Development,3,No
+1078,Water Treatment,BDM,WTR Water Enterprise,WTR,"Public Works, Transportation & Commerce",2,No
+1079,Emergency Services Agency,DPE,DPH Public Health,DPH,Community Health,4,No
+1080,Community Investment,FAB,MYR Mayor,MYR,General Administration & Finance,6,No
+1081,No Program Defined,NKEY,ADM Gen Svcs Agency-City Admin,ADM,General Administration & Finance,6,No
+1082,Disaster Recovery,RCVY,WAR War Memorial,WAR,Culture & Recreation,5,No
+1083,Administrative,ADMIN,GEN General City / Unallocated,GEN,General City Responsibilities,7,Yes
+1084,Assessor & Assessment Appeals,FCJ,ASR Assessor / Recorder,ASR,General Administration & Finance,6,No
+1085,No Program Defined,NKEY,FIR Fire Department,FIR,Public Protection,1,No
+1086,No Program Defined,XXX,ADM Gen Svcs Agency-City Admin,ADM,General Administration & Finance,6,Yes
+1087,Community Partnerships And Programming,EGF,LIB Public Library,LIB,Culture & Recreation,5,No
+1088,Accounting Operations,FDG,CON Controller,CON,General Administration & Finance,6,No
+1279,Wastewater Capital Projects,BDP,REC Recreation & Park Commsn,REC,Culture & Recreation,5,No
+1089,Public Administrator,CIH,HSA Human Services Agency,DSS,Human Welfare & Neighborhood Development,3,Yes
+1090,No Program Defined,XXX,RNT Rent Arbitration Board,RNT,Human Welfare & Neighborhood Development,3,No
+1091,Work Order Services,AEH,WTR Water Enterprise,WTR,"Public Works, Transportation & Commerce",2,No
+1092,Children's Svcs - Non - Children's Fund,CAQ,JUV Juvenile Probation,JUV,Public Protection,1,No
+1093,No Program,No Program Code,ECN Economic & Wrkfrce Dvlpmnt,ECN,"Public Works, Transportation & Commerce",2,No
+1094,Wastewater Collection,BDE,WTR Water Enterprise,WTR,"Public Works, Transportation & Commerce",2,No
+1095,No Program Defined,EXX,FAM Fine Arts Museum,FAM,Culture & Recreation,5,No
+1096,Gay/Lesbian Community Center,FGL,MYR Mayor,MYR,General Administration & Finance,6,No
+1097,Community Health/Support Service,DCH,HSS Health Service System,HSS,General Administration & Finance,6,Yes
+1098,Grants For The Arts,FEQ,ADM Gen Svcs Agency-City Admin,ADM,General Administration & Finance,6,No
+1099,Children's Baseline,FAL,CHF Children;Youth & Families,CHF,Human Welfare & Neighborhood Development,3,No
+1100,No Program Defined,NKEY,CON Controller,CON,General Administration & Finance,6,No
+1101,Customer Service,BE4,MTA Municipal Transprtn Agncy,MTA,"Public Works, Transportation & Commerce",2,No
+1102,No Program Defined,XXX,HSA Human Services Agency,DSS,Human Welfare & Neighborhood Development,3,Yes
+1103,City Capital Projects,BAW,DT GSA - Technology,TIS,General Administration & Finance,6,No
+1104,Convention Facilities Program Management,EAD,ADM Gen Svcs Agency-City Admin,ADM,Culture & Recreation,5,No
+1105,Crime Control,AC3,JUV Juvenile Probation,JUV,Public Protection,1,No
+1106,Community Development,CCA,MYR Mayor,MYR,General Administration & Finance,6,No
+1107,No Program Defined,NKEY,HSA Human Services Agency,DSS,Human Welfare & Neighborhood Development,3,Yes
+1108,Administrative,ADMIN,DPA Police Accountabilty,DPA,Public Protection,1,No
+1109,No Program Defined,XXX,JUV Juvenile Probation,JUV,Public Protection,1,Yes
+1110,Criminal Justice,CGD,MYR Mayor,MYR,General Administration & Finance,6,No
+1111,Governance And Outreach,BK4,BOS Board Of Supervisors,BOS,General Administration & Finance,6,No
+1112,Capital Programs & Construction,BE7,PUB Public Utilities Bureaus,PUC,"Public Works, Transportation & Commerce",2,No
+1113,Comm Hlth - Prev - Maternal & Child Hlth,DPM,DPH Public Health,DPH,Community Health,4,No
+1114,Hetchy Water Operations,BDO,HHP Hetch Hetchy Water & Power,HHP,"Public Works, Transportation & Commerce",2,No
+1115,CHF-Administration,CBA,CHF Children;Youth & Families,CHF,Human Welfare & Neighborhood Development,3,No
+1116,Capital,CAP,CPC City Planning,CPC,General Administration & Finance,6,No
+1117,Main Program,EEF,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+1118,City Capital Projects,BAW,ASR Assessor / Recorder,ASR,General Administration & Finance,6,No
+1119,No Program Defined,XXX,CON Controller,CON,General Administration & Finance,6,Yes
+1120,City Administration,FEA,MYR Mayor,MYR,General Administration & Finance,6,No
+1121,SFPD-Recruitment And Examination Program,ACU,POL Police,POL,Public Protection,1,No
+1122,No Program Defined,XXX,ADM Gen Svcs Agency-City Admin,ADM,Human Welfare & Neighborhood Development,3,Yes
+1123,Office Of Strategic Partnerships,FSP,MYR Mayor,MYR,General Administration & Finance,6,No
+1124,Child Abduction,AIH,DAT District Attorney,DAT,Public Protection,1,No
+1125,Educational Programs,EEV,ART Arts Commission,ART,Culture & Recreation,5,No
+1126,Public Education Fund ( Prop H ),CBK,CHF Children;Youth & Families,CHF,Human Welfare & Neighborhood Development,3,No
+1127,Workforce Development,CAK,HSA Human Services Agency,DSS,Human Welfare & Neighborhood Development,3,No
+1128,Office Of Small Business,BK7,ECN Economic & Wrkfrce Dvlpmnt,ECN,"Public Works, Transportation & Commerce",2,No
+1129,Citywide Radio System,BII,DEM Emergency Management,ECD,Public Protection,1,No
+1130,Fire Computer Aided Dispatch,AEA,FIR Fire Department,FIR,Public Protection,1,No
+1131,Finance,BCT,PUB Public Utilities Bureaus,PUC,"Public Works, Transportation & Commerce",2,No
+1132,Hetch Hetchy Capital Projects,BCP,PRT Port,PRT,"Public Works, Transportation & Commerce",2,No
+1133,Children and Families Fund,CFC,HSA Human Services Agency,DSS,Human Welfare & Neighborhood Development,3,No
+1134,Municipal Symphony Concerts,EEQ,ART Arts Commission,ART,Culture & Recreation,5,No
+1135,CHF-Mental Health,CBC,DPH Public Health,DPH,Community Health,4,No
+1136,Wastewater Operations,BAX,HHP Hetch Hetchy Water & Power,HHP,"Public Works, Transportation & Commerce",2,No
+1137,Juvenile Hall,AKE,HHP Hetch Hetchy Water & Power,HHP,"Public Works, Transportation & Commerce",2,No
+1138,Sheriff Recruitment & Training,AKR,SHF Sheriff,SHF,Public Protection,1,No
+1139,No Program Defined,NKEY,WTR Water Enterprise,WTR,"Public Works, Transportation & Commerce",2,No
+1140,Realignment Services-Post Release Comm.,ARS,ADP Adult Probation,ADP,Public Protection,1,No
+1141,Real Property,FDJ,ASR Assessor / Recorder,ASR,General Administration & Finance,6,No
+1142,Central Shops,FDA,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+1143,Support Services,AII,DAT District Attorney,DAT,Public Protection,1,No
+1144,Work Order Services,AKJ,SHF Sheriff,SHF,Public Protection,1,No
+1145,Wastewater Operations,BAX,DT GSA - Technology,TIS,General Administration & Finance,6,No
+1146,Golden Gate Park,EAA,ART Arts Commission,ART,Culture & Recreation,5,No
+1147,Environment-Outreach,CIU,ENV Environment,ENV,Human Welfare & Neighborhood Development,3,No
+1148,Community Arts & Education-General Admin,EEX,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+1149,Departmental Services,ASL,SHF Sheriff,SHF,Public Protection,1,No
+1150,Children's Baseline,FAL,MTA Municipal Transprtn Agncy,MTA,"Public Works, Transportation & Commerce",2,No
+1151,Administrative,ADMIN,SHF Sheriff,SHF,Public Protection,1,No
+1407,Custody,AFC,FIR Fire Department,FIR,Public Protection,1,No
+1152,Access To Services,CID,HSA Human Services Agency,DSS,Human Welfare & Neighborhood Development,3,No
+1153,Programs With Other Transit Agencies,BEX,MTA Municipal Transprtn Agncy,MTA,"Public Works, Transportation & Commerce",2,No
+1154,Disaster Recovery,RCVY,SHF Sheriff,SHF,Public Protection,1,No
+1155,Juvenile Hall,AKE,CHF Children;Youth & Families,CHF,Human Welfare & Neighborhood Development,3,No
+1156,Capital,CAP,DT  GSA - Technology,TIS,General Administration & Finance,6,No
+1157,Operating,OPR,PDR Public Defender,PDR,Public Protection,1,No
+1158,Public Guardian/Conservator,CIK,HSA Human Services Agency,DSS,Human Welfare & Neighborhood Development,3,No
+1159,Technology-COIT Funded,TECHC,DT  GSA - Technology,TIS,General Administration & Finance,6,No
+1160,Maintenance,MAINT,PUC Public Utilities Commsn,PUC,"Public Works, Transportation & Commerce",2,No
+1161,Community Arts & Education,EEO,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+1162,Oper & Maint Of Museums,EEC,FAM Fine Arts Museum,FAM,Culture & Recreation,5,No
+1163,Urban Forestry,BA1,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+1164,Community Investment,FAB,HRC Human Rights Commission,HRC,Human Welfare & Neighborhood Development,3,No
+1165,Maintenance,MAINT,ADM GSA - City Administrator,ADM,General Administration & Finance,6,No
+1166,Operating,OPR,CSC Civil Service Commission,CSC,General Administration & Finance,6,No
+1167,Disaster Recovery,RCVY,AAM Asian Art Museum,AAM,Culture & Recreation,5,No
+1168,SFGH - Acute Care - Hospital,D1H,DPH Public Health,DPH,Community Health,4,No
+1169,Public Ed Fund - Prop H ( March 2004 ),CPH,HSA Human Services Agency,DSS,Human Welfare & Neighborhood Development,3,No
+1170,Administrative,ADMIN,RET Retirement System,RET,General Administration & Finance,6,Yes
+1171,Taxpayer Assistance,FCQ,TTX Treasurer/Tax Collector,TTX,General Administration & Finance,6,No
+1172,Departmental Fund Transfer,BZZ,AIR Airport Commission,AIR,"Public Works, Transportation & Commerce",2,No
+1173,Fire Prevention,AED,FIR Fire Department,FIR,Public Protection,1,No
+1174,Water Quality,BCD,PUB Public Utilities Bureaus,PUC,"Public Works, Transportation & Commerce",2,No
+1175,Maintenance,MAINT,PRT Port,PRT,"Public Works, Transportation & Commerce",2,No
+1176,Disaster Recovery,RCVY,REG Elections,REG,General Administration & Finance,6,No
+1177,City Administrator - Administration,FAC,ADM Gen Svcs Agency-City Admin,ADM,General Administration & Finance,6,Yes
+1178,Engineering,BCU,WTR Water Enterprise,WTR,"Public Works, Transportation & Commerce",2,No
+1179,Senior Escort Service,ACW,POL Police,POL,Public Protection,1,No
+1180,No Program Defined,NKEY,ECN Economic & Wrkfrce Dvlpmnt,ECN,"Public Works, Transportation & Commerce",2,No
+1181,Seniors Independent,CIC,HSA Human Services Agency,DSS,Human Welfare & Neighborhood Development,3,No
+1182,Engineering,BAA,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+1183,County Veterans Services,CIJ,HSA Human Services Agency,DSS,Human Welfare & Neighborhood Development,3,No
+1184,Moscone Expansion Project,BGP,WTR Water Enterprise,WTR,"Public Works, Transportation & Commerce",2,No
+1185,Film Services,BFS,ECN Economic & Wrkfrce Dvlpmnt,ECN,"Public Works, Transportation & Commerce",2,No
+1186,Facilities Mgmt & Operations,FFH,ADM Gen Svcs Agency-City Admin,ADM,General Administration & Finance,6,No
+1187,Workers Compensation,BEU,MTA Municipal Transprtn Agncy,MTA,"Public Works, Transportation & Commerce",2,No
+1188,Administrative,ADMIN,DT  GSA - Technology,TIS,General Administration & Finance,6,No
+1189,Administrative,ADMIN,DAT District Attorney,DAT,Public Protection,1,No
+1190,Capital,CAP,MTA Municipal Transprtn Agncy,MTA,"Public Works, Transportation & Commerce",2,No
+1191,Disaster Recovery,RCVY,WOM Status of Women,WOM,Human Welfare & Neighborhood Development,3,No
+1192,Moscone Expansion Project,BGP,CPC City Planning,CPC,General Administration & Finance,6,No
+1193,Rent Board,CCC,RNT Rent Arbitration Board,RNT,Human Welfare & Neighborhood Development,3,No
+1194,Technology-COIT Funded,TECHC,ADM GSA - City Administrator,ADM,General Administration & Finance,6,No
+1195,Administration & Support Services,AAD,FIR Fire Department,FIR,Public Protection,1,No
+1196,Facilities & Equipment,ASP,SHF Sheriff,SHF,Public Protection,1,No
+1197,Water Supply & Power Operations,BCB,HHP Hetch Hetchy Water & Power,HHP,"Public Works, Transportation & Commerce",2,No
+1198,Children's Baseline,FAL,MYR Mayor,MYR,General Administration & Finance,6,No
+1199,Operations & Maintenance,EED,HHP Hetch Hetchy Water & Power,HHP,"Public Works, Transportation & Commerce",2,No
+1200,Operations,BAK,MTA Municipal Transprtn Agncy,MTA,"Public Works, Transportation & Commerce",2,No
+1201,No Program Defined,NKEY,REG Elections,REG,General Administration & Finance,6,No
+1202,Risk Management / General,FCT,ADM Gen Svcs Agency-City Admin,ADM,General Administration & Finance,6,No
+1203,Earthquake Safety Program,BA8,ADM Gen Svcs Agency-City Admin,ADM,General Administration & Finance,6,No
+1204,Technology-COIT Funded,TECHC,MYR Mayor,MYR,General Administration & Finance,6,No
+1205,No Program Defined,BXX,DBI Building Inspection,DBI,"Public Works, Transportation & Commerce",2,No
+1206,Administrative,ADMIN,GEN General City / Unallocated,GEN,General City Responsibilities,7,No
+1207,Class And Compensation,FH1,HRD Human Resources,HRD,General Administration & Finance,6,No
+1208,Disaster Recovery,RCVY,HOM Homelessness Services,HOM,Human Welfare & Neighborhood Development,3,No
+1209,Management Information,BCS,DT GSA - Technology,TIS,General Administration & Finance,6,No
+1210,Community Investment,FAB,HSA Human Services Agency,DSS,Human Welfare & Neighborhood Development,3,No
+1211,No Program Defined,NKEY,CRT Superior Court,CRT,Public Protection,1,No
+1212,Rec & Park Administration,EIA,ART Arts Commission,ART,Culture & Recreation,5,No
+1213,Urban Forestry,BA1,ENV Environment,ENV,Human Welfare & Neighborhood Development,3,No
+1214,Water Quality,BCD,WTR Water Enterprise,WTR,"Public Works, Transportation & Commerce",2,No
+1215,Construction Management Services,BAG,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+1216,Capital,CAP,CHF Children;Youth & Families,CHF,Human Welfare & Neighborhood Development,3,No
+1217,Hetch Hetchy Capital Projects,BCP,AIR Airport Commission,AIR,"Public Works, Transportation & Commerce",2,No
+1218,Hetch Hetchy Capital Projects,BCP,CPC City Planning,CPC,General Administration & Finance,6,No
+1219,Capital Projects,ACH,POL Police,POL,Public Protection,1,No
+1220,911/Communications,ACI,DEM Emergency Management,ECD,Public Protection,1,No
+1221,No Program Defined,BXX,AIR Airport Commission,AIR,"Public Works, Transportation & Commerce",2,No
+1222,Emergency Services,BIV,DT GSA - Technology,TIS,General Administration & Finance,6,No
+1223,City Capital Projects,BAW,ENV Environment,ENV,Human Welfare & Neighborhood Development,3,No
+1224,Occupational Safety & Health,DPO,DPH Public Health,DPH,Community Health,4,No
+1225,Maintenance,MAINT,FAM Fine Arts Museum,FAM,Culture & Recreation,5,No
+1226,Water Administration,BCH,WTR Water Enterprise,WTR,"Public Works, Transportation & Commerce",2,No
+1227,Custody,AFC,PUB Public Utilities Bureaus,PUC,"Public Works, Transportation & Commerce",2,No
+1228,Traffic Engineering & Operation,BKG,MTA Municipal Transprtn Agncy,MTA,"Public Works, Transportation & Commerce",2,No
+1229,Court Security And Process,AMC,SHF Sheriff,SHF,Public Protection,1,No
+1230,Laguna Honda Hosp - Comm Support Care,DBD,DPH Public Health,DPH,Community Health,4,No
+1231,Community Ambassador Program,ACA,ADM Gen Svcs Agency-City Admin,ADM,General Administration & Finance,6,No
+1232,Administrative,ADMIN,CPC City Planning,CPC,General Administration & Finance,6,No
+1233,Children's Baseline,FAL,WOM Status Of Women,WOM,Human Welfare & Neighborhood Development,3,No
+1234,30 Van Ness Building,FFA,ADM Gen Svcs Agency-City Admin,ADM,General Administration & Finance,6,No
+1235,Administrative,ADMIN,REG Elections,REG,General Administration & Finance,6,No
+1236,General Fund Unallocated,FXX,REG Elections,REG,General Administration & Finance,6,No
+1237,Planning And Research,ACN,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+1238,No Program Defined,XXX,PRT Port,PRT,"Public Works, Transportation & Commerce",2,No
+1239,SFGH - Ambu Care - Occupational Health,D3O,DPH Public Health,DPH,Community Health,4,No
+1240,No Program Defined,XXX,WWE Wastewater Enterprise,CWP,"Public Works, Transportation & Commerce",2,No
+1241,Wastewater Pumping,BDB,WWE Wastewater Enterprise,CWP,"Public Works, Transportation & Commerce",2,No
+1242,Maintenance,MAINT,POL Police,POL,Public Protection,1,No
+1243,Parking Garages & Lots,BE5,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+1244,Capital-CPC Funded,CAPCP,WAR War Memorial,WAR,Culture & Recreation,5,No
+1245,Fire Port Fireboat,AEL,FIR Fire Department,FIR,Public Protection,1,No
+1246,Power Retail Services,BDF,CAT City Attorney,CAT,General Administration & Finance,6,No
+1247,No Program Defined,XXX,MTA Municipal Transprtn Agncy,MTA,"Public Works, Transportation & Commerce",2,No
+1248,Special Operations,ACY,POL Police,POL,Public Protection,1,No
+1249,Maintenance,MAINT,AIR Airport Commission,AIR,"Public Works, Transportation & Commerce",2,No
+1250,No Program Defined,XXX,CON Controller,CON,General Administration & Finance,6,No
+1251,Capital,CAP,HRD Human Resources,HRD,General Administration & Finance,6,No
+1252,Planning Division,BG9,AIR Airport Commission,AIR,"Public Works, Transportation & Commerce",2,No
+1253,Neighborhood Services,EAE,ART Arts Commission,ART,Culture & Recreation,5,No
+1254,Golf Course,ECG,ART Arts Commission,ART,Culture & Recreation,5,No
+1255,Governance And Outreach,BK4,DT GSA - Technology,TIS,General Administration & Finance,6,No
+1256,Administrative,ADMIN,MTA Municipal Transprtn Agncy,MTA,"Public Works, Transportation & Commerce",2,No
+1257,Water Source Of Supply,BDJ,WTR Water Enterprise,WTR,"Public Works, Transportation & Commerce",2,No
+1258,Technology Services:Public Safety,BTO,MTA Municipal Transprtn Agncy,MTA,"Public Works, Transportation & Commerce",2,No
+1259,"Continuing Projects, Maint And Renewal",BGS,AIR Airport Commission,AIR,"Public Works, Transportation & Commerce",2,No
+1260,Building Operations,EAG,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+1261,Laguna Honda Hospital,DEX,FIR Fire Department,FIR,Public Protection,1,No
+1262,MRD-Human Resources Division (HR),BEE,MTA Municipal Transprtn Agncy,MTA,"Public Works, Transportation & Commerce",2,No
+1263,Transitions,DHT,DPH Public Health,DPH,Community Health,4,No
+1264,No Program Defined,EXX,ART Arts Commission,ART,Culture & Recreation,5,No
+1265,Development And Planning,BEB,CPC City Planning,CPC,General Administration & Finance,6,No
+1266,City Capital Projects,BAW,ART Arts Commission,ART,Culture & Recreation,5,No
+1267,Moscone Expansion Project,BGP,ADM Gen Svcs Agency-City Admin,ADM,General Administration & Finance,6,No
+1268,Sheriff Field Services Grants,AFF,SHF Sheriff,SHF,Public Protection,1,No
+1269,Water Source Of Supply,BDJ,CAT City Attorney,CAT,General Administration & Finance,6,No
+1270,Marina Yacht Harbor,ECE,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+1271,Grant Services,AKI,JUV Juvenile Probation,JUV,Public Protection,1,No
+1272,Taxi Enforcement,ACE,MTA Municipal Transprtn Agncy,MTA,"Public Works, Transportation & Commerce",2,No
+1273,Health Service System,FEE,HRD Human Resources,HRD,General Administration & Finance,6,No
+1274,Branch Program,EEG,ADM Gen Svcs Agency-City Admin,ADM,General Administration & Finance,6,No
+1275,City Capital Projects,BAW,MTA Municipal Transprtn Agncy,MTA,"Public Works, Transportation & Commerce",2,No
+1276,Cultural Enrichment,EEL,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+1277,Maintenance,BKY,CAT City Attorney,CAT,General Administration & Finance,6,No
+1278,Technology-COIT Funded,TECHC,FAM Fine Arts Museum,FAM,Culture & Recreation,5,No
+1280,Administration - Adult Probation,ASH,ADP Adult Probation,ADP,Public Protection,1,No
+1281,Capital-CPC Funded,CAPCP,MTA Municipal Transprtn Agncy,MTA,"Public Works, Transportation & Commerce",2,No
+1282,Operating,OPR,PRT Port,PRT,"Public Works, Transportation & Commerce",2,No
+1283,Operating,OPR,DPA Police Accountabilty,DPA,Public Protection,1,No
+1284,Capital,CAP,USD County Education Office,USD,Human Welfare & Neighborhood Development,3,Yes
+1285,Information Technology,EGG,LIB Public Library,LIB,Culture & Recreation,5,No
+1286,Mental Health - Community Support,DSM,DPH Public Health,DPH,Community Health,4,No
+1287,Administration,BDA,HHP Hetch Hetchy Water & Power,HHP,"Public Works, Transportation & Commerce",2,No
+1288,Departmental Fund Transfer,BZZ,ADM Gen Svcs Agency-City Admin,ADM,General Administration & Finance,6,No
+1289,Fire Airport Bureau Non-Personnel Cost,BGQ,AIR Airport Commission,AIR,"Public Works, Transportation & Commerce",2,No
+1290,Municipal Court Services,AMA,CRT Superior Court,CRT,Public Protection,1,No
+1291,Mapping,BA6,HHP Hetch Hetchy Water & Power,HHP,"Public Works, Transportation & Commerce",2,No
+1292,No Program Defined,NKEY,CHF Children;Youth & Families,CHF,Human Welfare & Neighborhood Development,3,No
+1293,Capital-CPC Funded,CAPCP,JUV Juvenile Probation,JUV,Public Protection,1,No
+1294,Administrative,ADMIN,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+1295,Parking & Traffic,BE2,CPC City Planning,CPC,General Administration & Finance,6,No
+1296,Disaster Recovery,RCVY,HSS Health Service System,HSS,General Administration & Finance,6,No
+1297,Technology-COIT Funded,TECHC,REG Elections,REG,General Administration & Finance,6,No
+1298,Administration,BE1,MTA Municipal Transprtn Agncy,MTA,"Public Works, Transportation & Commerce",2,No
+1299,Water Capital Projects,BCI,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+1300,Hetch Hetchy Facilities Maintenance,BCQ,HHP Hetch Hetchy Water & Power,HHP,"Public Works, Transportation & Commerce",2,No
+1301,Disaster Recovery,RCVY,AIR Airport Commission,AIR,"Public Works, Transportation & Commerce",2,No
+1302,Capital-CPC Funded,CAPCP,POL Police,POL,Public Protection,1,No
+1303,Senior Central Development,CIE,HSA Human Services Agency,DSS,Human Welfare & Neighborhood Development,3,No
+1304,No Program Defined,XXX,TTX Treasurer/Tax Collector,TTX,General Administration & Finance,6,Yes
+1305,Operating,OPR,LIB Public Library,LIB,Culture & Recreation,5,No
+1306,No Program Defined,NKEY,ART Arts Commission,ART,Culture & Recreation,5,No
+1307,Administration,BDA,WWE Wastewater Enterprise,CWP,"Public Works, Transportation & Commerce",2,No
+1308,Moscone Expansion Project,BGP,ECN Economic & Wrkfrce Dvlpmnt,ECN,"Public Works, Transportation & Commerce",2,No
+1309,Operating,OPR,DBI Building Inspection,DBI,"Public Works, Transportation & Commerce",2,No
+1310,Operating,OPR,CON Controller,CON,General Administration & Finance,6,Yes
+1311,Engineering,BAA,HHP Hetch Hetchy Water & Power,HHP,"Public Works, Transportation & Commerce",2,No
+1312,Emergency Services,BIV,DPH Public Health,DPH,Community Health,4,No
+1313,Youth Commission,FAO,BOS Board Of Supervisors,BOS,General Administration & Finance,6,No
+1314,3Com Park,ECH,REC Recreation & Park Commsn,REC,Culture & Recreation,5,No
+1315,Maintenance,MAINT,FIR Fire Department,FIR,Public Protection,1,No
+1316,General Fund Unallocated,FXX,HRD Human Resources,HRD,General Administration & Finance,6,No
+1317,Custody,AFC,HHP Hetch Hetchy Water & Power,HHP,"Public Works, Transportation & Commerce",2,No
+1318,Water Capital Projects,BCI,CAT City Attorney,CAT,General Administration & Finance,6,No
+1319,Construction Inspection,BAO,DBI Building Inspection,DBI,"Public Works, Transportation & Commerce",2,No
+1320,Capital Projects,ECS,CPC City Planning,CPC,General Administration & Finance,6,No
+1321,General Management,BCR,WWE Wastewater Enterprise,CWP,"Public Works, Transportation & Commerce",2,No
+1322,Community Arts & Education,EEO,LIB Public Library,LIB,Culture & Recreation,5,No
+1323,Community Redevelopment,CRD,ADM Gen Svcs Agency-City Admin,ADM,General Administration & Finance,6,No
+1324,Felony Prosecution,AIA,DAT District Attorney,DAT,Public Protection,1,No
+1325,No Program Defined,NKEY,MTA Municipal Transprtn Agncy,MTA,"Public Works, Transportation & Commerce",2,No
+1326,Hetchy Water Operations,BDO,PUB Public Utilities Bureaus,PUC,"Public Works, Transportation & Commerce",2,No
+1327,Facilities,BG6,AIR Airport Commission,AIR,"Public Works, Transportation & Commerce",2,No
+1328,City Capital Projects,BAW,HRC Human Rights Commission,HRC,Human Welfare & Neighborhood Development,3,No
+1329,No Program,No Program Code,JUV Juvenile Probation,JUV,Public Protection,1,No
+1330,Branch Program,EEG,CPC City Planning,CPC,General Administration & Finance,6,No
+1331,MRD-Construction Division (Const),BEK,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+1332,Operating,OPR,RNT Rent Arbitration Board,RNT,Human Welfare & Neighborhood Development,3,No
+1333,No Program Defined,XXX,WAR War Memorial,WAR,Culture & Recreation,5,No
+1334,Real Estate & Management,BKZ,PRT Port,PRT,"Public Works, Transportation & Commerce",2,No
+1335,Sheriff Programs,AFP,SHF Sheriff,SHF,Public Protection,1,No
+1336,Wastewater Capital Projects,BDP,WWE Wastewater Enterprise,CWP,"Public Works, Transportation & Commerce",2,No
+1337,City Capital Projects,BAW,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+1338,No Program Defined,XXX,SHF Sheriff,SHF,Public Protection,1,No
+1339,Hetch Hetchy Capital Projects,BCP,WAR War Memorial,WAR,Culture & Recreation,5,No
+1340,Operating,OPR,AAM Asian Art Museum,AAM,Culture & Recreation,5,No
+1341,Transfer Tax,FEH,ASR Assessor / Recorder,ASR,General Administration & Finance,6,No
+1342,Misdemeanor Prosecution,AIF,DAT District Attorney,DAT,Public Protection,1,No
+1343,Power Purchasing/ Scheduling,BDG,HHP Hetch Hetchy Water & Power,HHP,"Public Works, Transportation & Commerce",2,No
+1344,Family Camp Operations,ECF,REC Recreation & Park Commsn,REC,Culture & Recreation,5,No
+1345,Disability Access,FAV,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+1346,Laguna Honda - Long Term Care,DA5,DPH Public Health,DPH,Community Health,4,No
+1347,Capital Projects,ECS,DT GSA - Technology,TIS,General Administration & Finance,6,No
+1348,General Administration,BKJ,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+1349,Departmental Administration,BKF,MTA Municipal Transprtn Agncy,MTA,"Public Works, Transportation & Commerce",2,No
+1350,False Alarm Prevention,BIW,DEM Emergency Management,ECD,Public Protection,1,No
+1351,Accessible Services,BEV,MTA Municipal Transprtn Agncy,MTA,"Public Works, Transportation & Commerce",2,No
+1352,Citywide Planning,FAH,CPC City Planning,CPC,General Administration & Finance,6,No
+1353,No Program Defined,XXX,CCD SF Communtiy College Dist,CCD,Human Welfare & Neighborhood Development,3,Yes
+1354,MRD-Finance And Administration Div(F&A),BEL,MTA Municipal Transprtn Agncy,MTA,"Public Works, Transportation & Commerce",2,No
+1355,Maritime Operations & Marketing,BKD,PRT Port,PRT,"Public Works, Transportation & Commerce",2,No
+1356,Laguna Honda - Long Term Care,DA5,ART Arts Commission,ART,Culture & Recreation,5,No
+1357,Water Capital Projects,BCI,DPH Public Health,DPH,Community Health,4,No
+1358,Departmental Fund Transfer,DZZ,DPH Public Health,DPH,Community Health,4,No
+1359,Engineering,BCU,CON Controller,CON,General Administration & Finance,6,No
+1360,Administrative Support,CAO,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+1361,Environmental Health Services,DPB,DPH Public Health,DPH,Community Health,4,No
+1362,Technology-COIT Funded,TECHC,DEM Emergency Management,DEM,Public Protection,1,No
+1363,Water Capital Projects,BCI,FIR Fire Department,FIR,Public Protection,1,No
+1364,Capital,CAP,CRT Superior Court,CRT,Public Protection,1,No
+1365,Disaster Recovery,RCVY,MTA Municipal Transprtn Agncy,MTA,"Public Works, Transportation & Commerce",2,No
+1366,Operating,OPR,HSS Health Service System,HSS,General Administration & Finance,6,No
+1367,No Program Defined,XXX,FIR Fire Department,FIR,Public Protection,1,No
+1368,Public Conservator,CGR,HSA Human Services Agency,DSS,Human Welfare & Neighborhood Development,3,No
+1369,Golf Course,ECG,HHP Hetch Hetchy Water & Power,HHP,"Public Works, Transportation & Commerce",2,No
+1370,Capital-CPC Funded,CAPCP,CPC City Planning,CPC,General Administration & Finance,6,No
+1371,Maintenance,MAINT,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+1372,MRD-Maintenance Division (Maint),BEQ,MTA Municipal Transprtn Agncy,MTA,"Public Works, Transportation & Commerce",2,No
+1373,General City Responsibilities,FCZ,GEN General City / Unallocated,UNA,General City Responsibilities,7,No
+1374,Capital,CAP,DPH Public Health,DPH,Community Health,4,No
+1375,Environmental Regulation And Management,BAY,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+1376,Disaster Recovery,RCVY,MYR Mayor,MYR,General Administration & Finance,6,No
+1377,"Neighborhood Services-Q4-Districts 10,11",ECP,REC Recreation & Park Commsn,REC,Culture & Recreation,5,No
+1378,Contract Monitoring,FFQ,ADM Gen Svcs Agency-City Admin,ADM,General Administration & Finance,6,No
+1379,SFGH - Early Intervention - Poison Cntrl,D4P,DPH Public Health,DPH,Community Health,4,No
+1380,Substance Abuse - Community Care,DMS,DPH Public Health,DPH,Community Health,4,No
+1381,Mapping,BA6,MTA Municipal Transprtn Agncy,MTA,"Public Works, Transportation & Commerce",2,No
+1382,Wastewater Capital Projects,BDP,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+1383,Long Range Planning & Policy,BCX,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+1384,DSS Childcare,CGU,HSA Human Services Agency,DSS,Human Welfare & Neighborhood Development,3,No
+1385,Treasure Island,BK6,WWE Wastewater Enterprise,CWP,"Public Works, Transportation & Commerce",2,Yes
+1386,Disaster Recovery,RCVY,FAM Fine Arts Museum,FAM,Culture & Recreation,5,No
+1387,No Program Defined,XXX,DBI Building Inspection,DBI,"Public Works, Transportation & Commerce",2,No
+1388,Services Of The Port,BKH,PRT Port,PRT,"Public Works, Transportation & Commerce",2,No
+1389,Parking & Traffic,BE2,PUB Public Utilities Bureaus,PUC,"Public Works, Transportation & Commerce",2,No
+1390,Management Information,BCS,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+1391,Operations,BAK,DT GSA - Technology,TIS,General Administration & Finance,6,No
+1392,SFGH - Acute Care - Psychiatry,D1P,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+1393,Administration,BDA,WTR Water Enterprise,WTR,"Public Works, Transportation & Commerce",2,No
+1394,MRD-Construction Division (Const),BEK,WTR Water Enterprise,WTR,"Public Works, Transportation & Commerce",2,No
+1395,Oper & Maint Of Museums,EEC,WAR War Memorial,WAR,Culture & Recreation,5,No
+1396,Administrative,ADMIN,DPH Public Health,DPH,Community Health,4,No
+1397,Court House Construction,AMN,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+1398,Art Commission-Administration,EEJ,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+1399,Muni-Operations,BEI,MTA Municipal Transprtn Agncy,MTA,"Public Works, Transportation & Commerce",2,No
+1400,Mta Development Impact Fee,BE9,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+1401,Animal Welfare,AUA,ADM Gen Svcs Agency-City Admin,ADM,Public Protection,1,No
+1402,Operating,OPR,USD County Education Office,USD,Human Welfare & Neighborhood Development,3,No
+1403,Comm Hlth - Prevention - Hlth Education,DPH,DPH Public Health,DPH,Community Health,4,No
+1404,Disaster Recovery,RCVY,CSC Civil Service Commission,CSC,General Administration & Finance,6,No
+1405,Collection Technical Services,EGD,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+1406,Administration,BDA,SHF Sheriff,SHF,Public Protection,1,No
+1408,Safety & Security,BGG,MTA Municipal Transprtn Agncy,MTA,"Public Works, Transportation & Commerce",2,No
+1409,Management Information System,FC9,HRD Human Resources,HRD,General Administration & Finance,6,No
+1410,Pop Growth Gf Alloc Capital Projects,BE8,MTA Municipal Transprtn Agncy,MTA,"Public Works, Transportation & Commerce",2,No
+1411,Federal Transportation Security,AC6,AIR Airport Commission,AIR,"Public Works, Transportation & Commerce",2,No
+1412,Labor Standards Enforcement,FFD,ADM Gen Svcs Agency-City Admin,ADM,General Administration & Finance,6,No
+1413,"Revenue, Transfers & Reserves",BE0,MTA Municipal Transprtn Agncy,MTA,"Public Works, Transportation & Commerce",2,No
+1414,Children's Baseline,FAL,DPH Public Health,DPH,Community Health,4,No
+1415,Capital-CPC Funded,CAPCP,AAM Asian Art Museum,AAM,Culture & Recreation,5,No
+1416,Health At Home,DHH,DPH Public Health,DPH,Community Health,4,No
+1417,Administration/Support Services,BAN,PUB Public Utilities Bureaus,PUC,"Public Works, Transportation & Commerce",2,No
+1418,No Program,No Program Code,PDR Public Defender,PDR,Public Protection,1,No
+1419,Transitional-Aged Youth Baseline,FAY,LIB Public Library,LIB,Culture & Recreation,5,No
+1420,Operating,OPR,ETH Ethics Commission,ETH,General Administration & Finance,6,No
+1421,Oper & Maint Of Museums,EEC,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+1422,Recruit/ Assess/ Client Services,FC5,HRD Human Resources,HRD,General Administration & Finance,6,No
+1423,No Program Defined,NKEY,DEM Emergency Management,ECD,Public Protection,1,No
+1424,Facilities Mgmt & Operations,FFH,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+1425,Maintenance-CPC Funded,MAINC,DPH Public Health,DPH,Community Health,4,No
+1426,One Stop Re Entry Services,AOS,ADP Adult Probation,ADP,Public Protection,1,No
+1427,Branch Program,EEG,HHP Hetch Hetchy Water & Power,HHP,"Public Works, Transportation & Commerce",2,No
+1428,Capital Projects And Grants,BGT,AIR Airport Commission,AIR,"Public Works, Transportation & Commerce",2,No
+1429,Community Services,AKB,ADP Adult Probation,ADP,Public Protection,1,No
+1430,Maintenance,MAINT,REG Elections,REG,General Administration & Finance,6,No
+1431,Election Campaign Fund,FFF,ETH Ethics Commission,ETH,General Administration & Finance,6,No
+1432,Elections,FCH,REG Elections,REG,General Administration & Finance,6,No
+1433,Management,FEG,TTX Treasurer/Tax Collector,TTX,General Administration & Finance,6,No
+1434,Laguna Honda Hospital,DEX,DAT District Attorney,DAT,Public Protection,1,No
+1435,No Program Defined,NKEY,TTX Treasurer/Tax Collector,TTX,General Administration & Finance,6,No
+1436,Administrative Support,CAO,HSA Human Services Agency,DSS,Human Welfare & Neighborhood Development,3,No
+1437,Calworks,CAG,HSA Human Services Agency,DSS,Human Welfare & Neighborhood Development,3,No
+1438,Wastewater Capital Projects,BDP,CPC City Planning,CPC,General Administration & Finance,6,No
+1439,Operating,OPR,HRC Human Rights Commission,HRC,Human Welfare & Neighborhood Development,3,No
+1440,No Program Defined,XXX,DAT District Attorney,DAT,Public Protection,1,Yes
+1441,Personal Property,FDK,ASR Assessor / Recorder,ASR,General Administration & Finance,6,No
+1442,Real Property,FDJ,ADM Gen Svcs Agency-City Admin,ADM,General Administration & Finance,6,No
+1443,Treasure Island,BK6,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,Yes
+1444,Operations And Security,BG7,AIR Airport Commission,AIR,"Public Works, Transportation & Commerce",2,No
+1445,Fleet Management,FFK,ADM Gen Svcs Agency-City Admin,ADM,General Administration & Finance,6,No
+1446,Development & Planning,EAC,HHP Hetch Hetchy Water & Power,HHP,"Public Works, Transportation & Commerce",2,No
+1447,Solid Waste Management,BAI,ADM Gen Svcs Agency-City Admin,ADM,General Administration & Finance,6,No
+1448,Technology,TECH,ASR Assessor / Recorder,ASR,General Administration & Finance,6,No
+1449,No Program Defined,NKEY,HRD Human Resources,HRD,General Administration & Finance,6,No
+1450,Publicity And Advertising,EEK,ADM Gen Svcs Agency-City Admin,ADM,General Administration & Finance,6,No
+1451,Disaster Recovery,RCVY,GEN General City / Unallocated,GEN,General City Responsibilities,7,No
+1452,Structural Maintenance,ECD,REC Recreation & Park Commsn,REC,Culture & Recreation,5,No
+1453,No Program Defined,XXX,ASR Assessor / Recorder,ASR,General Administration & Finance,6,No
+1454,Capital Projects,ECS,REC Recreation & Park Commsn,REC,Culture & Recreation,5,No
+1455,Cases Consortium,CAR,DAT District Attorney,DAT,Public Protection,1,No
+1456,Operating,OPR,RET Retirement System,RET,General Administration & Finance,6,No
+1457,Departmental Fund Transfer,FZZ,MYR Mayor,MYR,General Administration & Finance,6,No
+1458,Court House Construction,AMN,CRT Superior Court,CRT,Public Protection,1,No
+1459,Health Service System,FEE,HRD Human Resources,HRD,General Administration & Finance,6,Yes
+1460,Community Health/Support Service,DCH,HRD Human Resources,HRD,General Administration & Finance,6,No
+1461,Children's Fund Programs,CBI,HSA Human Services Agency,DSS,Human Welfare & Neighborhood Development,3,No
+1462,SFGH,DEY,DPH Public Health,DPH,Community Health,4,No
+1463,30 Van Ness Building,FFA,GEN General City / Unallocated,UNA,General City Responsibilities,7,No
+1464,Rec & Park Administration,EIA,REC Recreation & Park Commsn,REC,Culture & Recreation,5,No
+1465,YBC/GRMCC,BGM,ADM Gen Svcs Agency-City Admin,ADM,General Administration & Finance,6,No
+1466,Mental Health - Early Intervention,DIM,DPH Public Health,DPH,Community Health,4,No
+1467,Homeless Services,CAN,HSA Human Services Agency,DSS,Human Welfare & Neighborhood Development,3,No
+1468,"Management, Budget And Analysis",FEB,GEN General City / Unallocated,GEN,General City Responsibilities,7,No
+1469,Animal Welfare,AUA,ADM Gen Svcs Agency-City Admin,ADM,General Administration & Finance,6,No
+1470,Maintenance,MAINT,SHF Sheriff,SHF,Public Protection,1,No
+1471,Development & Planning,EAC,DT GSA - Technology,TIS,General Administration & Finance,6,No
+1472,"Neighborhood Services-Q2-Districts 2,3,6",ECN,REC Recreation & Park Commsn,REC,Culture & Recreation,5,No
+1473,MRD-Construction Division (Const),BEK,MTA Municipal Transprtn Agncy,MTA,"Public Works, Transportation & Commerce",2,No
+1474,Capital,CAP,ECN Economic & Wrkfrce Dvlpmnt,ECN,"Public Works, Transportation & Commerce",2,No
+1475,Capital,CAP,ASR Assessor / Recorder,ASR,General Administration & Finance,6,No
+1476,Affordable Housing,FFC,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+1477,Administration/Support Services,BAN,HHP Hetch Hetchy Water & Power,HHP,"Public Works, Transportation & Commerce",2,No
+1478,No Program Defined,XXX,ART Arts Commission,ART,Culture & Recreation,5,No
+1479,Workforce Development,FAR,HRD Human Resources,HRD,General Administration & Finance,6,No
+1480,Special Events,EVENT,REC Recreation & Park Commsn,REC,Culture & Recreation,5,No
+1481,Maintenance-CPC Funded,MAINC,PUC Public Utilities Commsn,PUC,"Public Works, Transportation & Commerce",2,No
+1482,Capital Programs & Construction,BE7,POL Police,POL,Public Protection,1,No
+1483,Jail Programs,AKH,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+1484,Facilities Mgmt & Operations,FFH,HHP Hetch Hetchy Water & Power,HHP,"Public Works, Transportation & Commerce",2,No
+1485,Sheriff Program Grants,AFG,SHF Sheriff,SHF,Public Protection,1,No
+1486,Maintenance,MAINT,WAR War Memorial,WAR,Culture & Recreation,5,No
+1487,No Program Defined,XXX,PUB Public Utilities Bureaus,PUC,"Public Works, Transportation & Commerce",2,No
+1488,Muni-Security,BEP,MTA Municipal Transprtn Agncy,MTA,"Public Works, Transportation & Commerce",2,No
+1489,Wastewater Operations,BAX,MTA Municipal Transprtn Agncy,MTA,"Public Works, Transportation & Commerce",2,No
+1490,"Administration, Business",BGF,AIR Airport Commission,AIR,"Public Works, Transportation & Commerce",2,No
+1491,Children's Services,CBF,CHF Children;Youth & Families,CHF,Human Welfare & Neighborhood Development,3,No
+1492,Maintenance,MAINT,DBI Building Inspection,DBI,"Public Works, Transportation & Commerce",2,No
+1493,Non-Grant Construction Projects,BAC,GEN General City / Unallocated,GEN,General City Responsibilities,7,No
+1494,Board Of Supervisor,FAA,BOS Board Of Supervisors,BOS,General Administration & Finance,6,No
+1495,Economic Development,BK5,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+1496,Maintenance Of Streetlights,BC1,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+1497,Financial Systems Project,FDX,CON Controller,CON,General Administration & Finance,6,No
+1498,Hetchy Water Operations,BDO,WTR Water Enterprise,WTR,"Public Works, Transportation & Commerce",2,No
+1499,Water Capital Projects,BCI,HHP Hetch Hetchy Water & Power,HHP,"Public Works, Transportation & Commerce",2,No
+1500,Parking,BKP,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+1501,Public Ed Fund - Prop H ( March 2004 ),CPH,CFC Children & Families Commsn,CFC,Human Welfare & Neighborhood Development,3,No
+1502,Career Criminal Prosecution,AID,DAT District Attorney,DAT,Public Protection,1,No
+1503,Non-Grant Construction Projects,BAC,PRT Port,PRT,"Public Works, Transportation & Commerce",2,No
+1504,Recorder,FCG,ASR Assessor / Recorder,ASR,General Administration & Finance,6,No
+1505,Capital,CAP,MYR Mayor,MYR,General Administration & Finance,6,No
+1506,Public Protection - Corrections,AKK,MYR Mayor,MYR,General Administration & Finance,6,No
+1507,Transfer Tax,FEH,TTX Treasurer/Tax Collector,TTX,General Administration & Finance,6,No
+1508,No Program,No Program Code,ENV Environment,ENV,Human Welfare & Neighborhood Development,3,No
+1509,San Bruno Jails,AKO,SHF Sheriff,SHF,Public Protection,1,No
+1510,City Capital Projects,BAW,POL Police,POL,Public Protection,1,No
+1511,Criminal Justice,CGD,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+1512,Branch Program,EEG,CAT City Attorney,CAT,General Administration & Finance,6,No
+1513,Hetchy Water Operations,BDO,CAT City Attorney,CAT,General Administration & Finance,6,No
+1514,Departmental Fund Transfer,CZZ,HSA Human Services Agency,DSS,Human Welfare & Neighborhood Development,3,No
+1515,General City Responsibilities,FCZ,GEN General City / Unallocated,GEN,General City Responsibilities,7,No
+1516,Capital Programs & Construction,BE7,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+1517,No Program Defined,XXX,ART Arts Commission,ART,Culture & Recreation,5,Yes
+1518,Capital,CAP,HOM Homelessness Services,HOM,Human Welfare & Neighborhood Development,3,No
+1519,SFGH - Acute Care - Hospital,D1H,WTR Water Enterprise,WTR,"Public Works, Transportation & Commerce",2,No
+1520,No Program Defined,AXX,JUV Juvenile Probation,JUV,Public Protection,1,No
+1521,Administration/Support Services,BAN,DBI Building Inspection,DBI,"Public Works, Transportation & Commerce",2,No
+1522,Capital-CPC Funded,CAPCP,DT  GSA - Technology,TIS,General Administration & Finance,6,No
+1523,Custody,AFC,DPW GSA - Public Works,DPW,"Public Works, Transportation & Commerce",2,No
+1524,Citywide Radio System,BII,DT GSA - Technology,TIS,General Administration & Finance,6,No
+1525,Capital,CAP,FAM Fine Arts Museum,FAM,Culture & Recreation,5,No
+1526,Hetch Hetchy Capital Projects,BCP,JUV Juvenile Probation,JUV,Public Protection,1,No
+1527,Environmental Justice / Youth Employment,CIQ,ENV Environment,ENV,Human Welfare & Neighborhood Development,3,No
+1528,Children's Svcs - Non - Children's Fund,CAQ,CHF Children;Youth & Families,CHF,Human Welfare & Neighborhood Development,3,No
+1529,Power Utility Field Services,BDH,ENV Environment,ENV,Human Welfare & Neighborhood Development,3,No
+1530,Disaster Recovery,RCVY,ECN Economic & Wrkfrce Dvlpmnt,ECN,"Public Works, Transportation & Commerce",2,No
+1531,Neighborhood Services,EAE,DT GSA - Technology,TIS,General Administration & Finance,6,No
+1532,Equal Employment Opportunity,FC8,HRD Human Resources,HRD,General Administration & Finance,6,No
+1533,Criminal Justice,CGD,DAT District Attorney,DAT,Public Protection,1,No
+1534,Capital Projects,ECS,PUB Public Utilities Bureaus,PUC,"Public Works, Transportation & Commerce",2,No
+1535,Parking Citation Division,BKS,MTA Municipal Transprtn Agncy,MTA,"Public Works, Transportation & Commerce",2,No
+1536,Capital Projects,ECS,HHP Hetch Hetchy Water & Power,HHP,"Public Works, Transportation & Commerce",2,No
+1537,County Clerk Services,AME,ADM Gen Svcs Agency-City Admin,ADM,General Administration & Finance,6,No
+1538,Comm Hlth - Comm Support - Housing,DSP,DPH Public Health,DPH,Community Health,4,No
+1539,Investment,FCM,TTX Treasurer/Tax Collector,TTX,General Administration & Finance,6,No
+1540,Administration - Criminal & Civil,ASI,DAT District Attorney,DAT,Public Protection,1,No
+1541,Superior Court,AMB,CRT Superior Court,CRT,Public Protection,1,No
+1542,DSS Support Services,CGG,HSA Human Services Agency,DSS,Human Welfare & Neighborhood Development,3,No
+1543,Fire Nert,AEN,FIR Fire Department,FIR,Public Protection,1,No
+1544,Legal Service-Paying Depts,FC3,CAT City Attorney,CAT,General Administration & Finance,6,No
+1545,Joint Development,BL3,ECN Economic & Wrkfrce Dvlpmnt,ECN,"Public Works, Transportation & Commerce",2,No
+1546,No Program Defined,XXX,WOM Status Of Women,WOM,Human Welfare & Neighborhood Development,3,No
+1547,Muni-Maintenance,BEJ,MTA Municipal Transprtn Agncy,MTA,"Public Works, Transportation & Commerce",2,No
+1548,Grant Services,AKI,FIR Fire Department,FIR,Public Protection,1,No
+1549,Disaster Recovery,RCVY,CSS Child Support Services,CSS,Human Welfare & Neighborhood Development,3,No
+1550,Capital-CPC Funded,CAPCP,ADM GSA - City Administrator,ADM,General Administration & Finance,6,No
+1551,Treasure Island,BK6,HHP Hetch Hetchy Water & Power,HHP,"Public Works, Transportation & Commerce",2,Yes
+1552,Transitional-Aged Youth Baseline,FAY,WOM Status Of Women,WOM,Human Welfare & Neighborhood Development,3,No
+1553,Treasure Island,BK6,ECN Economic & Wrkfrce Dvlpmnt,ECN,"Public Works, Transportation & Commerce",2,No
+1554,Hetch Hetchy Capital Projects,BCP,HHP Hetch Hetchy Water & Power,HHP,"Public Works, Transportation & Commerce",2,No
+1555,No Program Defined,XXX,HRD Human Resources,HRD,General Administration & Finance,6,Yes
+1556,Library Administration,EIB,LIB Public Library,LIB,Culture & Recreation,5,No
+1557,Trial Court Services,AMT,CRT Superior Court,CRT,Public Protection,1,Yes
+1558,Capital,CAP,HSS Health Service System,HSS,General Administration & Finance,6,Yes
+1559,Capital Facilities,EGB,LIB Public Library,LIB,Culture & Recreation,5,No
+1560,YBC/GRMCC,BGM,ADM Gen Svcs Agency-City Admin,ADM,Culture & Recreation,5,No
+1561,Clean Powersf,BC5,PUB Public Utilities Bureaus,PUC,"Public Works, Transportation & Commerce",2,No
+1562,Police Services,AC4,POL Police,POL,Public Protection,1,No
+1563,Rail & Bus Services,BEN,MTA Municipal Transprtn Agncy,MTA,"Public Works, Transportation & Commerce",2,No
+1564,No Program Defined,XXX,POL Police,POL,Public Protection,1,Yes
+1565,Wastewater Capital Projects,BDP,CAT City Attorney,CAT,General Administration & Finance,6,No
+1566,No Program Defined,EXX,LIB Public Library,LIB,Culture & Recreation,5,No
+1567,City Capital Projects,BAW,GEN General City / Unallocated,UNA,General City Responsibilities,7,No
+1568,Infrastructure Operations & Maintenance,BIH,DT GSA - Technology,TIS,General Administration & Finance,6,No
+1569,Property Tax/Licensing,FCN,TTX Treasurer/Tax Collector,TTX,General Administration & Finance,6,No
+1570,Maintenance,BKY,MTA Municipal Transprtn Agncy,MTA,"Public Works, Transportation & Commerce",2,No
+1571,Representative Payee,CGT,HSA Human Services Agency,DSS,Human Welfare & Neighborhood Development,3,No
