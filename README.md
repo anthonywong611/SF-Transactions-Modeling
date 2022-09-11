@@ -59,6 +59,7 @@ sftp -i ssh/<key_name> <sftp_server_username>@<sftp_server_endpoint>
 put data/*.csv
 ```
 - Data should already reside in the S3 bucket 
+
 ![files](image/files.PNG)
 
 **6. Load the Datasets into the Redshift Data Warehouse**
