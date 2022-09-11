@@ -52,6 +52,12 @@ sftp -i ssh/<key_name> <sftp_server_username>@<sftp_server_endpoint>
 ```
 - Enter *'yes'* if prompted for connection, you shall be directed to the SFTP terminal
 
+![sftp](image/sftp.PNG)
+
+**5. Transfer Local Datasets to S3 Buckets over SFTP**
+```bash
+put data/.csv
+```
 
 <!---
 Challenge: 
